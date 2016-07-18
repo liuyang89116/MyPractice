@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* String
+* Chapter 1 String
 

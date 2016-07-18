@@ -1,4 +1,9 @@
 
-# My Awesome Book
+# 写给自己的话
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+**希望能激励自己每天都多多刷题！**
+
+总结，反思，才能举一反三。
+
+加油！
+

@@ -1,6 +1,6 @@
-# 排列组合模板
+# summary1: 排列组合模板
 
-这是一段经典的
+这是一段经典的排列组合模板。
 
 ```java
 void subsets(int[] num) {
@@ -19,3 +19,6 @@ void subsetsHelper(ArrayList<Integer> path, int[] num, int pos) {
 	}
 }
 ```
+
+
+

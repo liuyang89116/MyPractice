@@ -57,11 +57,16 @@ public class Solution {
 | String |s.length() |有括号 |
 |List|s.size()|有括号|
 
-4. **String转Array**
+
+
+4.**String转Array**
 ```char[] ans = s.toCharArray();```
 
-5. **Array转String**
-```String.valueOf(ans);```
+5.**Array转String**
+```
+String.valueOf(ans);
+```
 
-6. 
+6.互换元素的index关系
+ ```ans[pos[i]] = s.charAt(pos[count - 1 - i]);```
 

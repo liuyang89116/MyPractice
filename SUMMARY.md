@@ -8,5 +8,5 @@
    * [Problem3: Permutations](problem3_permutations.md)
    * [Problem4: Unique Permutation](problem4_unique_permutation.md)
 * [Chapter 2 String](chapter_2_string.md)
-  
+   * Problem 345: Reverse Vowels of a String
 

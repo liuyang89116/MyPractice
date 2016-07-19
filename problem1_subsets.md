@@ -4,7 +4,7 @@
 > http://www.lintcode.com/en/problem/subsets/
 
 这道题是集合的基本题目
-
+---------------------
 ```java
 class Solution {
     /**
@@ -33,6 +33,7 @@ class Solution {
     }
 }
 ```
+-----------------------
 **subsetsHelper()的基本思路是：**
 * 确定待排列的字母，数组，和位置
 * 每次把不同的元素加到result里面去

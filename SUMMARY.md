@@ -6,4 +6,5 @@
    * [Problem1: Subsets](problem1_subsets.md)
    * [Problem2: Unique Subsets](problem2_unique_subsets.md)
    * [Problem3: Permutations](problem3_permutations.md)
+   * Problem4: Unique Permutation
 

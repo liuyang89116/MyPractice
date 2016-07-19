@@ -1,7 +1,7 @@
 # summary1: Subsets
 
 这是一段经典的排列组合模板。
-
+------------------------
 ```java
 void subsets(int[] num) {
 	ArrayList<Integer> path = new ArrayList<Integer>();

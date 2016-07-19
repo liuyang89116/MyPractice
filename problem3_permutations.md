@@ -48,3 +48,5 @@ if (list.contains(nums[i])) {
 }
 ```
 这样思路变为：如果list里面已经包含有这个元素就不再往里加了
+
+3. helper()方程里有 return，要及时退出来 

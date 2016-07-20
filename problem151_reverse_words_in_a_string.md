@@ -49,6 +49,34 @@ public class Solution {
    ```
 2. substring 的index问题
    substring(beginIndex, endIndex);
-   beginIndex-包含；endIndex-不包含      
+   beginIndex-包含；endIndex-不包含      [a, b)
    
-3. 
+   ```java
+   String s = "Hello World";
+		
+   System.out.println(s.substring(0));  // Hello World
+   System.out.println(s.substring(1));  // ello World
+   System.out.println(s.substring(0, 2)); // He
+   System.out.println(s.substring(0, 4)); // Hell
+   ```
+   这道题里，
+   ```java
+   sb.append(s.substring(start + 1, end + 1) + " ");
+   ```
+   ```start + 1``` 是因为start已经挪到了空白处; ```end + 1```是因为右边是开区间
+  
+3. 去除空白的函数
+   ```trim()```
+4. StringBuider的用处
+   ```java
+   StringBuilder sb = new StringBuilder();
+   ```
+   创建一个StringBuilder
+   ```java
+   sb.append(s.substring(start+1, end+1) + " ");
+   ```
+   不断地append这个builder
+   ```java
+   sb.toString();
+   ```
+   再把StringBuilder变成字符串

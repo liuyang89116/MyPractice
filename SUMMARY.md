@@ -12,5 +12,5 @@
    * [Problem 344: Reverse String](problem344_reverse_string.md)
    * [Problem 165: Compare Version Numbers](problem_165_compare_version_numbers.md)
    * [Problem151: Reverse Words in a String](problem151_reverse_words_in_a_string.md)
-   * Problem 125: Valid Palindrome
+   * [Problem 125: Valid Palindrome](problem_125_valid_palindrome.md)
 

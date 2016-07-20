@@ -42,3 +42,13 @@ public class Solution {
 ##易错点
 
 1. 空指针查看是非常必要的
+   ```java
+   if (s.length() == 0 || s == null) {
+       return s;
+   }
+   ```
+2. substring 的index问题
+   substring(beginIndex, endIndex);
+   beginIndex-包含；endIndex-不包含      
+   
+3. 

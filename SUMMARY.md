@@ -22,5 +22,5 @@
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
-* Chapter 7 Data Structure
+* [Chapter 7 Data Structure](chapter_7_data_structure.md)
 

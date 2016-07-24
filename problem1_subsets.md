@@ -1,7 +1,7 @@
-# Problem1: Subsets
+# Problem 78: Subsets
 
 
-> http://www.lintcode.com/en/problem/subsets/
+> https://leetcode.com/problems/subsets/
 
 这道题是集合的基本题目
 ---------------------
@@ -34,12 +34,12 @@ class Solution {
 }
 ```
 -----------------------
-**subsetsHelper()的基本思路是：**
+##思路
 * 确定待排列的字母，数组，和位置
 * 每次把不同的元素加到result里面去
 * 加新元素-call自己的方法-最后再把这个元素踢出去 
 
-**易错点：**
+##易错点
 1. 加result中的元素是 ```result.add(new ArrayList(path));``` 
 2. 去掉最后一个元素 ```path.remove(path.size() - 1);```
 3. 引申一点：数组的length不是方法，后面没有括号;但是size()是一个方法，记得要加括号

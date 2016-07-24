@@ -23,5 +23,5 @@
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)
-* Chapter 8 High Frequency
+* [Chapter 8 High Frequency](chapter_8_high_frequency.md)
 

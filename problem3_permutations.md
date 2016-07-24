@@ -1,4 +1,4 @@
-# Problem3: Permutations
+# Problem 46: Permutations 
 
 
 > https://leetcode.com/problems/permutations
@@ -38,7 +38,7 @@ public class Solution {
 ```
 --------------------------------
 
-**易错点**
+##易错点
 
 1. **首先要搞清楚排列和组合的区别：** 组合类的问题，每个组合，可能的元素个数是不一样的。可能为空，可能有一个，可能有多个。但是，排列问题，每个都是这么多的元素，看他有多少中可能。
 2. 所以我们只需要在组合的模板基础上稍作修改即可

@@ -20,5 +20,5 @@
    * [Problem 12: Integer to Roman](problem_12_integer_to_roman.md)
 * [Chapter 3 Binary Tree (BFS, DFS)](chapter_3_binary_tree_bfs,_dfs.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
-* Chapter 5 Dynamic Programming
+* [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
 

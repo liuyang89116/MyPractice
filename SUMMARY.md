@@ -8,9 +8,6 @@
    * [Problem3: Permutations](problem3_permutations.md)
    * [Problem4: Unique Permutation](problem4_unique_permutation.md)
    * [Problem 93: Restore IP Addresses](problem_93_restore_ip_addresses.md)
-* [Chapter 3 Binary Search](chapter_3_binary_search.md)
-   * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
-   * [Problem 34: Search for a Range](problem_34_search_for_a_range.md)
 * [Chapter 2 String](chapter_2_string.md)
    * [Problem 345: Reverse Vowels of a String](problem_345_reverse_vowels_of_a_string.md)
    * [Problem 344: Reverse String](problem344_reverse_string.md)
@@ -18,4 +15,7 @@
    * [Problem151: Reverse Words in a String](problem151_reverse_words_in_a_string.md)
    * [Problem 125: Valid Palindrome](problem_125_valid_palindrome.md)
    * [Problem 12: Integer to Roman](problem_12_integer_to_roman.md)
+* [Chapter 3 Binary Search](chapter_3_binary_search.md)
+   * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
+   * [Problem 34: Search for a Range](problem_34_search_for_a_range.md)
 

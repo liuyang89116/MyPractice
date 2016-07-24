@@ -73,6 +73,31 @@ public class Solution {
    }
    ```
    首先排除掉过短或过长的字符串
-2. 
-
-
+2. StringBuilder的用法
+   ```java
+   StringBuilder sb = new StringBuilder();
+   for (String tmp : list) {
+        sb.append(tmp);
+        sb.append(".");
+   }
+   sb.deleteCharAt(sb.length() - 1);
+   result.add(sb.toString());
+   ```
+   先把每个element打印出来，一个element配一个“点”，最后再把这个点删掉
+3. 集合模板的核心部分
+   ```java
+   for (int i = index; i < s.length() && i < index + 3; i++) {
+        String tmp = s.substring(index, i + 1);
+        if (isValid(tmp)) {
+            list.add(tmp);
+            helper(result, list, s, i + 1);
+            list.remove(list.size() - 1);
+        }
+   }
+   ```
+4. for循环的理解
+   ```java
+   for (int i = index; i < s.length() && i < index + 3; i++) {
+   
+   }
+   ```

@@ -16,6 +16,7 @@
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)
+* [Chapter 8 High Frequency](chapter_8_high_frequency.md)
 * [Chapter 2 String](chapter_2_string.md)
    * [Problem 345: Reverse Vowels of a String](problem_345_reverse_vowels_of_a_string.md)
    * [Problem 344: Reverse String](problem344_reverse_string.md)
@@ -23,5 +24,4 @@
    * [Problem151: Reverse Words in a String](problem151_reverse_words_in_a_string.md)
    * [Problem 125: Valid Palindrome](problem_125_valid_palindrome.md)
    * [Problem 12: Integer to Roman](problem_12_integer_to_roman.md)
-* [Chapter 8 High Frequency](chapter_8_high_frequency.md)
 

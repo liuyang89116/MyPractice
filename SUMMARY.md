@@ -6,7 +6,7 @@
    * [Problem 78: Subsets](problem1_subsets.md)
    * [Problem 90: Unique Subsets](problem2_unique_subsets.md)
    * [Problem 46: Permutations](problem3_permutations.md)
-   * [Problem 47: Unique Permutations ](problem4_unique_permutation.md)
+   * [Problem 47: Unique Permutations](problem4_unique_permutation.md)
    * [Problem 93: Restore IP Addresses](problem_93_restore_ip_addresses.md)
 * [Chapter 2 Binary Search](chapter_3_binary_search.md)
    * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
@@ -18,4 +18,5 @@
    * [Problem151: Reverse Words in a String](problem151_reverse_words_in_a_string.md)
    * [Problem 125: Valid Palindrome](problem_125_valid_palindrome.md)
    * [Problem 12: Integer to Roman](problem_12_integer_to_roman.md)
+* Chapter 3 Binary Tree (BFS, DFS)
 

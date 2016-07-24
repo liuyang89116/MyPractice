@@ -12,7 +12,7 @@
 public class Solution {
     public int[] searchRange(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
-            return new int[] { -1, -1};
+            return new int[] {-1, -1};
         }
 
         int[] result = new int[2];
@@ -33,7 +33,7 @@ public class Solution {
         } else if (nums[end] == target) {
             result[0] = end;
         } else {
-            return new int[] { -1, -1};
+            return new int[] {-1, -1};
         }
 
         //search right bound
@@ -52,7 +52,7 @@ public class Solution {
         } else if (nums[start] == target) {
             result[1] = start;
         } else {
-            return new int[] { -1, -1};
+            return new int[] {-1, -1};
         }
 
         return result;
@@ -71,7 +71,10 @@ public class Solution {
    } 
    ```
 
-
+3. 返回值的时候，一定要加“new”
+   ```java
+   return new int[] {-1, -1};
+   ```
 
 
 

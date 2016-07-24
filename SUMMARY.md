@@ -17,5 +17,5 @@
    * [Problem 12: Integer to Roman](problem_12_integer_to_roman.md)
 * [Chapter 3 Binary Search](chapter_3_binary_search.md)
    * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
-   * Problem 34: Search for a Range
+   * [Problem 34: Search for a Range](problem_34_search_for_a_range.md)
 

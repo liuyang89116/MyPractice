@@ -16,5 +16,5 @@
    * [Problem 125: Valid Palindrome](problem_125_valid_palindrome.md)
    * [Problem 12: Integer to Roman](problem_12_integer_to_roman.md)
 * [Chapter 3 Binary Search](chapter_3_binary_search.md)
-   * Summary 1: Binary Search Template
+   * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
 

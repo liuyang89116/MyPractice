@@ -12,7 +12,7 @@
    * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
    * [Problem 34: Search for a Range](problem_34_search_for_a_range.md)
 * [Chapter 3 Binary Tree (BFS, DFS)](chapter_3_binary_tree_bfs,_dfs.md)
-   * Problem 31(LintCode): Partition Array
+   * [Problem 31(LintCode): Partition Array](problem_31lintcode_partition_array.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)

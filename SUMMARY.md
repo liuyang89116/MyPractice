@@ -12,11 +12,11 @@
    * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
    * [Problem 34: Search for a Range](problem_34_search_for_a_range.md)
 * [Chapter 3 Binary Tree (BFS, DFS)](chapter_3_binary_tree_bfs,_dfs.md)
+   * Summary 1: DFS Template
    * [Problem 31(LintCode): Partition Array](problem_31lintcode_partition_array.md)
    * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
    * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
    * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
-   * Summary 1: DFS Template
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)

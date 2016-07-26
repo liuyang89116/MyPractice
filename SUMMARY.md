@@ -15,7 +15,7 @@
    * [Problem 31(LintCode): Partition Array](problem_31lintcode_partition_array.md)
    * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
    * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
-   * Problem 236: Lowest Common Ancestor of a Binary Tree
+   * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)

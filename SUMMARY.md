@@ -12,7 +12,7 @@
    * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
    * [Problem 34: Search for a Range](problem_34_search_for_a_range.md)
 * [Chapter 3 Binary Tree (BFS, DFS)](chapter_3_binary_tree_bfs,_dfs.md)
-   * Summary 1: DFS Template
+   * [Summary 1: DFS Template](summary_1_dfs_template.md)
    * [Problem 31(LintCode): Partition Array](problem_31lintcode_partition_array.md)
    * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
    * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)

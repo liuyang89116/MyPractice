@@ -24,3 +24,27 @@ public class Solution {
 
 ```
 ------------------------------------
+## Template 2: Divide and Conquer
+```java
+/*
+    Template 2: Divide and Conquer
+*/
+
+public class Solution {
+    public ResultType traverse(TreeNode root) {
+        if (root == null) {
+            //do something and return;
+            //return condition
+        }
+
+        //divide
+        ResultType left = traverse(root.left);
+        ResultType right = traverse(root.right);
+        //conquer
+        ResultType result = Merge from left and right;
+        return result;
+    }
+}
+
+
+```

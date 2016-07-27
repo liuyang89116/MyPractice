@@ -12,7 +12,7 @@
    * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
    * [Problem 34: Search for a Range](problem_34_search_for_a_range.md)
    * [Problem 35: Search Insert Position](problem_35_search_insert_position.md)
-   * Problem 74: Search a 2D Matrix
+   * [Problem 74: Search a 2D Matrix](problem_74_search_a_2d_matrix.md)
 * [Chapter 3 Binary Tree (BFS, DFS)](chapter_3_binary_tree_bfs,_dfs.md)
    * [Summary 1: DFS Template](summary_1_dfs_template.md)
    * [Problem 31(LintCode): Partition Array](problem_31lintcode_partition_array.md)

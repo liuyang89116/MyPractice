@@ -9,5 +9,71 @@
 
 --------------------------------
 
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public ListNode deleteDuplicates(ListNode head) {
+        if (head == null) {
+            return head;
+        }
+        ListNode node = head;
+        while (node.next != null) {
+            if (node.next.val == node.val) {
+                node.next = node.next.next;
+            } else {
+                node = node.next;
+            }
+        }
+        return head;
+    }
+}
+```
+
+-----------------------
+##易错点
+
+1. 和数组类似，链表也是要check corner cases的。
+   ```java
+   if (head == null) {
+       return head;
+   }
+   ```
+2. 如果不担心空指针的时候，可以用两个指针，创建一个指针，随后返回原来的结构
+   ```java
+   ListNode node = head;
+   while (node.next != null) {
+       if (node.next.val == node.val) {
+           node.next = node.next.next;
+       } else {
+           node = node.next;
+       }
+   }
+   return head;
+   ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

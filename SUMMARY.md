@@ -20,7 +20,7 @@
    * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
    * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
-   * Problem 83: Remove Duplicates from Sorted List
+   * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)

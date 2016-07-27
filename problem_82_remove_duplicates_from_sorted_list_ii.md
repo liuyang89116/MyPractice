@@ -42,4 +42,55 @@ public class Solution {
 --------------
 ##易错点
 
+1. 首先check corner cases
+2. **哨兵结点**
+   ```java
+   ListNode dummy = new ListNode(0);
+   dummy.next = head;
+   head = dummy;
+   ```
+   首先，
+   ```java 
+   ListNode dummy = new ListNode(0);
+   dummy.next = head;
+   ```
+   **创建哨兵结点，并且把原来的结点连在后面**
+   ```java
+   head = dummy;
+   ```
+   **把指针赋予给head，这样我们就在head上面操作（此时的head是包含dummy结点的一串），最后返回dummy.next**
+3. 全部删完用循环，不能用if
+   ```java
+   while (head.next != null && head.next.val == val) {
+       head.next = head.next.next;
+   }
+   ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

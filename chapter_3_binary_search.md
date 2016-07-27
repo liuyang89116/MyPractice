@@ -1,2 +1,2 @@
-# Chapter 3 Binary Search
+# Chapter 2 Binary Search
 

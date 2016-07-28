@@ -13,13 +13,13 @@
 * 反转链表，主要地是要学会反转指针
 * 思路上可以说就是交换所有的prev和next指针
 
+![](p1_LinkedList.jpg)
 
+![](p2_LinkedList.jpg)
 
+![](p3_LinkedList.jpg)
 
-
-
-
-
+![](p4_LinkedList.jpg)
 
 
 

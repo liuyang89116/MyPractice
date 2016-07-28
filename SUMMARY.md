@@ -22,7 +22,7 @@
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
    * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)
    * [Problem 82: Remove Duplicates from Sorted List II](problem_82_remove_duplicates_from_sorted_list_ii.md)
-   * Problem 206: Reverse Linked List
+   * [Problem 206: Reverse Linked List](problem_206_reverse_linked_list.md)
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)

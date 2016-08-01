@@ -1,7 +1,7 @@
 # test
 
 ```java
-  /**
+    /**
 	 * Prim's algorithm
 	 */
 	public boolean prim(int rootNode) {

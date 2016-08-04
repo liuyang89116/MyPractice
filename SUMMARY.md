@@ -26,6 +26,7 @@
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
    * [Problem120: Triangle](problem120_triangle.md)
    * [Problem 62: Unique Paths](problem_62_unique_paths.md)
+   * Problem 63: Unique Paths II
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)
 * [Chapter 8 High Frequency](chapter_8_high_frequency.md)

@@ -27,7 +27,7 @@
    * [Problem120: Triangle](problem120_triangle.md)
    * [Problem 62: Unique Paths](problem_62_unique_paths.md)
    * [Problem 63: Unique Paths II](problem_63_unique_paths_ii.md)
-   * Problem 64: Minimum Path Sum
+   * [Problem 64: Minimum Path Sum](problem_64_minimum_path_sum.md)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)
 * [Chapter 8 High Frequency](chapter_8_high_frequency.md)

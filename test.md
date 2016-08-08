@@ -1,23 +1,25 @@
 # test
 
 ```java
-// parameters
-int[] parent;
-int[][] capMatrix;
-
-// initialization
-public Graph(int n) {
-	parent = new int[n];
-	capMatrix = new int[n][n];
-}
-
-// setters and getters
-public int[][] getCapMatrix() {
-	return capMatrix;
-}
-
-public void setCapMatrix(int[][] capMatrix) {
-	this.capMatrix = capMatrix;
+public class Test {
+	public static void main(String[] args) {
+		// initialize the graph
+		int[][] capMatrix = {
+				{0, 7, 10, 17, 0, 0, 0},
+				{0, 0, 0, 0, 9, 6, 0},
+				{0, 8, 0, 0, 0, 0, 0},
+				{0, 0, 5, 0, 0, 14, 0},
+				{0, 0, 0, 0, 0, 4, 10},
+				{0, 0, 7, 0, 0, 0, 7},
+				{0, 0, 0, 0, 0, 0, 0}
+		};
+		Graph graph = new Graph(7);
+		graph.setCapMatrix(capMatrix);
+		
+		// find max flow
+		int maxFlow = graph.edomondsKarp(0, 6);
+		System.out.println("The maximum flow for this graph is: "+maxFlow);
+	}
 }
 ```
 

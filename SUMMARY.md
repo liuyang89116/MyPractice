@@ -29,6 +29,7 @@
    * [Problem 63: Unique Paths II](problem_63_unique_paths_ii.md)
    * [Problem 64: Minimum Path Sum](problem_64_minimum_path_sum.md)
    * [Problem 70: Climbing Stairs](problem_70_climbing_stairs.md)
+   * Problem 55: Jump Game
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)
 * [Chapter 8 High Frequency](chapter_8_high_frequency.md)

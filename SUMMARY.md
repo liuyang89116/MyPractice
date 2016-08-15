@@ -32,7 +32,7 @@
    * [Problem 70: Climbing Stairs](problem_70_climbing_stairs.md)
    * [Problem 55: Jump Game](problem_55_jump_game.md)
    * [Problem 132: Palindrome Partitioning II](problem_132_palindrome_partitioning_ii.md)
-   * Problem 139: Word Break
+   * [Problem 139: Word Break](problem_139_word_break.md)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)
 * [Chapter 8 High Frequency](chapter_8_high_frequency.md)

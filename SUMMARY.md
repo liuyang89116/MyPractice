@@ -34,6 +34,7 @@
    * [Problem 132: Palindrome Partitioning II](problem_132_palindrome_partitioning_ii.md)
    * [Problem 139: Word Break](problem_139_word_break.md)
    * [Problem 300: Longest Increasing Subsequence](problem_300_longest_increasing_subsequence.md)
+   * Problem: Longest Common Subsequence (LintCode)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)
 * [Chapter 8 High Frequency](chapter_8_high_frequency.md)

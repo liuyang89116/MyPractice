@@ -28,10 +28,10 @@
    * [Problem: Insert Node in a Binary Search Tree (LintCode)](problem_insert_node_in_a_binary_search_tree_lintco.md)
    * [Problem: Search Range in Binary Search Tree (LintCode)](problem_search_range_in_binary_search_tree_lintcod.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
+   * Summary 1: Pointer and update
    * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)
    * [Problem 82: Remove Duplicates from Sorted List II](problem_82_remove_duplicates_from_sorted_list_ii.md)
    * [Problem 206: Reverse Linked List](problem_206_reverse_linked_list.md)
-   * Summary 1: Pointer and update
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
    * [Problem120: Triangle](problem120_triangle.md)
    * [Problem 62: Unique Paths](problem_62_unique_paths.md)

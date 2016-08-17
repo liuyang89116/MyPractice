@@ -24,7 +24,7 @@
    * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
    * [Problem 124: Binary Tree Maximum Path Sum](problem_124_binary_tree_maximum_path_sum.md)
    * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
-   * Problem 98: Validate Binary Search Tree
+   * [Problem 98: Validate Binary Search Tree](problem_98_validate_binary_search_tree.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
    * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)
    * [Problem 82: Remove Duplicates from Sorted List II](problem_82_remove_duplicates_from_sorted_list_ii.md)

@@ -59,11 +59,27 @@ public class Solution {
 --------------
 ##易错点
 
+1. 边界条件
+```java
+if (root == null) {
+    return new ResultType(0, Integer.MIN_VALUE);
+}
+```
+最小值用的是```Integer.MIN_VALUE```而不是 Math
 
+2. singlePath
+```java
+int singlePath = Math.max(left.singlePath, right.singlePath) + root.val;
+singlePath = Math.max(singlePath, 0);
+```
+首先，左右两条道选一个大的，再带上root；其次，singlePath**有可能是一负数**
 
-
-
-
+3. maxPath
+```java
+int maxPath = Math.max(left.maxPath, right.maxPath);
+maxPath = Math.max(maxPath, left.singlePath + right.singlePath + root.val);
+```
+同理，首先，左右两条道选一个大的；其次考虑左右“单打”和图中“绕圈”哪个更大
 
 
 

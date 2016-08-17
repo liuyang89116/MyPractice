@@ -10,8 +10,8 @@
 **注意**：```head = newest```，这是为了把head指针重新更新，指向新的node
 
 3.  delete a node
-
-
+![](LinkedList_05.jpg)
+![](LinkedList_06.jpg)
 
 
 

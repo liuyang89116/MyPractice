@@ -79,7 +79,7 @@ singlePath = Math.max(singlePath, 0);
 int maxPath = Math.max(left.maxPath, right.maxPath);
 maxPath = Math.max(maxPath, left.singlePath + right.singlePath + root.val);
 ```
-同理，首先，左右两条道选一个大的；其次考虑左右“单打”和图中“绕圈”哪个更大
+同理，首先，左右两条道选一个大的；其次考虑左右“单打”和图中“绕圈”哪个更大。
 
 
 

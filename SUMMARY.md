@@ -26,7 +26,7 @@
    * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
    * [Problem 98: Validate Binary Search Tree](problem_98_validate_binary_search_tree.md)
    * [Problem: Insert Node in a Binary Search Tree (LintCode)](problem_insert_node_in_a_binary_search_tree_lintco.md)
-   * Problem: Search Range in Binary Search Tree (LintCode)
+   * [Problem: Search Range in Binary Search Tree (LintCode)](problem_search_range_in_binary_search_tree_lintcod.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
    * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)
    * [Problem 82: Remove Duplicates from Sorted List II](problem_82_remove_duplicates_from_sorted_list_ii.md)

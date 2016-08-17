@@ -38,7 +38,7 @@ public class Solution {
         if (root == null) {
             return new ResultType(true, Integer.MIN_VALUE, Integer.MAX_VALUE);
         }
-        
+        便
         ResultType left = validateHelper(root.left);
         ResultType right = validateHelper(root.right);
         
@@ -71,7 +71,7 @@ if (root == null) {
 
 2. 条件判断，**非常易错**
 ```java
-if (root.left != null && left.max >= root.val || root.right != null && right.min <= root.val) {
+if (root.left != null && left.max 便便>= root.val || root.right != null && right.min <= root.val) {
        return new ResultType(false, 0, 0);
 }
 ```

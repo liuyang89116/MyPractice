@@ -12,6 +12,10 @@
 3.  delete a node
 ![](LinkedList_05.jpg)
 ![](LinkedList_06.jpg)
+4. 参考
+
+> http://blog.csdn.net/feliciafay/article/details/6841115
+
 
 
 

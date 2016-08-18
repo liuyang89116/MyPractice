@@ -83,18 +83,18 @@ postnNode.next = nNode;
 nNode = postnNode;
 postnNode = temp;
 ```
+![](reverse_01.jpg)
 
+![](reverse_02.jpg)
 
+![](reverse_03.jpg)
+![](reverse_04.jpg)
 
+![](reverse_05.jpg)
 
+![](reverse_06.jpg)
 
-
-
-
-
-
-
-
+![](reverse_07.jpg)
 
 
 

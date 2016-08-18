@@ -34,7 +34,7 @@
    * [Problem 206: Reverse Linked List](problem_206_reverse_linked_list.md)
    * [Problem 92: Reverse Linked List II](problem_92_reverse_linked_list_ii.md)
    * [Problem 86: Partition List](problem_86_partition_list.md)
-   * Problem 148: Sort List
+   * [Problem 148: Sort List](problem_148_sort_list.md)
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
    * [Problem120: Triangle](problem120_triangle.md)
    * [Problem 62: Unique Paths](problem_62_unique_paths.md)

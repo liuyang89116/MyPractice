@@ -57,5 +57,68 @@ public class Solution {
 
 ```
 
+----
+##易错点
+
+1. corner cases的情况
+```java
+if (head == null) {
+       return null;
+}
+```
+之前多此一举地考虑了```head.next == null```的情况，返回```head```出错。
+2. node 和 random 关系分别处理
+```java
+if (map.containsKey(head)) {
+       newNode = map.get(head);
+} else {
+       newNode = new RandomListNode(head.label);
+       map.put(head, newNode);
+}
+pre.next = newNode;
+```
+```java
+if (head.random != null) {
+        if (map.containsKey(head.random)) {
+             newNode.random = map.get(head.random);
+        } else {
+             newNode.random = new RandomListNode(head.random.label);
+             map.put(head.random, newNode.random);
+        }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

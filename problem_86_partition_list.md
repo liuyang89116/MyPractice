@@ -4,6 +4,11 @@
 > https://leetcode.com/problems/partition-list/
 
 ----------
+**类比**: Partion Array 这道题
+
+-----------
+
+
 ##思路
 * 创建一个left LinkedList，一个right LinkedList。
 * 遇到小的挂left上，遇到大的挂right上

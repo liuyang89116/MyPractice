@@ -6,6 +6,10 @@
 ----------
 **类比**: Partion Array 这道题
 
+> http://www.lintcode.com/en/problem/partition-array/
+
+
+
 -----------
 
 

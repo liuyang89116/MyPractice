@@ -37,7 +37,7 @@
    * [Problem 148: Sort List](problem_148_sort_list.md)
    * [Problem 143: Reorder List](problem_143_reorder_list.md)
    * [Problem 19: Remove Nth Node From End of List](problem_19_remove_nth_node_from_end_of_list.md)
-   * Problem 141: Linked List Cycle
+   * [Problem 141: Linked List Cycle](problem_141_linked_list_cycle.md)
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
    * [Problem120: Triangle](problem120_triangle.md)
    * [Problem 62: Unique Paths](problem_62_unique_paths.md)

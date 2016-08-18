@@ -19,7 +19,7 @@
    * [Problem 81: Search in Rotated Sorted Array II](problem_81_search_in_rotated_sorted_array_ii.md)
 * [Chapter 3 Binary Tree (BFS, DFS)](chapter_3_binary_tree_bfs,_dfs.md)
    * [Summary 1: DFS Template](summary_1_dfs_template.md)
-   * [Problem 31(LintCode): Partition Array](problem_31lintcode_partition_array.md)
+   * [Problem: Partition Array (LintCode)](problem_31lintcode_partition_array.md)
    * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
    * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
    * [Problem 124: Binary Tree Maximum Path Sum](problem_124_binary_tree_maximum_path_sum.md)

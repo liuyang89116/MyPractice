@@ -1,6 +1,6 @@
 
 
-# Problem 31(LintCode): Partition Array
+# Problem: Partition Array (LintCode)
 
 
 > http://www.lintcode.com/en/problem/partition-array/

@@ -20,6 +20,7 @@
    * [Problem 278: First Bad Version](problem_278_first_bad_version.md)
    * [Problem 162: Find Peak Element](problem_162_find_peak_element.md)
    * [Problem 26: Remove Duplicates from Sorted Array](problem_26_remove_duplicates_from_sorted_array.md)
+   * Problem 80: Remove Duplicates from Sorted Array II
 * [Chapter 3 Binary Tree (BFS, DFS)](chapter_3_binary_tree_bfs,_dfs.md)
    * [Summary 1: DFS Template](summary_1_dfs_template.md)
    * [Problem: Partition Array (LintCode)](problem_31lintcode_partition_array.md)

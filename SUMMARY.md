@@ -17,6 +17,7 @@
    * [Problem 240: Search a 2D Matrix II](problem_240_search_a_2d_matrix_ii.md)
    * [Problem 33: Search in Rotated Sorted Array](problem_33_search_in_rotated_sorted_array.md)
    * [Problem 81: Search in Rotated Sorted Array II](problem_81_search_in_rotated_sorted_array_ii.md)
+   * Problem 278: First Bad Version
 * [Chapter 3 Binary Tree (BFS, DFS)](chapter_3_binary_tree_bfs,_dfs.md)
    * [Summary 1: DFS Template](summary_1_dfs_template.md)
    * [Problem: Partition Array (LintCode)](problem_31lintcode_partition_array.md)

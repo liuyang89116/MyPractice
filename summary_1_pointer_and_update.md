@@ -13,11 +13,15 @@
 ![](LinkedList_05.jpg)
 ![](LinkedList_06.jpg)
 4. 参考
-
 > http://blog.csdn.net/feliciafay/article/details/6841115
 
-
-
+5. 指针的含义
+```java
+ListNode dummy = new ListNode(0); //建立一个dummynode
+dummy.next = head;                //把head连接在dummy后面
+head = dummy;                     //把head的指针移动到dummy处
+```
+**注意**：```head = dummy```，**永远是左边的指针移动到右边去**。
 
 
 

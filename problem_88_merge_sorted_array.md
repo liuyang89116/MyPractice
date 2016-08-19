@@ -35,9 +35,24 @@ public class Solution {
 ##易错点
 1. 对于表达方式的熟悉
 ```nums1[k--] = nums1[i--]```
-```nums[i--]```是```nums[i]```先赋值再```i--```；同理```nums[k--]```是```nums[k]```先接到值，然后再```k--```
+```nums[i--]```是```nums[i]```先赋值再```i--```；同理```nums[k--]```是```nums[k]```先接到值，然后再```k--```。 
 
-
+2. 这里相当于是，
+```java
+nums1[k] = nums1[i];
+i--;
+k--;
+```
+3. 最后对剩余元素的处理
+```java
+while (i >= 0) {
+       nums1[k--] = nums1[i--];
+} 
+while (j >= 0) {
+       nums1[k--] = nums2[j--];
+}
+```
+对比LinkedList当之，我们最后用的是```if```语句，这是因为LinkedList可以直接通过 head 把剩下的字串直接存好。Array得通过while循环一个一个存。
 
 
 

@@ -23,7 +23,7 @@
    * [Problem 80: Remove Duplicates from Sorted Array II](problem_80_remove_duplicates_from_sorted_array_ii.md)
    * [Problem 88: Merge Sorted Array](problem_88_merge_sorted_array.md)
    * [Problem: Merge Two Sorted Arrays II (LintCode)](problem_merge_two_sorted_arrays_ii_lintcode.md)
-   * Problem: Recover Rotated Sorted Array (LintCode)
+   * [Problem: Recover Rotated Sorted Array (LintCode)](problem_recover_rotated_sorted_array_lintcode.md)
 * [Chapter 3 Binary Tree (BFS, DFS)](chapter_3_binary_tree_bfs,_dfs.md)
    * [Summary 1: DFS Template](summary_1_dfs_template.md)
    * [Problem: Partition Array (LintCode)](problem_31lintcode_partition_array.md)

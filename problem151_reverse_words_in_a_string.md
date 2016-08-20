@@ -73,10 +73,14 @@ public class Solution {
    ```
    创建一个StringBuilder
    ```java
-   sb.append(s.substring(start+1, end+1) + " ");
+   sb.append(s.substring(start + 1, end + 1) + " ");
    ```
    不断地append这个builder
    ```java
    sb.toString();
    ```
    再把StringBuilder变成字符串
+ 
+5. char 和 String 的区别
+如果用```' '```表示的是char，相反用```" "```表示的是String
+6. 要把 StringBuilder 放在外面，这样才不会因为每次新建一个StringBuilder 而丢失结果

@@ -75,9 +75,15 @@ public class Solution {
 ```java
 private ListNode current;
 ```
-2. 
-
-
+2. 创建 root 结点
+```java
+TreeNode root = new TreeNode(current.val);
+current = current.next;
+```
+3. 右子树的结点个数
+```java
+TreeNode right = sortedListToBSTHelper(size - size / 2 - 1);
+```
 
 
 

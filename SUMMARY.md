@@ -35,7 +35,7 @@
    * [Problem 98: Validate Binary Search Tree](problem_98_validate_binary_search_tree.md)
    * [Problem: Insert Node in a Binary Search Tree (LintCode)](problem_insert_node_in_a_binary_search_tree_lintco.md)
    * [Problem: Search Range in Binary Search Tree (LintCode)](problem_search_range_in_binary_search_tree_lintcod.md)
-   * Problem 109: Convert Sorted List to Binary Search Tree
+   * [Problem 109: Convert Sorted List to Binary Search Tree](problem_109_convert_sorted_list_to_binary_search_t.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
    * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
    * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)

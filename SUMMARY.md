@@ -67,7 +67,7 @@
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)
 * [Chapter 8 High Frequency](chapter_8_high_frequency.md)
    * [Problem 136: Single Number](problem_136_single_number.md)
-   * Problem 137: Single Number II
+   * [Problem 137: Single Number II](problem_137_single_number_ii.md)
 * [Post Chapter 1 String](chapter_2_string.md)
    * [Problem 345: Reverse Vowels of a String](problem_345_reverse_vowels_of_a_string.md)
    * [Problem 344: Reverse String](problem344_reverse_string.md)

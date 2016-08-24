@@ -73,7 +73,7 @@
    * [Problem: Majority Number III (LintCode)](problem_majority_number_iii.md)
    * [Problem 121: Best Time to Buy and Sell Stock](problem_121_best_time_to_buy_and_sell_stock.md)
    * [Problem 122: Best Time to Buy and Sell Stock II](problem_122_best_time_to_buy_and_sell_stock_ii.md)
-   * Problem 123: Best Time to Buy and Sell Stock III
+   * [Problem 123: Best Time to Buy and Sell Stock III](problem_123_best_time_to_buy_and_sell_stock_iii.md)
 * [Post Chapter 1 String](chapter_2_string.md)
    * [Problem 345: Reverse Vowels of a String](problem_345_reverse_vowels_of_a_string.md)
    * [Problem 344: Reverse String](problem344_reverse_string.md)

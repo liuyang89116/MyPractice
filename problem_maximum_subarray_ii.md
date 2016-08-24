@@ -54,7 +54,10 @@ public class Solution {
 ```
 -----
 ##易错点
-1. 
+1. 临界点
+```java
+max = Math.max(max, left[i] + right[i + 1]);
+```
 
 
 

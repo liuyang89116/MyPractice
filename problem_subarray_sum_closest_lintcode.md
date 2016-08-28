@@ -97,7 +97,7 @@ Arrays.sort(temp);
 res[0] = temp[0] + 1;
 res[1] = temp[1];
 ```
-
+**sums[i] 的 index 是比 nums[i] 的 index 是要大 1 的**。
 
 
 

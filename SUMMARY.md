@@ -80,6 +80,7 @@
    * [Problem: Maximum Subarray III (LintCode)](problem_maximum_subarray_iii_lintcode.md)
    * [Problem: Minimum Subarray (LintCode)](problem_minimum_subarray_lintcode.md)
    * [Problem: Subarray Sum (LintCode)](problem_subarray_sum_lintcode.md)
+   * Problem: Subarray Sum Closest (LintCode)
 * [Post Chapter 1 String](chapter_2_string.md)
    * [Problem 345: Reverse Vowels of a String](problem_345_reverse_vowels_of_a_string.md)
    * [Problem 344: Reverse String](problem344_reverse_string.md)

@@ -72,9 +72,25 @@ Pair[] sums = new Pair[len + 1];
 int prev = 0;
 sums[0] = new Pair(0, 0);
 ```
-
-
-
+2. 当有 len + 1 个元素的时候，循环到 "<="
+```java
+for (int i = 1; i <= len; i++) {
+        sums[i] = new Pair(prev + nums[i - 1], i);
+        prev = sums[i].sum;
+}
+```
+3. comparator 的写法
+```java
+Arrays.sort(sums, new Comparator<Pair>() {
+         public int compare(Pair a, Pair b) {
+              return a.sum - b.sum;
+         }
+});
+```
+4. 当两个数组大小不一样，一个似乎 len + 1，另一个是 len 的时候，A[i - 1] 对应的是 B[i] (他有 len + 1 个元素)
+```java
+sums[i] = new Pair(prev + nums[i - 1], i);
+```
 
 
 

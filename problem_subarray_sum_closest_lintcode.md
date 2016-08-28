@@ -87,9 +87,15 @@ Arrays.sort(sums, new Comparator<Pair>() {
          }
 });
 ```
-4. 当两个数组大小不一样，一个似乎 len + 1，另一个是 len 的时候，A[i - 1] 对应的是 B[i] (他有 len + 1 个元素)
+4. 当两个数组大小不一样，一个大小是 len + 1，另一个是 len 的时候，A[i - 1] 对应的是 B[i] (他有 len + 1 个元素)
 ```java
 sums[i] = new Pair(prev + nums[i - 1], i);
+```
+```java
+int[] temp = new int[] {sums[i].index - 1, sums[i - 1].index - 1};
+Arrays.sort(temp);
+res[0] = temp[0] + 1;
+res[1] = temp[1];
 ```
 
 

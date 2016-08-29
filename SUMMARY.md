@@ -83,7 +83,7 @@
    * [Problem: Subarray Sum Closest (LintCode)](problem_subarray_sum_closest_lintcode.md)
    * [Problem 1: Two Sum](problem_1_two_sum.md)
    * [Problem 15: 3Sum](problem_15_3sum.md)
-   * Problem 16: 3Sum Closest
+   * [Problem 16: 3Sum Closest](problem_16_3sum_closest.md)
 * [Post Chapter 1 String](chapter_2_string.md)
    * [Problem 345: Reverse Vowels of a String](problem_345_reverse_vowels_of_a_string.md)
    * [Problem 344: Reverse String](problem344_reverse_string.md)

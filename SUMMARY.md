@@ -82,6 +82,7 @@
    * [Problem: Subarray Sum (LintCode)](problem_subarray_sum_lintcode.md)
    * [Problem: Subarray Sum Closest (LintCode)](problem_subarray_sum_closest_lintcode.md)
    * [Problem 1: Two Sum](problem_1_two_sum.md)
+   * Problem 15: 3Sum
 * [Post Chapter 1 String](chapter_2_string.md)
    * [Problem 345: Reverse Vowels of a String](problem_345_reverse_vowels_of_a_string.md)
    * [Problem 344: Reverse String](problem344_reverse_string.md)

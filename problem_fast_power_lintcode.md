@@ -1,0 +1,2 @@
+# Problem: Fast Power (LintCode)
+

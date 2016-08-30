@@ -85,6 +85,7 @@
    * [Problem 15: 3Sum](problem_15_3sum.md)
    * [Problem 16: 3Sum Closest](problem_16_3sum_closest.md)
    * [Problem 18: 4Sum](problem_18_4sum.md)
+   * Problem: Fast Power (LintCode)
 * [Post Chapter 1 String](chapter_2_string.md)
    * [Problem 345: Reverse Vowels of a String](problem_345_reverse_vowels_of_a_string.md)
    * [Problem 344: Reverse String](problem344_reverse_string.md)

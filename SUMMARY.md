@@ -91,7 +91,7 @@
    * [Problem 172: Factorial Trailing Zeroes](problem_172_factorial_trailing_zeroes.md)
    * [Problem 231: Power of Two](problem_231_power_of_two.md)
    * [Problem: Sort Letters by Case (LintCode)](problem_sort_letters_by_case_lintcode.md)
-   * Problem 75: Sort Colors
+   * [Problem 75: Sort Colors](problem_75_sort_colors.md)
 * [Post Chapter 1 String](chapter_2_string.md)
    * [Problem 345: Reverse Vowels of a String](problem_345_reverse_vowels_of_a_string.md)
    * [Problem 344: Reverse String](problem344_reverse_string.md)

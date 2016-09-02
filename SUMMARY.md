@@ -105,4 +105,5 @@
    * [Problem3: Longest Substring Without Repeating Characters](problem3_longest_substring_without_repeating_chara.md)
    * [Problem 5: Longest Palindromic Substring](problem_5_longest_palindromic_substring.md)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
+   * Problem 7: Reverse Integer
 

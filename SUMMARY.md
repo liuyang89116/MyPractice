@@ -43,7 +43,7 @@
    * [Problem 82: Remove Duplicates from Sorted List II](problem_82_remove_duplicates_from_sorted_list_ii.md)
    * [Problem 206: Reverse Linked List](problem_206_reverse_linked_list.md)
    * [Problem 92: Reverse Linked List II](problem_92_reverse_linked_list_ii.md)
-   * Problem 24: Swap Nodes in Pairs
+   * [Problem 24: Swap Nodes in Pairs](problem_24_swap_nodes_in_pairs.md)
    * [Problem 86: Partition List](problem_86_partition_list.md)
    * [Problem 148: Sort List](problem_148_sort_list.md)
    * [Problem 143: Reorder List](problem_143_reorder_list.md)

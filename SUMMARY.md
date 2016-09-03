@@ -52,6 +52,7 @@
    * [Problem 23: Merge k Sorted Lists](problem_23_merge_k_sorted_lists.md)
    * [Problem 138: Copy List with Random Pointer](problem_138_copy_list_with_random_pointer.md)
    * [Problem 21: Merge Two Sorted Lists](problem_21_merge_two_sorted_lists.md)
+   * Problem 24: Swap Nodes in Pairs
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
    * [Problem120: Triangle](problem120_triangle.md)
    * [Problem 62: Unique Paths](problem_62_unique_paths.md)

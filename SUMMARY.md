@@ -109,5 +109,5 @@
    * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
    * [Problem 66: Plus One](problem_66_plus_one.md)
    * [Problem 9: Palindrome Number](problem_9_palindrome_number.md)
-   * Problem 2: Add Two Numbers
+   * [Problem 2: Add Two Numbers](problem_2_add_two_numbers.md)
 

@@ -46,12 +46,13 @@ public class Solution {
 1. dummy node 必须要存在，因为涉及到交换 node 的时候，“头”就乱了。
 2. while 的循环条件，是 head.next.next != null； 因为要涉及两根指针 n1 和 n2
 3. 交换完指针记得 update head 指针
+
 ```java
+// swap
 head.next = n2;
 n1.next = n2.next;
 n2.next = n1;
             
 head = n1;
 ```
-
 

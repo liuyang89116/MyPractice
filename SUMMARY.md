@@ -43,6 +43,7 @@
    * [Problem 82: Remove Duplicates from Sorted List II](problem_82_remove_duplicates_from_sorted_list_ii.md)
    * [Problem 206: Reverse Linked List](problem_206_reverse_linked_list.md)
    * [Problem 92: Reverse Linked List II](problem_92_reverse_linked_list_ii.md)
+   * Problem 24: Swap Nodes in Pairs
    * [Problem 86: Partition List](problem_86_partition_list.md)
    * [Problem 148: Sort List](problem_148_sort_list.md)
    * [Problem 143: Reorder List](problem_143_reorder_list.md)
@@ -52,7 +53,6 @@
    * [Problem 23: Merge k Sorted Lists](problem_23_merge_k_sorted_lists.md)
    * [Problem 138: Copy List with Random Pointer](problem_138_copy_list_with_random_pointer.md)
    * [Problem 21: Merge Two Sorted Lists](problem_21_merge_two_sorted_lists.md)
-   * Problem 24: Swap Nodes in Pairs
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
    * [Problem120: Triangle](problem120_triangle.md)
    * [Problem 62: Unique Paths](problem_62_unique_paths.md)

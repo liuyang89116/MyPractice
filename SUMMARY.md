@@ -119,5 +119,5 @@
    * [Problem 389: Find the Difference](problem_389_find_the_difference.md)
 * [Post Chapter 3 Array](post_chapter_3_array.md)
    * [Problem 11: Container With Most Water](problem_11_container_with_most_water.md)
-   * Problem 36: Valid Sudoku
+   * [Problem 36: Valid Sudoku](problem_36_valid_sudoku.md)
 

@@ -10,7 +10,7 @@
    * [Problem 93: Restore IP Addresses](problem_93_restore_ip_addresses.md)
    * [Problem 131: Palindrome Partitioning](problem_131_palindrome_partitioning.md)
    * [Problem 31: Next Permutation](problem_31_next_permutation.md)
-   * Problem 39: Combination Sum
+   * [Problem 39: Combination Sum](problem_39_combination_sum.md)
 * [Chapter 2 Binary Search & Sorted Array](chapter_3_binary_search.md)
    * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
    * [Problem 34: Search for a Range](problem_34_search_for_a_range.md)

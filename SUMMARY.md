@@ -60,7 +60,7 @@
    * [Problem 138: Copy List with Random Pointer](problem_138_copy_list_with_random_pointer.md)
    * [Problem 21: Merge Two Sorted Lists](problem_21_merge_two_sorted_lists.md)
    * [Problem 61: Rotate List](problem_61_rotate_list.md)
-   * Problem 234: Palindrome Linked List
+   * [Problem 234: Palindrome Linked List](problem_234_palindrome_linked_list.md)
 * [Chapter 5 Dynamic Programming](chapter_5_dynamic_programming.md)
    * [Problem120: Triangle](problem120_triangle.md)
    * [Problem 62: Unique Paths](problem_62_unique_paths.md)

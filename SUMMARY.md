@@ -123,6 +123,7 @@
    * [Problem 389: Find the Difference](problem_389_find_the_difference.md)
    * [Problem 50: Pow(x, n)](problem_50_powx,_n.md)
    * [Problem 13: Roman to Integer](problem_13_roman_to_integer.md)
+   * Problem 43: Multiply Strings
 * [Post Chapter 3 Array](post_chapter_3_array.md)
    * [Problem 11: Container With Most Water](problem_11_container_with_most_water.md)
    * [Problem 36: Valid Sudoku](problem_36_valid_sudoku.md)

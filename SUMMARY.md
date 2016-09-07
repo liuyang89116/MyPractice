@@ -127,5 +127,5 @@
    * [Problem 36: Valid Sudoku](problem_36_valid_sudoku.md)
    * [Problem 209: Minimum Size Subarray Sum](problem_209_minimum_size_subarray_sum.md)
 * [Post Chapter 4 String](post_chapter_4_string.md)
-   * Problem 14: Longest Common Prefix
+   * [Problem 14: Longest Common Prefix](problem_14_longest_common_prefix.md)
 

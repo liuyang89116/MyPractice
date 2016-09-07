@@ -129,7 +129,7 @@
    * [Problem 11: Container With Most Water](problem_11_container_with_most_water.md)
    * [Problem 36: Valid Sudoku](problem_36_valid_sudoku.md)
    * [Problem 209: Minimum Size Subarray Sum](problem_209_minimum_size_subarray_sum.md)
-   * Problem 73: Set Matrix Zeroes
+   * [Problem 73: Set Matrix Zeroes](problem_73_set_matrix_zeroes.md)
 * [Post Chapter 4 String](post_chapter_4_string.md)
    * [Problem 14: Longest Common Prefix](problem_14_longest_common_prefix.md)
 

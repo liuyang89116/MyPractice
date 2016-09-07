@@ -64,6 +64,10 @@ while (i < num3.length - 1 && num3[i] == 0) {
         i++;
 }
 ```
+4. char 转 int
+```java
+Character.getNumericValue(num1.charAt(i))
+```
 
 
 

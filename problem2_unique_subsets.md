@@ -28,12 +28,10 @@ public class Solution {
         rst.add(new ArrayList(path));
         
         for (int i = pos; i < nums.length; i++) {
-            if (i > pos && nums[i] == nums[i - 1]) {
-                continue;
-            }  
             path.add(nums[i]);
             helper(nums, path, i + 1, rst);
             path.remove(path.size() - 1);
+            while (i < nums.length - 1 && nums[i] == nums[i + 1]) i++;
         }
     }
 }
@@ -42,7 +40,5 @@ public class Solution {
 ##易错点
 1. 排除重复元素。这道题是在普通的Subsets题目上的延伸，关键的难点在于在之前的模板上稍作调整，去掉重复元素的干扰。
 ```java 
-if (i > pos && nums[i] == nums[i - 1]) {
-          continue;
-}  
+while (i < nums.length - 1 && nums[i] == nums[i + 1]) i++;
 ```

@@ -3,36 +3,42 @@
 
 > https://leetcode.com/problems/permutations-ii/
 
-这道题最主要的就是去重复。
+----------
+##思路
+* 这道题最主要的就是去重复。
+
+
 -----------------------------
 ```java
 public class Solution {
-    List<Integer> list = new ArrayList<Integer>();
-    List<List<Integer>> result = new ArrayList(list);
-
     public List<List<Integer>> permuteUnique(int[] nums) {
-        int[] visited = new int[nums.length];
-        Arrays.sort(nums);
-        helper(list, nums, visited);
-        return result;
-    }
-
-    private void helper(List<Integer> list, int[] nums, int[] visited) {
-        if (list.size() == nums.length) {
-            result.add(new ArrayList<Integer>(list));
-            return;
+        List<Integer> path = new ArrayList<Integer>();
+        List<List<Integer>> rst = new ArrayList(path);
+        if (nums == null || nums.length == 0) {
+            return rst;
         }
-
+        
+        boolean[] visited = new boolean[nums.length];
+        Arrays.sort(nums);
+        helper(nums, path, visited, rst);
+        
+        return rst;
+    }
+    
+    private void helper(int[] nums, List<Integer> path, boolean[] visited, List<List<Integer>> rst) {
+        if (path.size() == nums.length) {
+            rst.add(new ArrayList(path));
+        }
+        
         for (int i = 0; i < nums.length; i++) {
-            if (visited[i] == 1 || (i > 0 && nums[i] == nums[i - 1] && visited[i - 1] == 0)) {
-                continue;
+            if (visited[i] == false) {
+                path.add(nums[i]);
+                visited[i] = true;
+                helper(nums, path, visited, rst);
+                path.remove(path.size() - 1);
+                visited[i] = false;
+                while (i < nums.length - 1 && nums[i] == nums[i + 1]) i++;
             }
-
-            visited[i] = 1;
-            list.add(nums[i]);
-            helper(list, nums, visited);
-            list.remove(list.size() - 1);
-            visited[i] = 0;
         }
     }
 }
@@ -40,14 +46,13 @@ public class Solution {
 -------------------------
 
 ## 易错点
-1. 这道题是普通permutation的加强版，题目中有了重复元素。如何handle重复元素？**引入一个额外数组visited标记！**因为i是每一个数组元素的固定的id
-当元素被访问过，```visited[i] == 1```，就先不考虑;
-当元素和之前元素相同，并且之前元素没有被访问过， ```i > 0 && nums[i] == nums[i-1] && visited[i-1] == 0```,也可以不考虑
-2. list的处理，先把刚加进的元素剔除，再把访问value改为0， 缺一不可
+1. 去重复
+```java
+while (i < nums.length - 1 && nums[i] == nums[i + 1]) i++;
 ```
-list.remove(list.size() - 1);
-visited[i] = 0;
+我像之前一样用了一个方法，但报错了
+```java
+if (i > 0 && nums[i] == nums[i - 1]) {
+    continue;
+}
 ```
-
-
-

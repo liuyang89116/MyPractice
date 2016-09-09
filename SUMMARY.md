@@ -9,7 +9,7 @@
    * [Problem 47: Unique Permutations](problem4_unique_permutation.md)
    * [Problem 39: Combination Sum](problem_39_combination_sum.md)
    * [Problem 40: Combination Sum II](problem_40_combination_sum_ii.md)
-   * Problem 22: Generate Parentheses
+   * [Problem 22: Generate Parentheses](problem_22_generate_parentheses.md)
    * [Problem 93: Restore IP Addresses](problem_93_restore_ip_addresses.md)
    * [Problem 131: Palindrome Partitioning](problem_131_palindrome_partitioning.md)
    * [Problem 31: Next Permutation](problem_31_next_permutation.md)

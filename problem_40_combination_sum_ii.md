@@ -11,38 +11,36 @@
 --------------
 ```java
 public class Solution {
-    List<Integer> path = new ArrayList<Integer>();
-    List<List<Integer>> result = new ArrayList(path);
-    
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        if (candidates == null) {
-            return result;
-        } 
-        Arrays.sort(candidates);
-        helper(candidates, target, path, 0, result);
+        List<Integer> path = new ArrayList<Integer>();
+        List<List<Integer>> rst = new ArrayList(path);
+        if (candidates == null || candidates.length == 0) {
+            return rst;
+        }
         
-        return result;
+        Arrays.sort(candidates);
+        helper(candidates, target, 0, path, rst);
+        
+        return rst;
     }
     
-    private void helper(int[] candidates, int target, List<Integer> path, int pos, List<List<Integer>> result) {
-        if (target == 0) {
-            result.add(new ArrayList(path));
+    private void helper(int[] candidates, int target, int pos, List<Integer> path, List<List<Integer>> rst) {
+        if (target < 0) {
+            return;
         }
         
-        int prev = -1;
-        for (int i = pos; i < candidates.length; i++) {
-            if (candidates[i] > target) {
-                break;
-            }
-            
-            if (prev != candidates[i]) {
-                path.add(candidates[i]);
-                helper(candidates, target - candidates[i], path, i + 1, result);
-                path.remove(path.size() - 1);
-                
-                prev = candidates[i];
-            }
+        if (target == 0) {
+            rst.add(new ArrayList(path));
+            return;
         }
+        
+        for (int i = pos; i < candidates.length; i++) {
+            path.add(candidates[i]);
+            helper(candidates, target - candidates[i], i + 1, path, rst);
+            path.remove(path.size() - 1);
+            while (i < candidates.length - 1 && candidates[i] == candidates[i + 1]) i++;
+        }
+        
     }
 }
 ```
@@ -53,8 +51,11 @@ public class Solution {
 ```java
 helper(candidates, target - candidates[i], path, i + 1, result);
 ```
-2. 理解 prev 的作用
-
+2. 去掉重复元素
+```java
+while (i < candidates.length - 1 && candidates[i] == candidates[i + 1]) i++;
+```
+为什么上一道题不用呢？因为上一道题目可以重复取每一个元素
 
 
 

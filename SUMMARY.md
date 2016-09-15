@@ -124,6 +124,7 @@
    * [Problem 38: Count and Say](problem_38_count_and_say.md)
    * [Problem 58: Length of Last Word](problem_58_length_of_last_word.md)
    * [Problem 71: Simplify Path](problem_71_simplify_path.md)
+   * Problem 227: Basic Calculator II
    * [Problem 5: Longest Palindromic Substring](problem_5_longest_palindromic_substring.md)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
    * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
@@ -142,5 +143,4 @@
    * [Problem 209: Minimum Size Subarray Sum](problem_209_minimum_size_subarray_sum.md)
    * [Problem 73: Set Matrix Zeroes](problem_73_set_matrix_zeroes.md)
 * [Post Chapter 4 String](post_chapter_4_string.md)
-   * Problem 227: Basic Calculator II
 

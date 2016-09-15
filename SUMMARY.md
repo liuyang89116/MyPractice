@@ -140,5 +140,5 @@
    * [Problem 14: Longest Common Prefix](problem_14_longest_common_prefix.md)
    * [Problem 38: Count and Say](problem_38_count_and_say.md)
    * [Problem 58: Length of Last Word](problem_58_length_of_last_word.md)
-   * Problem 71: Simplify Path
+   * [Problem 71: Simplify Path](problem_71_simplify_path.md)
 

@@ -72,7 +72,7 @@
    * [Problem 63: Unique Paths II](problem_63_unique_paths_ii.md)
    * [Problem 64: Minimum Path Sum](problem_64_minimum_path_sum.md)
    * [Problem 70: Climbing Stairs](problem_70_climbing_stairs.md)
-   * Problem 91: Decode Ways
+   * [Problem 91: Decode Ways](problem_91_decode_ways.md)
    * [Problem 55: Jump Game](problem_55_jump_game.md)
    * [Problem 132: Palindrome Partitioning II](problem_132_palindrome_partitioning_ii.md)
    * [Problem 139: Word Break](problem_139_word_break.md)

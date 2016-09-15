@@ -40,14 +40,14 @@ System.out.println(s.charAt(0));          // a
 System.out.println(s.charAt(0) - '0');    // 49
 System.out.println(s.charAt(0) - 0);      // 97
 ```
-
-
-
-
-
-
-
-
+```java
+s.charAt(0) - '0'
+```
+这里相当于是```'a' - '0'```，两个 char 相减，减的是他们的 ASCII 值：$$97 - 48 = 49$$
+```java
+s.charAt(0) - 0
+```
+这里相当于是 char 和 int 相减，$$97 - 0 = 97$$
 
 
 

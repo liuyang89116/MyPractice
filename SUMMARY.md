@@ -79,6 +79,7 @@
    * [Problem: Longest Common Subsequence (LintCode)](problem_longest_common_subsequence_lintcode.md)
    * [Problem 72: Edit Distance](problem_72_edit_distance.md)
    * [Problem: k Sum (LintCode)](problem_k_sum_lintcode.md)
+   * Problem 91: Decode Ways
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)
    * [Problem 155: Min Stack](problem_155_min_stack.md)

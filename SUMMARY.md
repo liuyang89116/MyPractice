@@ -122,6 +122,7 @@
    * [Problem 65: Valid Number](problem_65_valid_number.md)
    * [Problem3: Longest Substring Without Repeating Characters](problem3_longest_substring_without_repeating_chara.md)
    * [Problem 5: Longest Palindromic Substring](problem_5_longest_palindromic_substring.md)
+* [Problem 14: Longest Common Prefix](problem_14_longest_common_prefix.md)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
    * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
    * [Problem 66: Plus One](problem_66_plus_one.md)

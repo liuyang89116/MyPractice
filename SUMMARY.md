@@ -143,5 +143,5 @@
    * [Problem 36: Valid Sudoku](problem_36_valid_sudoku.md)
    * [Problem 209: Minimum Size Subarray Sum](problem_209_minimum_size_subarray_sum.md)
    * [Problem 73: Set Matrix Zeroes](problem_73_set_matrix_zeroes.md)
-   * Problem 48: Rotate Image
+   * [Problem 48: Rotate Image](problem_48_rotate_image.md)
 

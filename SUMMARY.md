@@ -145,5 +145,5 @@
    * [Problem 73: Set Matrix Zeroes](problem_73_set_matrix_zeroes.md)
    * [Problem 48: Rotate Image](problem_48_rotate_image.md)
    * [Problem 54: Spiral Matrix](problem_54_spiral_matrix.md)
-   * Problem 59: Spiral Matrix II
+   * [Problem 59: Spiral Matrix II](problem_59_spiral_matrix_ii.md)
 

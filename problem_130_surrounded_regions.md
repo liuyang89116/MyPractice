@@ -88,7 +88,7 @@ int code = i * board[0].length + j;
 int row = code / board[0].length;
 int col = code % board[0].length;
 ```
-2. 
+2. 上下左右 check 完了之后，记得把元素入 queue
 
 
 

@@ -51,7 +51,7 @@
    * [Problem 108: Convert Sorted Array to Binary Search Tree](problem_108_convert_sorted_array_to_binary_search_.md)
    * [Problem 100: Same Tree](problem_100_same_tree.md)
    * [Problem 105: Construct Binary Tree from Preorder and Inorder Traversal](problem_105_construct_binary_tree_from_preorder_an.md)
-   * Problem 106: Construct Binary Tree from Inorder and Postorder Traversal
+   * [Problem 106: Construct Binary Tree from Inorder and Postorder Traversal](problem_106_construct_binary_tree_from_inorder_and.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
    * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
    * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)

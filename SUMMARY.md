@@ -150,5 +150,5 @@
    * [Problem 48: Rotate Image](problem_48_rotate_image.md)
    * [Problem 54: Spiral Matrix](problem_54_spiral_matrix.md)
    * [Problem 59: Spiral Matrix II](problem_59_spiral_matrix_ii.md)
-   * Problem 118: Pascal's Triangle
+   * [Problem 118: Pascal's Triangle](problem_118_pascals_triangle.md)
 

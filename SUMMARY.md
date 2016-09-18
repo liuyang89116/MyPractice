@@ -82,7 +82,7 @@
    * [Problem 139: Word Break](problem_139_word_break.md)
    * [Problem 300: Longest Increasing Subsequence](problem_300_longest_increasing_subsequence.md)
    * [Problem: Longest Common Subsequence (LintCode)](problem_longest_common_subsequence_lintcode.md)
-   * Problem 152: Maximum Product Subarray
+   * [Problem 152: Maximum Product Subarray](problem_152_maximum_product_subarray.md)
    * [Problem 72: Edit Distance](problem_72_edit_distance.md)
    * [Problem: k Sum (LintCode)](problem_k_sum_lintcode.md)
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)

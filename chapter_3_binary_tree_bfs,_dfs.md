@@ -75,7 +75,12 @@ TreeNode root = new TreeNode(rootVal);
 root.left = helper(preorder, preStart + 1, preStart + len, inorder, inStart, rootIndex - 1);
 root.right = helper(preorder, preStart + len + 1, preEnd, inorder, rootIndex + 1, inEnd);
 ```
-
+3. 递归一定要考虑好退出条件
+```java
+if (preStart > preEnd || inStart > inEnd) {
+         return null;
+}
+```
 
 
 

@@ -9,6 +9,7 @@
    * [Problem 47: Unique Permutations](problem4_unique_permutation.md)
    * [Problem 39: Combination Sum](problem_39_combination_sum.md)
    * [Problem 40: Combination Sum II](problem_40_combination_sum_ii.md)
+   * Problem 216: Combination Sum III
    * [Problem 77: Combinations](problem_77_combinations.md)
    * [Problem 22: Generate Parentheses](problem_22_generate_parentheses.md)
    * [Problem 17: Letter Combinations of a Phone Number](problem_17_letter_combinations_of_a_phone_number.md)
@@ -19,7 +20,6 @@
    * [Problem 60: Permutation Sequence](problem_60_permutation_sequence.md)
    * [Problem 130: Surrounded Regions](problem_130_surrounded_regions.md)
    * [Problem 79: Word Search](problem_79_word_search.md)
-   * Problem 216: Combination Sum III
 * [Chapter 2 Binary Search & Sorted Array](chapter_3_binary_search.md)
    * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
    * [Problem 34: Search for a Range](problem_34_search_for_a_range.md)

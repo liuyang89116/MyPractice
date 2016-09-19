@@ -155,4 +155,5 @@
    * [Problem 118: Pascal's Triangle](problem_118_pascals_triangle.md)
    * [Problem 119: Pascal's Triangle II](problem_119_pascals_triangle_ii.md)
    * [Problem 189: Rotate Array](problem_189_rotate_array.md)
+   * Problem 217: Contains Duplicate
 

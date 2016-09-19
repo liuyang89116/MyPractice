@@ -143,6 +143,7 @@
    * [Problem 50: Pow(x, n)](problem_50_powx,_n.md)
    * [Problem 67: Add Binary](problem_67_add_binary.md)
    * [Problem 43: Multiply Strings](problem_43_multiply_strings.md)
+   * Problem 268: Missing Number
 * [Post Chapter 3 Array](post_chapter_3_array.md)
    * [Problem 11: Container With Most Water](problem_11_container_with_most_water.md)
    * [Problem 14: Longest Common Prefix](problem_14_longest_common_prefix.md)

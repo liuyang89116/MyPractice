@@ -157,4 +157,5 @@
    * [Problem 189: Rotate Array](problem_189_rotate_array.md)
    * [Problem 217: Contains Duplicate](problem_217_contains_duplicate.md)
    * [Problem 219: Contains Duplicate II](problem_219_contains_duplicate_ii.md)
+   * Problem 220: Contains Duplicate III
 

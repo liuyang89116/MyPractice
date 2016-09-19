@@ -158,5 +158,5 @@
    * [Problem 217: Contains Duplicate](problem_217_contains_duplicate.md)
    * [Problem 219: Contains Duplicate II](problem_219_contains_duplicate_ii.md)
    * [Problem 220: Contains Duplicate III](problem_220_contains_duplicate_iii.md)
-   * Problem 228: Summary Ranges
+   * [Problem 228: Summary Ranges](problem_228_summary_ranges.md)
 

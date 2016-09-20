@@ -162,5 +162,5 @@
    * [Problem 228: Summary Ranges](problem_228_summary_ranges.md)
    * [Problem 238: Product of Array Except Self](problem_238_product_of_array_except_self.md)
    * [Problem 283: Move Zeroes](problem_283_move_zeroes.md)
-   * Problem 289: Game of Life
+   * [Problem 289: Game of Life](problem_289_game_of_life.md)
 

@@ -37,7 +37,7 @@
    * [Problem: Recover Rotated Sorted Array (LintCode)](problem_recover_rotated_sorted_array_lintcode.md)
    * [Problem: Rotate String (LintCode)](problem_rotate_string_lintcode.md)
    * [Problem 167: Two Sum II - Input array is sorted](problem_167_two_sum_ii_-_input_array_is_sorted.md)
-   * Problem 215: Kth Largest Element in an Array
+   * [Problem 215: Kth Largest Element in an Array](problem_215_kth_largest_element_in_an_array.md)
 * [Chapter 3 Binary Tree (BFS, DFS)](chapter_3_binary_tree_bfs,_dfs.md)
    * [Summary 1: DFS Template](summary_1_dfs_template.md)
    * [Problem: Partition Array (LintCode)](problem_31lintcode_partition_array.md)

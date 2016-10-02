@@ -70,7 +70,7 @@ while (l1 != null) {
           head = head.next;
 }
 ```
-
+我当时用的是 if 一直没找到错误。其实在 linked list 的题目里面，最后都是用 while 来扫除余下的
 
 
 

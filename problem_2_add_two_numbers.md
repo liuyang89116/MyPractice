@@ -60,5 +60,17 @@ public class Solution {
 ----
 ##易错点
 1. 记得设置 dummy node，否则会对整个 list 失去“控制”
+2. 第一次 l1, l2 循环完了以后，是用 while 接着看剩下的
+```java
+while (l1 != null) {
+          int sum = carrier + l1.val;
+          head.next = new ListNode(sum % 10);
+          carrier = sum / 10;
+          l1 = l1.next;
+          head = head.next;
+}
+```
+
+
 
 

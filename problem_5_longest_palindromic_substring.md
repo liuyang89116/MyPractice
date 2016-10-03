@@ -63,8 +63,8 @@ for (int i = 0; i < s.length(); i++) {
 }
 ```
 ![](LongestPalindrome1.png)
-
-
+循环结束之后，应该退回来，两个定位的点应该是 (i + 1), (j - 1)
+4. 这里的 max 指的是回文串的长度，max = （j - 1）- (i + 1) + 1 = j - i - 1
 
 
 

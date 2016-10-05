@@ -49,9 +49,9 @@ if (root == null || root == p || root == q) {
          return root;
 }
 ```
-
-
-
+我开头少考虑了一点，只想到了 ```root == null``` 这一种情况。
+![](LCA_BST.png)
+这种情况的时候，就应该返回 1 了， 1 就是他俩的 LCA。
 
 
 

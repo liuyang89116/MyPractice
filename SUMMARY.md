@@ -47,6 +47,7 @@
    * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
    * [Problem 124: Binary Tree Maximum Path Sum](problem_124_binary_tree_maximum_path_sum.md)
    * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
+   * Problem 235: Lowest Common Ancestor of a Binary Search Tree
    * [Problem 98: Validate Binary Search Tree](problem_98_validate_binary_search_tree.md)
    * [Problem: Insert Node in a Binary Search Tree (LintCode)](problem_insert_node_in_a_binary_search_tree_lintco.md)
    * [Problem: Search Range in Binary Search Tree (LintCode)](problem_search_range_in_binary_search_tree_lintcod.md)
@@ -57,7 +58,6 @@
    * [Problem 106: Construct Binary Tree from Inorder and Postorder Traversal](problem_106_construct_binary_tree_from_inorder_and.md)
    * [Problem 200: Number of Islands](problem_200_number_of_islands.md)
    * [Problem 127:  Word Ladder](problem_127_word_ladder.md)
-   * Problem 235: Lowest Common Ancestor of a Binary Search Tree
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
    * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
    * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)

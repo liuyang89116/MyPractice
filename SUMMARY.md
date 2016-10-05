@@ -94,6 +94,7 @@
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)
    * [Problem 155: Min Stack](problem_155_min_stack.md)
    * [Problem 232: Implement Queue using Stacks](problem_232_implement_queue_using_stacks.md)
+   * Problem 20: Valid Parentheses
 * [Chapter 8 High Frequency](chapter_8_high_frequency.md)
    * [Problem 136: Single Number](problem_136_single_number.md)
    * [Problem 137: Single Number II](problem_137_single_number_ii.md)

@@ -47,7 +47,7 @@
    * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
    * [Problem 124: Binary Tree Maximum Path Sum](problem_124_binary_tree_maximum_path_sum.md)
    * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
-   * Problem 235: Lowest Common Ancestor of a Binary Search Tree
+   * [Problem 235: Lowest Common Ancestor of a Binary Search Tree](problem_235_lowest_common_ancestor_of_a_binary_sea.md)
    * [Problem 98: Validate Binary Search Tree](problem_98_validate_binary_search_tree.md)
    * [Problem: Insert Node in a Binary Search Tree (LintCode)](problem_insert_node_in_a_binary_search_tree_lintco.md)
    * [Problem: Search Range in Binary Search Tree (LintCode)](problem_search_range_in_binary_search_tree_lintcod.md)

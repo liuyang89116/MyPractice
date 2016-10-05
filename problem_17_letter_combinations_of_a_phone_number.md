@@ -72,12 +72,14 @@ for (char c : map.get(digits.charAt(sb.length()))) {
           sb.deleteCharAt(sb.length() - 1);
 }
 ```
+```map.get()```是得到键对应的值;```digits.charAt()```得到每一个数字；然后```sb.length()```对应是第几个数字
 4. StringBuilder 的方法
 ```java
 StringBuilder sb = new StringBuilder();
 sb.append('a');
 sb.deleteCharAt(sb.length() - 1);
 ```
+
 
 
 

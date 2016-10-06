@@ -46,7 +46,8 @@ public class Solution {
 ##易错点
 1. 三根指针都要移动，别忘了 lastNode 的移动
 2. 第一个 while 循环完，记得后面 check 两个 list 还有没有剩余
-
+3. 注意最后判断是 if 并不是 while！  
+   只有数组才是 while， linkedlist 是连着的，判断一下 head 就可以挂上了。
 
 
 

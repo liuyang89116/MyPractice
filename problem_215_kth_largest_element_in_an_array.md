@@ -41,7 +41,8 @@ public class Solution {
             }
             swap(nums, i, j);
         }
-        swap(nums, left, j);
+        swa
+        p(nums, left, j);
         return j;
     }
     
@@ -52,6 +53,21 @@ public class Solution {
     }
 }
 ```
+```java
+/*
+  sort version:
+*/
+public class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        Arrays.sort(nums);
+        int len = nums.length;
+      
+        return nums[len - k];
+    }
+}
+```
+
+
 ------
 ##易错点
 

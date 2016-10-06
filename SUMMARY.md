@@ -170,4 +170,5 @@
    * [Problem 283: Move Zeroes](problem_283_move_zeroes.md)
    * [Problem 289: Game of Life](problem_289_game_of_life.md)
    * [Problem 396: Rotate Function](problem_396_rotate_function.md)
+   * Problem 242: Valid Anagram
 

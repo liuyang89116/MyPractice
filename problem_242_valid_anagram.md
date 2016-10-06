@@ -6,8 +6,34 @@
 ##思路
 * 这道题至少有两种思路：第一种就是先拆分成数组，然后再转化为 String，比较两个 String 是否相同；第二种就是遍历的方法。
 * 第一种方法速度很快，但是可能并不是面试官想要看的
+* 最优解放在最上面
 
 -----------------------
+```java
+/*
+  最优解
+*/
+public class Solution {
+    public boolean isAnagram(String s, String t) {
+        int[] arr = new int[26];
+        
+        for (int i = 0; i < s.length(); i++) {
+            arr[s.charAt(i) - 'a']++;
+        }
+        for (int i = 0; i < t.length(); i++) {
+            arr[t.charAt(i) - 'a']--;
+        }
+        
+        for (Integer count : arr) {
+            if (count != 0) {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+}
+```
 ```java
 /*
   First version

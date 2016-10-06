@@ -38,7 +38,7 @@ public class Solution {
         if (root == null) {
             return new ResultType(true, Integer.MIN_VALUE, Integer.MAX_VALUE);
         }
-        便
+     
         ResultType left = validateHelper(root.left);
         ResultType right = validateHelper(root.right);
         
@@ -67,7 +67,7 @@ if (root == null) {
        return new ResultType(true, Integer.MIN_VALUE, Integer.MAX_VALUE);
 }
 ```
-这里的 min 和 max 跟 ResultType 里正好是相反的！原因我感觉是因为是空，所以就把原来的彻底地反过来。
+这里的 min 和 max 跟 ResultType 里正好是相反的！原因是为了能不停地迭代，要判断 max，那开始就设成 min，这样能不停地往下走。
 
 2. 条件判断，**非常易错**
 ```java
@@ -75,6 +75,5 @@ if (root.left != null && left.max 便便>= root.val || root.right != null && rig
        return new ResultType(false, 0, 0);
 }
 ```
-注意看这里是```root.left != null```和```left.max >= root.val```！
-
-  而我错就错在写成了```left.max >= root.val```！这种情况下，当 left 本身为空的时候，直接就会出错。
+注意看这里是```root.left != null```和```left.max >= root.val```！  
+而我错就错在写成了```left.max >= root.val```！这种情况下，当 left 本身为空的时候，直接就会出错。

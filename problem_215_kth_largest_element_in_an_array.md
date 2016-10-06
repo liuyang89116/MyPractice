@@ -8,7 +8,7 @@
 * 这道题可以用 heap 快速做出，但其并不是考点。
 * 这道题的考点还是在 O(N) 的时间内，用额外 O(1) 的时间找出结果。所以我们考虑用 Quick Sort 的方法。
 ![](Kth largest.png)
-
+* 后面有两个版本，一个是用 sort 做的，另一个是用 heap 做的。heap 在 java 中用 PriorityQueue 实现。
 -----------
 ```java
 public class Solution {
@@ -66,8 +66,24 @@ public class Solution {
     }
 }
 ```
-
-
+```java
+/*
+  heap version
+*/
+public class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> heap = new PriorityQueue<Integer>();
+        for (Integer i : nums) {
+            heap.offer(i);
+            if (heap.size() > k) {
+                heap.poll();
+            }
+        }
+        
+        return heap.peek();
+    }
+}
+```
 ------
 ##易错点
 

@@ -139,6 +139,7 @@
    * [Problem 71: Simplify Path](problem_71_simplify_path.md)
    * [Problem 227: Basic Calculator II](problem_227_basic_calculator_ii.md)
    * [Problem 383: Ransom Note](problem_383_ransom_note.md)
+   * Problem 8: String to Integer (atoi)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
    * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
    * [Problem 66: Plus One](problem_66_plus_one.md)

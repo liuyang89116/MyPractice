@@ -47,3 +47,5 @@ public class Solution {
 5. 加 pos 这个参数的原因是每次循环的时候从 i + 1 下一个元素循环起。
 6. 一定记得要 sort
 
+##补充
+1. recursion 的时候，是 i + 1，而不是 pos + 1

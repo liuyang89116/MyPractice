@@ -47,7 +47,9 @@ public class Solution {
 ```java
 if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] != '1') return;
 ```
-
+注意最后一个条件```grid[i][j] != '1'```，岛的身边如果还是岛，我们就退出，不管他了就。
+2. 边界条件
+```i >= grid.length```平时没留意这个 ```=```
 
 
 

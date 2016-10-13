@@ -142,7 +142,7 @@
    * [Problem 227: Basic Calculator II](problem_227_basic_calculator_ii.md)
    * [Problem 383: Ransom Note](problem_383_ransom_note.md)
    * [Problem 8: String to Integer (atoi)](problem_8_string_to_integer_atoi.md)
-   * Problem 388: Longest Absolute File Path
+   * [Problem 388: Longest Absolute File Path](problem_388_longest_absolute_file_path.md)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
    * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
    * [Problem 66: Plus One](problem_66_plus_one.md)

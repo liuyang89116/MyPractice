@@ -58,3 +58,32 @@ public class Solution {
     }
 }
 ```
+
+------------
+##易错点
+1. 如果是求 left side view 呢？
+```java
+if (nextIndex == 0) {
+       rst.add(currNode.val);
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -67,6 +67,7 @@ if (nextIndex == 0) {
        rst.add(currNode.val);
 }
 ```
+只需要做这一个改动。
 
 
 

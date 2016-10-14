@@ -3,6 +3,11 @@
 
 > https://leetcode.com/problems/reverse-vowels-of-a-string/
 
+---------------
+##思路
+* 这道题在时间复杂度上有要求
+* 我们用一个数组来记录元音的位置，然后在第二次访问的时候，交换元音的位置
+
 -------------------------------------------------------
 ```java
 public class Solution {

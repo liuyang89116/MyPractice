@@ -37,6 +37,53 @@ public class Solution {
     }
 }
 ```
+```java
+／*
+  这个解法是正确的，但是在时间复杂度上不行，太麻烦了
+*/
+public class Solution {
+    public String reverseVowels(String s) {
+        if (s == null || s.length() == 0) {
+            return s;
+        }
+        
+        HashSet<Character> set = new HashSet<Character>();
+        set.add('a');
+        set.add('e');
+        set.add('i');
+        set.add('o');
+        set.add('u');
+        set.add('A');
+        set.add('E');
+        set.add('I');
+        set.add('O');
+        set.add('U');
+        
+        int left = 0, right = s.length() - 1;
+        while (left < right) {
+            while (left < right && !set.contains(s.charAt(left))) left++;
+            while (right > left && !set.contains(s.charAt(right))) right--;
+            s = swap(s, left, right);
+            left++;
+            right--;
+        }
+        
+        return s;
+    }
+    
+    private String swap(String s, int left, int right) {
+        char[] arr = s.toCharArray();
+        char tmp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = tmp;
+        
+        String str = new String(arr);
+        
+        return str;
+    }
+    
+}
+```
 ---------------------------
 
 ## 易错点

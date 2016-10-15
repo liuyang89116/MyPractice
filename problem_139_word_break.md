@@ -64,8 +64,15 @@ if (!canSegment[i - lastWord]) {
 ```
 ![](wordBreak_1.jpg)
 这里的```lastWord```是标记位置。后面的```s.substring(i - lastWord, i)```,   
-
-
+4. 我当时做的时候写的判断条件是：  
+```java
+String word = s.substring(lastword + 1, i);
+```
+这样写会报错，数据溢出；  
+正确的写法应该是：  
+```java
+String word = s.substring(i - lastword, i);
+```
 
 
 

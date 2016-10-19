@@ -36,3 +36,10 @@ public class Solution {
     }
 }
 ```
+-------
+##易错点
+1. 这道题其实就是 combination sum III 的变形。这里控制左右括号的两个 n，就对应那道题的 n 和 k。
+
+
+
+

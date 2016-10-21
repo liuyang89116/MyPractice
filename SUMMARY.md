@@ -188,4 +188,5 @@
 * [Behavior Questions](behavior_questions.md)
    * [Introduction to yourself](introduction_to_yourself.md)
    * [Why change Physics to CS](why_change_physics_to_cs.md)
+   * Biggest problems in working with others
 

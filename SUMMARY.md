@@ -185,4 +185,5 @@
 * [Core Java Interview Questions](core_java_interview_questions.md)
 * [All Chapters Summary](all_chapters_summary.md)
    * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
+* Behavior Questions
 

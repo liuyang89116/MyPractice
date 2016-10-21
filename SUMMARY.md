@@ -187,4 +187,5 @@
    * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
 * [Behavior Questions](behavior_questions.md)
    * [Introduction to yourself](introduction_to_yourself.md)
+   * Why change Physics to CS
 

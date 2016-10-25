@@ -14,48 +14,46 @@ public class Solution {
         if (nums == null || nums.length == 0) {
             return new int[] {-1, -1};
         }
-
-        int[] result = new int[2];
-
-        //search left bound
-        int start = 0;
-        int end = nums.length - 1;
-        while (start + 1 < end) {
-            int mid = start + (end - start) / 2;
-            if (nums[mid] >= target) {
-                end = mid;
+        
+        int leftBound = -1, rightBound = -1;
+        
+        // target leftBound
+        int left = 0, right = nums.length - 1;
+        int mid;
+        while (left + 1 < right) {
+            mid = left + (right - left) / 2;
+            if (target <= nums[mid]) {
+                right = mid;
             } else {
-                start = mid;
-            }
+                left = mid;
+            } 
         }
-        if (nums[start] == target) {
-            result[0] = start;
-        } else if (nums[end] == target) {
-            result[0] = end;
-        } else {
-            return new int[] {-1, -1};
+        if (target == nums[right]) {
+            leftBound = right;
         }
-
-        //search right bound
-        start = 0;
-        end = nums.length - 1;
-        while (start + 1 < end) {
-            int mid = start + (end - start) / 2;
-            if (nums[mid] > target) {
-                end = mid;
+        if (target == nums[left]) {
+            leftBound = left;
+        }
+        
+        // target rightBound
+        left = 0; 
+        right = nums.length - 1;
+        while (left + 1 < right) {
+            mid = left + (right - left) / 2;
+            if (target < nums[mid]) {
+                right = mid;
             } else {
-                start = mid;
-            }
+                left = mid;
+            } 
         }
-        if (nums[end] == target) {
-            result[1] = end;
-        } else if (nums[start] == target) {
-            result[1] = start;
-        } else {
-            return new int[] {-1, -1};
+        if (target == nums[left]) {
+            rightBound = left;
         }
-
-        return result;
+        if (target == nums[right]) {
+            rightBound = right;
+        }
+        
+        return new int[] {leftBound, rightBound};
     }
 }
 ```

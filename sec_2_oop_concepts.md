@@ -213,33 +213,34 @@ Interface is a blueprint of a class that have static constants and abstract meth
 **No**, because its implementation is provided by another class.
 
 
+###65) What is marker interface?
+An interface that have no data member and method is known as a marker interface.For example Serializable, Cloneable etc.
 
 
+###66) What is difference between abstract class and interface?
+![](sec2_21.png)
 
 
+###67) Can we define private and protected modifiers for variables in interfaces?
+No, they are implicitly public.
 
 
+###68) When can an object reference be cast to an interface reference?
+An object reference can be cast to an interface reference when the object implements the referenced interface.
+
+###69) What is package?
+A package is a group of similar type of **classes interfaces and sub-packages**. It provides access protection and removes naming collision.
+
+###70) Do I need to import java.lang package any time? Why ?
+No. It is by default loaded internally by the JVM.
 
 
+###71) Can I import same package/class twice? Will the JVM load the package twice at runtime?
+One can import the same package or same class multiple times. Neither compiler nor JVM complains about it.But the JVM will internally load the class only once no matter how many times you import the same class.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+###72) What is static import ?
+By static import, we can access the static members of a class directly, there is no to qualify it with the class name.
 
 
 

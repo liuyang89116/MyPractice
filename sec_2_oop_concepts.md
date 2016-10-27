@@ -63,9 +63,9 @@ It is a keyword that that refers to the current object.
 (2) **Solution of the above problem by this keyword**
 ![](sec2_8.png)
 
-
-
-
+###28)What is Inheritance?
+Inheritance is a mechanism in which one object acquires all the properties and behaviour of another object of another class. It represents IS-A relationship. It is used for **Code Resusability** and **Method Overriding**.
+![](sec2_9.png)
 
 
 

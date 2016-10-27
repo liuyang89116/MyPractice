@@ -125,27 +125,30 @@ It is because the static method is the part of class and it is bound with class 
 Yes.
 
 
+###44) Difference between method Overloading and Overriding.
+![](sec2_15.png)
 
 
 
+###45) Can you have virtual functions in Java?
+**Yes**, all functions in Java are virtual by default.
 
 
+###46) What is covariant return type?
+Now, since java5, it is possible to override any method by changing the return type if the return type of the subclass overriding method is subclass type. It is known as covariant return type.
 
 
+###47) What is final variable?
+If you make any variable as final, you cannot change the value of final variable(It will be constant).
+
+![](sec2_16.png)
+
+###48) What is final method?
+Final methods can't be overriden.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+###49) What is final class?
+Final class can't be inherited. 
 
 
 

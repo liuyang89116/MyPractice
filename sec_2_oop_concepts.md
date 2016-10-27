@@ -25,15 +25,24 @@ The default constructor provides the default values to the objects. The java com
 ###20) What is static variable?
 * static variable is used to refer the common property of all objects (that is not unique for each object) e.g. company name of employees,college name of students etc.
 * static variable **gets memory only once** in class area at the time of class loading.
+(1) **Program of counter without static variable**
+![](sec2_1.png)
+
+**(2) Program of counter by static variable**
+![](sec2_2.png)
 
 
+###21) What is static method?
+* A static method belongs to the class rather than object of a class.
+* A static method can be invoked without the need for creating an instance of a class.
+* static method can access static data member and can change the value of it.
+![](sec2_3.png)
+![](sec2_4.png)
 
 
-
-
-
-
-
+###22) Why main method is static?
+Because object is not required to call static method if It were non-static method,jvm creats object first then call main() method that will lead to the problem of extra memory allocation.
+![](sec2_5.png)
 
 
 

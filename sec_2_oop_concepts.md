@@ -68,6 +68,42 @@ Inheritance is a mechanism in which one object acquires all the properties and b
 ![](sec2_9.png)
 
 
+###29) Which class is the superclass for every class.
+Object class.
+
+
+###30) Why multiple inheritance is not supported in java?
+To reduce the complexity and simplify the language, multiple inheritance is not supported in java in case of class.
+
+###31) What is composition?
+Holding the reference of the other class within some other class is known as composition.
+
+###32) What is difference between aggregation and composition?
+Aggregation represents weak relationship whereas composition represents strong relationship. For example: bike has an indicator (aggregation) but bike has an engine (compostion).
+
+###33) Why Java does not support pointers?
+Pointer is a variable that refers to the memory address. They are not used in java because they are **unsafe**(unsecured) and **complex to understand**.
+
+
+###34) What is super in java?
+It is a keyword that refers to the immediate parent class object.
+![](sec2_10.png)
+![](sec2_11.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

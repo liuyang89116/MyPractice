@@ -46,7 +46,8 @@ It is empty. But not null.
 ###11) What if I write static public void instead of public static void?
 Program compiles and runs properly.
 
-
+###12) What is the default value of the local variables?
+The local variables are not initialized to any default value, neither primitives nor object references.
 
 
 

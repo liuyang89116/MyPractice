@@ -97,6 +97,75 @@ No. Because super() or this() must be the first statement.
 ###36)What is object cloning?
 The object cloning is used to create the exact copy of an object.
 
+###37) What is method overloading?
+If a class have multiple methods by same name but different parameters, it is known as Method Overloading. It **increases the readability** of the program.
+![](sec2_12.png)
+
+###38) Why method overloading is not possible by changing the return type in java?
+Because of ambiguity.
+
+###39) Can we overload main() method?
+Yes, You can have many main() methods in a class by overloading the main method.
+![](sec2_13.png)
+
+
+###40) What is method overriding？
+If a subclass provides a specific implementation of a method that is already provided by its parent class, it is known as Method Overriding. It is used for **runtime polymorphism** and to provide the specific implementation of the method.
+
+![](sec2_14.png)
+
+
+###41) Can we override static method?
+**No**, you can't override the static method because they are the part of class not object.
+
+###42) Why we cannot override static method?
+It is because the static method is the part of class and it is bound with class whereas instance method is bound with object and static gets memory in class area and instance gets memory in heap.
+
+###43) Can we override the overloaded method?
+Yes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

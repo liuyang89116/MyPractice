@@ -150,34 +150,37 @@ Final methods can't be overriden.
 ###49) What is final class?
 Final class can't be inherited. 
 
+![](sec2_17.png)
+
+###50) What is blank final variable?
+A final variable, not initalized at the time of declaration, is known as blank final variable.
 
 
+###51) Can we intialize blank final variable?
+**Yes**, only in constructor if it is non-static. If it is static blank final variable, it can be initialized only in the static block.
 
 
+###52) Can you declare the main method as final?
+Yes, such as, public static final void main(String[] args){}.
 
 
+###53) What is Runtime Polymorphism?
+* Runtime polymorphism or dynamic method dispatch is a process in which a call to an overridden method is resolved at runtime rather than at compile-time.
+* In this process, an overridden method is called through the reference variable of a super class. The determination of the method to be called is based on the object being referred to by the reference variable.
+![](sec2_18.png)
+**Example**:
+![](sec2_19.png)
 
 
+###54) Can you achieve Runtime Polymorphism by data members?
+No.
+
+###55) What is the difference between static binding and dynamic binding?
+In case of static binding type of object is determined at compile time whereas in dynamic binding type of object is determined at runtime.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+###56) What is abstraction?
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
 
 
 

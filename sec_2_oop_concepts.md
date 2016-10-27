@@ -47,12 +47,12 @@ Because object is not required to call static method if It were non-static metho
 ###24) Can we execute a program without main() method?
 **Yes**, one of the way is static block.
 
+###25) What if the static modifier is removed from the signature of the main method?
+Program compiles. But at runtime throws an error "**NoSuchMethodError**".
 
 
-
-
-
-
+###26) What is difference between static (class) method and instance method?
+![](sec2_6.png)
 
 
 

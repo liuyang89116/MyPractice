@@ -181,33 +181,36 @@ In case of static binding type of object is determined at compile time whereas i
 
 ###56) What is abstraction?
 Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+Abstraction lets you focus on what the object does instead of how it does it.
+
+###57) What is the difference between abstraction and encapsulation?
+Abstraction hides the implementation details whereas encapsulation wraps code and data into a single unit.
+
+###58) What is abstract class?
+A class that is declared as abstract is known as abstract class. It needs to be extended and its method implemented. It cannot be instantiated.
+
+###59) Can there be any abstract method without abstract class?
+**No**, if there is any abstract method in a class, that class must be abstract.
+
+###60) Can you use abstract and final both with a method?
+**No**, because abstract method needs to be overridden whereas you can't override final method.
 
 
+###61) Is it possible to instantiate the abstract class?
+**No**, abstract class **can never be instantiated**.
 
 
+###62) What is interface?
+Interface is a blueprint of a class that have static constants and abstract methods.It can be used to achieve fully abstraction and multiple inheritance.
+
+![](sec2_20.png)
 
 
+###63) Can you declare an interface method static?
+**No**, because methods of an interface is abstract by default, and **static and abstract keywords can't be used together**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+###64) Can an Interface be final?
+**No**, because its implementation is provided by another class.
 
 
 

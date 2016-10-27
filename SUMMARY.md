@@ -184,7 +184,7 @@
    * [Problem 387: First Unique Character in a String](problem_387_first_unique_character_in_a_string.md)
 * [Core Java Interview Questions](core_java_interview_questions.md)
    * [Sec 1: Basics of Java Questions](sec_1_basics_of_java_questions.md)
-   * Sec 2: OOP Concepts
+   * [Sec 2: OOP Concepts](sec_2_oop_concepts.md)
 * [All Chapters Summary](all_chapters_summary.md)
    * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
 * [Behavior Questions](behavior_questions.md)

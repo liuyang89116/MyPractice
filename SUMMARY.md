@@ -190,6 +190,7 @@
    * [Sec 5: Nested Classes and Interfaces](sec_5_nested_classes_and_interfaces.md)
    * [Sec 6: Garbage Collection and I/O Questions](sec_6_garbage_collection.md)
    * [Sec 7: Serialization, Networking and Reflection Questions](sec_7_serialization,_networking_and_reflection_que.md)
+   * Sec 8: Miscellaneous Questions
 * [All Chapters Summary](all_chapters_summary.md)
    * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
 * [Behavior Questions](behavior_questions.md)

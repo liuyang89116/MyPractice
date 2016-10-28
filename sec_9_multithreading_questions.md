@@ -20,7 +20,8 @@ The join() method waits for a thread to die. In other words, it causes the curre
 ###5) What is difference between wait() and sleep() method?
 ![](sec2_31.png)
 
-
+###6) Is it possible to start a thread twice?
+**No**, there is no possibility to start a thread twice. If we does, it throws an exception.
 
 
 

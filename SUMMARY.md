@@ -191,7 +191,7 @@
    * [Sec 6: Garbage Collection and I/O Questions](sec_6_garbage_collection.md)
    * [Sec 7: Serialization, Networking and Reflection Questions](sec_7_serialization,_networking_and_reflection_que.md)
    * [Sec 8: Miscellaneous Questions](sec_8_miscellaneous_questions.md)
-   * Sec 9: Multithreading Questions
+   * [Sec 9: Multithreading Questions](sec_9_multithreading_questions.md)
 * [All Chapters Summary](all_chapters_summary.md)
    * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
 * [Behavior Questions](behavior_questions.md)

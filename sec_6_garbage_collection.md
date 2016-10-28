@@ -30,10 +30,12 @@ The purpose of the Runtime class is to provide access to the Java runtime system
 ###124)How will you invoke any external process in Java?
 By Runtime.getRuntime().exec(?) method.
 
+###125)What is the difference between the Reader/Writer class hierarchy and the InputStream/OutputStream class hierarchy?
+The Reader/Writer class hierarchy is **character-oriented**, and the InputStream/OutputStream class hierarchy is **byte-oriented**.
 
 
-
-
+###126)What an I/O filter?
+An I/O filter is an object that reads from one stream and writes to another, usually altering the data in some way as it is passed from one stream to another.
 
 
 

@@ -31,11 +31,14 @@ finally block will not be executed if program exits(either by calling System.exi
 ![](sec2_22.png)
 
 
+###81) Can an exception be rethrown?
+Yes.
 
+###82) Can subclass overriding method declare an exception if parent class method doesn't throw an exception ?
+Yes but only unchecked exception not checked.
 
-
-
-
+###83) What is exception propagation ?
+Forwarding the exception object to the invoking method is known as exception propagation.
 
 
 

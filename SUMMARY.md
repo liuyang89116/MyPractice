@@ -187,7 +187,7 @@
    * [Sec 2: OOP Concepts](sec_2_oop_concepts.md)
    * [Sec 3: Exception Handling](sec3_exception_handling.md)
    * [Sec 4: String Handling](sec_4_string_handling.md)
-   * Sec 5: Nested Classes and Interfaces
+   * [Sec 5: Nested Classes and Interfaces](sec_5_nested_classes_and_interfaces.md)
 * [All Chapters Summary](all_chapters_summary.md)
    * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
 * [Behavior Questions](behavior_questions.md)

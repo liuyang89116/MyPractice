@@ -44,3 +44,20 @@ nums[size] = nums[i];
 ```java
 nums[++size] = nums[i];
 ```
+3. 开始 size 是作为指针使用的，最后的返回值是真正的 “size”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

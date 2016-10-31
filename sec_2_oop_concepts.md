@@ -26,6 +26,7 @@ The default constructor provides the default values to the objects. The java com
 * static variable is used to refer the **common property of all objects** (that is not unique for each object) e.g. company name of employees,college name of students etc.
 * static variable **gets memory only once** in class area at the time of class loading.  
 (1) **Program of counter without static variable**
+
 ![](sec2_1.png)
 
 **(2) Program of counter by static variable**

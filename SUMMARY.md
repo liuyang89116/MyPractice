@@ -201,6 +201,6 @@
    * [Biggest problems in working with others](biggest_problems_in_working_with_others.md)
    * [Project 1: Apartment Finder Website](project1_apartment_finder_website.md)
    * [Project 2: Mini UNIX Shell](project_2_mini_unix_shell.md)
-   * Project 3: 911 Call Data Mining
+   * [Project 3: 911 Call Data Mining](project_3_911_call_data_mining.md)
    * Project 4: Andriod Weather Forecast App
 

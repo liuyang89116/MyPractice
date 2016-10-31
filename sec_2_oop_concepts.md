@@ -137,6 +137,20 @@ Yes.
 ###44) Difference between method Overloading and Overriding.
 ![](sec2_15.png)
 
+###举例说明 overriding Vs. overloading
+```java
+class Vehicle {
+    void run() {
+        System.out.println("Vihicle can run.");
+    }
+}
+
+class Bike extends Vehicle {
+    void run() {
+        System.out.println("Bike can run at 20 miles / hour");
+    }
+}
+```
 
 
 ###45) Can you have virtual functions in Java?

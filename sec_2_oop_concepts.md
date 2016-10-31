@@ -128,7 +128,7 @@ If a subclass provides a specific implementation of a method that is already pro
 **No**, you can't override the static method because they are the part of class not object.
 
 ###42) Why we cannot override static method?
-It is because the static method is the part of class and it is bound with class whereas instance method is bound with object and static gets memory in class area and instance gets memory in heap.
+It is because the static method is the part of class and it is bound with class whereas instance method is bound with object and **static gets memory in class area** and **instance gets memory in heap**.
 
 ###43) Can we override the overloaded method?
 Yes.

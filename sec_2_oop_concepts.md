@@ -199,6 +199,44 @@ Yes, such as, public static final void main(String[] args){}.
 ###54) Can you achieve Runtime Polymorphism by data members?
 No.
 
+###举例说明多态
+```java
+class Animal {
+    public void eat() {}
+}
+
+class Dog extends Animal {
+    public void eat() {}
+    
+    public void watchDoor() {
+    
+    }
+}
+
+class Cat extends Animal {
+    public void eat() {}
+    
+    public void playGame() {}
+}
+
+class Demo {
+    public static void main(String[] args) {
+       Animal a = new Dog();
+       a.eat();
+       // 内存中是狗
+       Dog d = (Dog) a;
+       d.eat();
+       d.watchDoor();
+       
+       // 内存中是猫
+       a = new cat();
+       Cat c = (Cat) a;
+       c.eat();
+       c.playGame();
+    } 
+}
+```
+
 ###55) What is the difference between static binding and dynamic binding?
 In case of static binding type of object is determined at compile time whereas in dynamic binding type of object is determined at runtime.
 

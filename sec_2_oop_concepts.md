@@ -107,6 +107,7 @@ The object cloning is used to create the exact copy of an object.
 
 ###37) What is method overloading?
 If a class have multiple methods by same name but different parameters, it is known as Method Overloading. It **increases the readability** of the program.
+
 ![](sec2_12.png)
 
 ###38) Why method overloading is not possible by changing the return type in java?

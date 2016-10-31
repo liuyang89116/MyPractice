@@ -59,7 +59,7 @@ Program compiles. But at runtime throws an error "**NoSuchMethodError**".
 
 
 ###27) What is this in java?
-It is a keyword that that refers to the current object.
+It is a keyword that that refers to the current object.  
 (1) **the problem without this keyword**
 
 ![](sec2_7.png)

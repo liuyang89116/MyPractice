@@ -249,7 +249,7 @@ Abstraction lets you focus on what the object does instead of how it does it.
 Abstraction hides the implementation details whereas encapsulation wraps code and data into a single unit.
 
 ###58) What is abstract class?
-A class that is declared as abstract is known as abstract class. It needs to be extended and its method implemented. It cannot be instantiated.
+A class that is declared as abstract is known as abstract class. It needs to be extended and its method implemented. **It cannot be instantiated**.
 
 ###59) Can there be any abstract method without abstract class?
 **No**, if there is any abstract method in a class, that class must be abstract.

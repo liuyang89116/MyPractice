@@ -100,7 +100,7 @@ It is a keyword that refers to the immediate parent class object.
 
 
 ###35) Can you use this() and super() both in a constructor?
-No. Because super() or this() must be the first statement.
+**No**. Because super() or this() must be the first statement.
 
 ###36)What is object cloning?
 The object cloning is used to create the exact copy of an object.

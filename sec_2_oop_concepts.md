@@ -44,6 +44,7 @@ The default constructor provides the default values to the objects. The java com
 
 ###22) Why main method is static?
 Because object is not required to call static method if It were non-static method,jvm creats object first then call main() method that will lead to the problem of extra memory allocation.
+
 ![](sec2_5.png)
 
 ###24) Can we execute a program without main() method?

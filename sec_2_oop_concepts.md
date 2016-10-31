@@ -34,7 +34,7 @@ The default constructor provides the default values to the objects. The java com
 
 
 ###21) What is static method?
-* A static method belongs to the class rather than object of a class.
+* A static method **belongs to the class** rather than object of a class.
 * A static method can be invoked without the need for creating an instance of a class.
 * static method can access static data member and can change the value of it.
 ![](sec2_3.png)

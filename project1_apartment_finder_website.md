@@ -1,4 +1,4 @@
-# Project1: Apartment Finder Website
+# Project 1: Apartment Finder Website
 
 ##challenges:  
 1. **Code resuable**: make the code clean and easy to maintain. For the MVC based architecture, it is straightforward to implement different parts. However, it takes time to think about how to make the code succinct.  

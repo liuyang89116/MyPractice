@@ -15,7 +15,7 @@ The default constructor provides the default values to the objects. The java com
 ###17) Does constructor return any value?
 **yes**, that is current instance (You cannot use return type yet it returns a value).
 
-###18)Is constructor inherited?
+###18) Is constructor inherited?
 **No**, constructor is not inherited.
 
 ###19) Can you make a constructor final?

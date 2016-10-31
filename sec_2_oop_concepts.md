@@ -164,6 +164,7 @@ Now, since java5, it is possible to override any method by changing the return t
 ###47) What is final variable?
 If you make any variable as final, you cannot change the value of final variable(It will be constant).
 
+
 ![](sec2_16.png)
 
 ###48) What is final method?

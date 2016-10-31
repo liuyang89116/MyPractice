@@ -65,6 +65,7 @@ It is a keyword that that refers to the current object.
 ![](sec2_7.png)
 
 (2) **Solution of the above problem by this keyword**
+
 ![](sec2_8.png)
 
 ###28)What is Inheritance?

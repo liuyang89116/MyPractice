@@ -114,7 +114,7 @@ If a class have multiple methods by same name but different parameters, it is kn
 Because of ambiguity.
 
 ###39) Can we overload main() method?
-Yes, You can have many main() methods in a class by overloading the main method.
+Yes, you can have many main() methods in a class by overloading the main method.
 ![](sec2_13.png)
 
 

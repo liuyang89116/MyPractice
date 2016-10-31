@@ -1,6 +1,6 @@
 # Sec3: Exception Handling
 ###73) What is Exception Handling?
-Exception Handling is a mechanism to handle runtime errors.It is mainly used to handle checked exceptions.
+Exception Handling is a mechanism to **handle runtime errors**.It is mainly used to handle checked exceptions.
 
 ###74) What is difference between Checked Exception and Unchecked Exception?
 **1)Checked Exception**  

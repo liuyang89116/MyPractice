@@ -242,7 +242,7 @@ In case of static binding type of object is determined at compile time whereas i
 
 
 ###56) What is abstraction?
-Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+Abstraction is a process of hiding the implementation details and **showing only functionality** to the user.
 Abstraction lets you focus on what the object does instead of how it does it.
 
 ###57) What is the difference between abstraction and encapsulation?

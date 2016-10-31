@@ -95,6 +95,7 @@ Pointer is a variable that refers to the memory address. They are not used in ja
 It is a keyword that refers to the immediate parent class object.
 
 ![](sec2_10.png)
+
 ![](sec2_11.png)
 
 

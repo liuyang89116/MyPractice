@@ -4,7 +4,7 @@
 Garbage collection is a process of **reclaiming the runtime unused objects**.It is performed for memory management.
 
 ###118) What is gc()?
-gc() is a daemon thread.gc() method is defined in System class that is used to send request to JVM to perform garbage collection.
+gc() is a daemon (守护进程) thread.gc() method is defined in System class that is used to send request to JVM to perform garbage collection.
 
 ###119) What is the purpose of finalize() method?
 finalize() method is invoked just before the object is garbage collected.It is used to **perform cleanup processing**.

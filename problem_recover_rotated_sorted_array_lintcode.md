@@ -71,8 +71,11 @@ private void reverse(ArrayList<Integer> nums, int start, int end) {
         return;
 }
 ```
-
-
+3. 防止越界
+```java
+for (int index = 0; index < nums.size() - 1; index++)
+```
+虽然在中间的某个地方就会找到分界点，但是始终要考虑越界的问题！否则会报错的。
 
 
 

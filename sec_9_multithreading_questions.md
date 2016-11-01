@@ -9,7 +9,7 @@ Multithreading is a process of executing multiple threads simultaneously. Its ma
 ###2) What is thread?
 A thread is a lightweight subprocess.It is a separate path of execution.It is called separate path of execution because each thread runs in a separate stack frame.
 
-###3)What is the difference between preemptive scheduling and time slicing?
+###3) What is the difference between preemptive scheduling and time slicing?
 Under **preemptive scheduling**, the highest priority task executes until it enters the waiting or dead states or a higher priority task comes into existence.   
 Under **time slicing**, a task executes for a predefined slice of time and then reenters the pool of ready tasks. The scheduler then determines which task should execute next, based on priority and other factors.
 

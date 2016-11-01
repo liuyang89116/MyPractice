@@ -37,15 +37,17 @@ Two objects, one in string constant pool and other in non-pool(heap).
 
 
 ###90) What is the basic difference between string and stringbuffer object?
-String is an **immutable** object. **StringBuffer** is a mutable object.
+String is an **immutable** object. **StringBuffer** is a mutable object.  
 
 
 ###91) What is the difference between StringBuffer and StringBuilder ?
 StringBuffer is **synchronized** whereas StringBuilder is not **synchronized**.
+StringBuffer is **synchronized**( which means it is **thread safe** and hence you can use it when you implement threads for your methods) whereas StringBuilder is not synchronized( which implies it isn’t thread safe).
 
 
 ###92) How can we create immutable class in java ?
 We can also create immutable class by creating final class that have final data members
+
 ![](sec2_28.png)
 
 

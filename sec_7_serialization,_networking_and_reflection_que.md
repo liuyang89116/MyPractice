@@ -1,13 +1,13 @@
 # Sec 7: Serialization, Networking and Reflection Questions
 
 ###127) What is serialization?
-Serialization in java is a mechanism of writing the state of an object into a byte stream.
+Serialization in java is a mechanism of **writing the state of an object into a byte stream**.
 It is mainly used in Hibernate, RMI, JPA, EJB and JMS technologies.
 The reverse operation of serialization is called deserialization.
 
 ![](sec2_30.png)
 ###128) What is Deserialization?
-Deserialization is the process of reconstructing the object from the serialized state.It is the reverse operation of serialization.
+Deserialization is the process of reconstructing the object from the serialized state. It is the reverse operation of serialization.
 
 ###129) What is transient keyword?
 If you define any data member as transient,it will not be serialized.

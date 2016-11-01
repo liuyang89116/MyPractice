@@ -41,8 +41,7 @@ public class Solution {
             }
             swap(nums, i, j);
         }
-        swa
-        p(nums, left, j);
+        swap(nums, left, j);
         return j;
     }
     

@@ -15,7 +15,8 @@ There are two ways to create the string object, by string literal and by new key
 
 ![](sec2_24.png)
 
-**2) By new keyword**
+**2) By new keyword**  
+
 ![](sec2_25.png)
 
 ###87) How many objects will be created in the following code?

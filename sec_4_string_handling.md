@@ -6,12 +6,13 @@ The simple meaning of immutable is unmodifiable or unchangeable. Once string obj
 ![](sec2_23.png)
 
 ###85) Why string objects are immutable in java?
-Because java uses the concept of string literal. Suppose there are 5 reference variables,all referes to one object "sachin".If one reference variable changes the value of the object, it will be affected to all the reference variables. That is why string objects are immutable in java.
+Because java uses the concept of **string literal**. Suppose there are 5 reference variables,all referes to one object "sachin".If one reference variable changes the value of the object, it will be affected to all the reference variables. That is why string objects are immutable in java.
 
 
 ###86) How many ways we can create the string object?
-There are two ways to create the string object, by string literal and by new keyword.
+There are two ways to create the string object, by string literal and by new keyword.  
 **1) String Literal**
+
 ![](sec2_24.png)
 
 **2) By new keyword**

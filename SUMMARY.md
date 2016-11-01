@@ -202,5 +202,5 @@
    * [Project 1: Apartment Finder Website](project1_apartment_finder_website.md)
    * [Project 2: Mini UNIX Shell](project_2_mini_unix_shell.md)
    * [Project 3: 911 Call Data Mining](project_3_911_call_data_mining.md)
-   * Project 4: Andriod Weather Forecast App
+   * [Project 4: Andriod Weather Forecast App](project_4_andriod_weather_forecast_app.md)
 

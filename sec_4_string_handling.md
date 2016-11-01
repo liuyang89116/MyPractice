@@ -31,7 +31,8 @@ To make Java more memory efficient (because no new objects are created if it exi
 
 ###89)How many objects will be created in the following code?
 
-![](sec2_27.png)
+![](sec2_27.png)   
+
 Two objects, one in string constant pool and other in non-pool(heap).
 
 

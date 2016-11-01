@@ -108,7 +108,14 @@ return j;
 ```
 ![](KthLargestElement2.png)
 
-
+4. 考虑好 left 和 right 的移动
+```java
+left = position + 1;
+```
+```java
+right = position - 1;
+```
+我当时写的是 ```left++```和```right--```，很明显这是有问题的。position 决定的是第 k 个元素的精确位置，比他小的都在左边，比他大的都在右边。
 
 
 

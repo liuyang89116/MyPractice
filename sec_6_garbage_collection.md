@@ -12,7 +12,7 @@ finalize() method is invoked just before the object is garbage collected.It is u
 ###120) Can an unrefrenced objects be refrenced again?
 Yes.
 
-###121)What kind of thread is the Garbage collector thread?
+###121) What kind of thread is the Garbage collector thread?
 Daemon thread.
 
 ###122)What is difference between final, finally and finalize?

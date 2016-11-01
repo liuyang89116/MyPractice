@@ -23,7 +23,7 @@ There are two ways to create the string object, by string literal and by new key
 
 ![](sec2_26.png)
 
-Only one object.
+**Only one** object.
 
 
 ###88) Why java uses the concept of string literal?

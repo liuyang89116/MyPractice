@@ -106,7 +106,7 @@ swap(nums, left, j);
 // 找到 partition 位置
 return j;
 ```
-
+![](KthLargestElement2.png)
 
 
 

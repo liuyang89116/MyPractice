@@ -21,7 +21,7 @@ Daemon thread.
 
 **-final**: final is a keyword, final can be variable, method or class.You, can't change the value of final variable, can't override final method, can't inherit final class.  
 **-finally**: finally block is used in exception handling. finally block is always executed.  
-**-finalize()**:finalize() method is used in garbage collection.finalize() method is invoked just before the object is garbage collected.The finalize() method can be used to perform any cleanup processing.
+**-finalize()**: finalize() method is used in garbage collection.finalize() method is invoked just before the object is garbage collected.The finalize() method can be used to perform any cleanup processing.
 
 ###123) What is the purpose of the Runtime class?
 The purpose of the Runtime class is to provide access to the Java runtime system.

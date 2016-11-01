@@ -1,6 +1,6 @@
 # Sec 5: Nested Classes and Interfaces
 
-###94)What is nested class?
+###94) What is nested class?
 A class which is declared inside another class is known as nested class. There are 4 types of nested class member inner class, local inner class, annonymous inner class and static nested class.
 
 

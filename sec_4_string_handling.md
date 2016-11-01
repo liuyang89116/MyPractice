@@ -2,6 +2,7 @@
 
 ###84) What is the meaning of immutable in terms of String?
 The simple meaning of immutable is unmodifiable or unchangeable. Once string object has been created, its value can't be changed.
+
 ![](sec2_23.png)
 
 ###85) Why string objects are immutable in java?

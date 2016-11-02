@@ -197,7 +197,7 @@
    * [Sec 10: Java Collection Questions](sec_10_java_collection_questions.md)
 * [Basics of Sorting](basics_of_sorting.md)
    * [Bubble Sort](bubble_sort.md)
-   * Selection Sort
+   * [Selection Sort](selection_sort.md)
 * [Behavior Questions](behavior_questions.md)
    * [Introduction to yourself](introduction_to_yourself.md)
    * [Why change Physics to CS](why_change_physics_to_cs.md)

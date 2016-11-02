@@ -182,6 +182,8 @@
    * [Problem 242: Valid Anagram](problem_242_valid_anagram.md)
    * [Problem 349: Intersection of Two Arrays](problem_349_intersection_of_two_arrays.md)
    * [Problem 387: First Unique Character in a String](problem_387_first_unique_character_in_a_string.md)
+* [All Chapters Summary](all_chapters_summary.md)
+   * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
 * [Core Java Interview Questions](core_java_interview_questions.md)
    * [Sec 1: Basics of Java Questions](sec_1_basics_of_java_questions.md)
    * [Sec 2: OOP Concepts](sec_2_oop_concepts.md)
@@ -193,8 +195,6 @@
    * [Sec 8: Miscellaneous Questions](sec_8_miscellaneous_questions.md)
    * [Sec 9: Multithreading Questions](sec_9_multithreading_questions.md)
    * [Sec 10: Java Collection Questions](sec_10_java_collection_questions.md)
-* [All Chapters Summary](all_chapters_summary.md)
-   * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
 * Basics of Sorting
 * [Behavior Questions](behavior_questions.md)
    * [Introduction to yourself](introduction_to_yourself.md)

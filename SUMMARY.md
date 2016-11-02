@@ -195,6 +195,7 @@
    * [Sec 10: Java Collection Questions](sec_10_java_collection_questions.md)
 * [All Chapters Summary](all_chapters_summary.md)
    * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
+* Basics of Sorting
 * [Behavior Questions](behavior_questions.md)
    * [Introduction to yourself](introduction_to_yourself.md)
    * [Why change Physics to CS](why_change_physics_to_cs.md)
@@ -203,5 +204,4 @@
    * [Project 2: Mini UNIX Shell](project_2_mini_unix_shell.md)
    * [Project 3: 911 Call Data Mining](project_3_911_call_data_mining.md)
    * [Project 4: Andriod Weather Forecast App](project_4_andriod_weather_forecast_app.md)
-* Basics of Sorting
 

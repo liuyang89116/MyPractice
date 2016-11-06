@@ -48,6 +48,7 @@ public class Solution {
 ```java
 int sum = carrier + (int)(a.charAt(pa) - '0') + (int)(b.charAt(pb) - '0');
 ```
+**注意**： 一定记得加上 ```(int)``` 来 cast 这个 char 到 int
 2. String 转 int
 ```java
 rst = String.valueOf(sum % 2) + rst;

@@ -36,6 +36,14 @@ public class Solution {
 
 1. 题目进行了更新，之前比较傻逼，返回的数组 index 和本身的 index 值差 1，需要手动再加 1 在结果上
 2. 中间的 if 判断中，只要有结果，立马就返回。
+3. 牢记 map 的方法
+map 用的是 put() 方法; set 用的是 add() 方法
+```java
+map.put(target - nums[i], i);
+```
+```java
+set.add(nums[i]);
+```
 
 
 

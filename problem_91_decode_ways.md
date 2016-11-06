@@ -37,6 +37,11 @@ public class Solution {
 ##易错点
 1. String s 和数组 nums 的 index 正好错一位  
 比如 s.charAt(0) 对应的其实是 nums[1] 
+```java
+if (s.charAt(i - 1) != '0') {
+         nums[i] = nums[i - 1];
+}
+```
 2. 循环的 upper bound
 ```java
 for (int i = 2; i <= s.length(); i++)

@@ -9,6 +9,7 @@
 * word break 要始终保证前面的元素存在一种方法是可以 break 的，这就要求每次都要判断前面的 true 或 false 值。
 
 ![](wordBreak.png)
+
 -------------------------------------------
 ```java
 public class Solution {

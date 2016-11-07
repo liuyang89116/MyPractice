@@ -76,7 +76,7 @@ String word = s.substring(lastword + 1, i);
 String word = s.substring(i - lastword, i);
 ```
 原因就是 lastword 有可能会溢出的，比如一个字母作为单词的情况，lastword + 1 就溢出了。
-
+另外，substring 方法：**后面的 string 不大写！**
 
 
 

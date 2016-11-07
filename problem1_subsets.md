@@ -21,7 +21,8 @@ public class Solution {
             return rst;
         }
         
-        Arrays.sort(nums);
+        // 这道题里是否 sort 数组不重要
+        // Arrays.sort(nums);
         helper(nums, path, 0, rst);
         return rst;
     }

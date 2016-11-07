@@ -78,3 +78,24 @@ if (root.left != null && left.max 便便>= root.val || root.right != null && rig
 ```
 注意看这里是```root.left != null```和```left.max >= root.val```！  
 而我错就错在写成了```left.max >= root.val```！这种情况下，当 left 本身为空的时候，直接就会出错。
+3. **指代对象不同**
+```java
+if (root.left != null && left.max 便便>= root.val || root.right != null && right.min <= root.val) {
+       return new ResultType(false, 0, 0);
+}
+```
+这里是```root.left```，和```left```是**两个东西**！  
+```left```指的是 ResultType；而```root.left```是判断树的左边有没有东西！
+
+
+
+
+
+
+
+
+
+
+
+
+

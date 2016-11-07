@@ -8,6 +8,7 @@
 * 这道题的思路类似于Palindrome Partitioning II。不过有不同的一点是，他加入了maxLength这个trick，只比到最大的长度就可以了。
 * word break 要始终保证前面的元素存在一种方法是可以 break 的，这就要求每次都要判断前面的 true 或 false 值。
 
+![](wordBreak.png)
 -------------------------------------------
 ```java
 public class Solution {

@@ -68,6 +68,18 @@ while (i < num3.length - 1 && num3[i] == 0) {
 ```java
 Character.getNumericValue(num1.charAt(i))
 ```
+5. 理清思路，注意两次 carrier 赋值和归 0 的位置
+```java
+for (i = num1.length() - 1; i >= 0; i--) {
+          carrier = 0;
+          for (j = num2.length() - 1; j >= 0; j--) {
+               product = carrier + rst[i + j + 1] + Character.getNumericValue(num1.charAt(i)) * Character.getNumericValue(num2.charAt(j));
+               rst[i + j + 1] = product % 10;
+               carrier = product / 10;
+          }
+          rst[i + j + 1] = carrier;
+}
+```
 
 
 

@@ -68,7 +68,8 @@ if (root == null) {
        return new ResultType(true, Integer.MIN_VALUE, Integer.MAX_VALUE);
 }
 ```
-这里的 min 和 max 跟 ResultType 里正好是相反的！原因是为了能不停地迭代，要判断 max，那开始就设成 min，这样能不停地往下走。
+* 这里的 min 和 max 跟 ResultType 里正好是相反的！原因是为了能不停地迭代，要判断 max，那开始就设成 min，这样能不停地往下走。
+* root 为空，不代表整个树不是搜索树，所以空结点要返回一个 true；另外一方面，这个空节点的最大最小值不能影响整个树的结构，所以我们把最小值设成最大，最大值设成最小。
 
 2. 条件判断，**非常易错**
 ```java

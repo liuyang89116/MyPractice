@@ -80,7 +80,7 @@ for (i = num1.length() - 1; i >= 0; i--) {
           rst[i + j + 1] = carrier;
 }
 ```
-
+每换一次乘数，carrier 就要清 0.
 
 
 

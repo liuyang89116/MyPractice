@@ -10,6 +10,43 @@
 
 -------
 ```java
+/* 
+    非最优解法，有额外空间
+*/
+public class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        List<String> path = new ArrayList<String>();
+        List<List<String>> rst = new ArrayList<>();
+        if (strs == null || strs.length == 0) {
+            return rst;
+        }
+        
+        HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
+        for (String s : strs) {
+            char[] arr = s.toCharArray();
+            Arrays.sort(arr);
+            String key = new String(arr);
+            if (!map.containsKey(key)) {
+                map.put(key, new ArrayList<String>());
+            } 
+            map.get(key).add(s);
+        }
+        
+        for (String s : map.keySet()) {
+            path = new ArrayList<String>();
+            path = map.get(s);
+            Collections.sort(path);
+            rst.add(path);
+        }
+        
+        return rst;
+        
+    }
+}
+
+```
+
+```java
 public class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<String> path = new ArrayList<String>();

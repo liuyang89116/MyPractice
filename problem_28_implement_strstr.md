@@ -42,15 +42,9 @@ if (j == needle.length()) {
 循环完之后，j 是length() - 1 的，但是跳出循环之前还得再判断一次！这次的时候，j == length() - 1。
 2. 循环 haystack 的时候，是在 i 的基础上，i + j
 3. 第一次出现是说第一次出现的“开头”，所以返回的是 i
-
-
-
-
-
-
-
-
-
-
-
+4. corner cases
+```java
+for (int i = 0; i <= haystack.length() - needle.length(); i++)
+```
+按理说 i 循环到 ```i < haystack.length()```就可以了，但是，如果两个字符串都是空集的时候，就会报错了。因为没有循环到空字符串，直接跳出，返回 -1
 

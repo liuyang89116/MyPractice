@@ -113,8 +113,14 @@ map.get(hash).add(str);
 ``` 
 这里是其实是需要解释一下的：首先 map 的格式是这样的 ```HashMap<Integer, ArrayList<String>>```，key 是 Integer，value 是 ```ArrayList<String>```，所以当 ```map.get(hash)```的时候，得到的其实是一个 ArrayList，再往里面加东西的时候，用 add() 方法
 
-
-
+4. 逻辑结构
+```java
+if (!map.containsKey(hash)) {
+       map.put(hash, new ArrayList<String>());
+}
+map.get(hash).add(str);
+``` 
+之前用了 if - else 的结构，导致出现错误。这里不是两者取其一的问题，而是先判断有没有这个 key，没有的话先构造一个 key，然后再把字符串加进去。
 
 
 

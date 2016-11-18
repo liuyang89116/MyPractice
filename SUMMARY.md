@@ -185,7 +185,7 @@
    * [Problem 242: Valid Anagram](problem_242_valid_anagram.md)
    * [Problem 349: Intersection of Two Arrays](problem_349_intersection_of_two_arrays.md)
    * [Problem 387: First Unique Character in a String](problem_387_first_unique_character_in_a_string.md)
-   * Problem 334: Increasing Triplet Subsequence
+   * [Problem 334: Increasing Triplet Subsequence](problem_334_increasing_triplet_subsequence.md)
 * [All Chapters Summary](all_chapters_summary.md)
    * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
 * [Core Java Interview Questions](core_java_interview_questions.md)

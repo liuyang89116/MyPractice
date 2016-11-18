@@ -5,6 +5,9 @@
 ---------
 ##思路
 * 这道题用 BFS 搜索，找到第一个元素，然后依次替换每一个字母，看是否在字典里
+* 用 queue 来实现 BFS，遍历每一个元素。
+* 用一个 HashSet 来 track 是否访问过此元素
+* 每一次找 nextWord 都是对当前的 word 做一个改动 
 
 ----------
 ```java
@@ -21,13 +24,12 @@ public class Solution {
         wordList.add(endWord);
         
         HashSet<String> hs = new HashSet<String>();
-        hs.add(beginWord);
         Queue<String> queue = new LinkedList<String>();
+        hs.add(beginWord);
         queue.offer(beginWord);
-        
-        int length = 1;
+        int count = 1; 
         while (!queue.isEmpty()) {
-            length++;
+            count++;
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 String word = queue.poll();
@@ -36,13 +38,14 @@ public class Solution {
                         continue;
                     }
                     if (nextWord.equals(endWord)) {
-                        return length;
+                        return count;
                     }
-                    
                     hs.add(nextWord);
                     queue.offer(nextWord);
                 }
+        
             }
+            
         }
         
         return 0;
@@ -67,10 +70,11 @@ public class Solution {
     
     private String replace(String word, int index, char c) {
         char[] arr = word.toCharArray();
-        arr[index]= c;
+        arr[index] = c;
         return new String(arr);
     }
 }
+
 ```
 -------
 ##易错点
@@ -96,7 +100,7 @@ for (char c = 'a'; c <= 'z'; c++) {
 3. 注意是 equals 方法比较，而不是 “==”
 ```java
 if (nextWord.equals(endWord)) {
-       return length;
+       return count;
 }
 ```
 

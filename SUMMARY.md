@@ -41,6 +41,7 @@
    * [Problem 4: Median of Two Sorted Arrays](problem_4_median_of_two_sorted_arrays.md)
    * [Problem 199: Binary Tree Right Side View](problem_199_binary_tree_right_side_view.md)
    * [Problem 230: Kth Smallest Element in a BST](problem_230_kth_smallest_element_in_a_bst.md)
+   * Problem 29: Divide Two Integers
 * [Chapter 3 Binary Tree (BFS, DFS)](chapter_3_binary_tree_bfs,_dfs.md)
    * [Summary 1: DFS Template](summary_1_dfs_template.md)
    * [Problem: Partition Array (LintCode)](problem_31lintcode_partition_array.md)

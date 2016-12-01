@@ -23,6 +23,7 @@ public class Solution {
                 nums[i] = nums[i - 1];
             }
             
+            // 得到两位数的方法
             int twoDigits = (s.charAt(i - 2) - '0') * 10 + (s.charAt(i - 1) - '0');
             if (twoDigits >= 10 && twoDigits <= 26) {
                 nums[i] += nums[i - 2];

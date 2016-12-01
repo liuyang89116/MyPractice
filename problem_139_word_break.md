@@ -22,7 +22,8 @@ public class Solution {
         // 动态规划的数组的 size 通常要加 1,因为之前有个 base
         boolean[] canSegment = new boolean[s.length() + 1];
         canSegment[0] = true;
-        for (int i = 1; i <= s.length(); i++) {
+        for (int i = 1; i <= s.length(); i++) { // dp 的循环一定是 <=，
+                                                // 因为他的 size 比原来多一个
             canSegment[i] = false;
             for (int lastWord = 1; lastWord <= maxLength && lastWord <= i; lastWord++) {
                 if (!canSegment[i - lastWord]) {

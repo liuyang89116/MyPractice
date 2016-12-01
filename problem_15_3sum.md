@@ -2,7 +2,6 @@
 
 > https://leetcode.com/problems/3sum/
 
-* tag: facebook
 ----------
 ##复杂度
 * 这篇文章分析得很好

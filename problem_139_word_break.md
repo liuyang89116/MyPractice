@@ -19,6 +19,7 @@ public class Solution {
         }
         
         int maxLength = getMaxLength(wordDict);
+        // 动态规划的数组的 size 通常要加 1,因为之前有个 base
         boolean[] canSegment = new boolean[s.length() + 1];
         canSegment[0] = true;
         for (int i = 1; i <= s.length(); i++) {

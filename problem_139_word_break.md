@@ -24,8 +24,10 @@ public class Solution {
         canSegment[0] = true;
         for (int i = 1; i <= s.length(); i++) { // dp 的循环一定是 <=，
                                                 // 因为他的 size 比原来多一个
+            // 首先设成 false
             canSegment[i] = false;
             for (int lastWord = 1; lastWord <= maxLength && lastWord <= i; lastWord++) {
+                // 如果前半部分没法 break，那么就跳过，找下一个
                 if (!canSegment[i - lastWord]) {
                     continue;
                 }

@@ -189,6 +189,7 @@
    * [Problem 350: Intersection of Two Arrays II](problem_350_intersection_of_two_arrays_ii.md)
    * [Problem 387: First Unique Character in a String](problem_387_first_unique_character_in_a_string.md)
    * [Problem 334: Increasing Triplet Subsequence](problem_334_increasing_triplet_subsequence.md)
+   * Problem 325: Maximum Size Subarray Sum Equals k
 * [All Chapters Summary](all_chapters_summary.md)
    * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
 * [Core Java Interview Questions](core_java_interview_questions.md)

@@ -152,7 +152,7 @@
    * [Problem 8: String to Integer (atoi)](problem_8_string_to_integer_atoi.md)
    * [Problem 388: Longest Absolute File Path](problem_388_longest_absolute_file_path.md)
    * [Problem 288: Unique Word Abbreviation](problem_288_unique_word_abbreviation.md)
-   * Problem 161: One Edit Distance
+   * [Problem 161: One Edit Distance](problem_161_one_edit_distance.md)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
    * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
    * [Problem 66: Plus One](problem_66_plus_one.md)

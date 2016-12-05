@@ -65,7 +65,7 @@
    * [Problem 257: Binary Tree Paths](problem_257_binary_tree_paths.md)
    * [Problem 173: Binary Search Tree Iterator](problem_173_binary_search_tree_iterator.md)
    * [Problem 314: Binary Tree Vertical Order Traversal](problem_314_binary_tree_vertical_order_traversal.md)
-   * Problem 285: Inorder Successor in BST
+   * [Problem 285: Inorder Successor in BST](problem_285_inorder_successor_in_bst.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
    * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
    * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)

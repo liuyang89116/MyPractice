@@ -107,6 +107,7 @@
    * [Problem 20: Valid Parentheses](problem_20_valid_parentheses.md)
    * [Problem 211: Add and Search Word - Data structure design](problem_211_add_and_search_word_-_data_structure_d.md)
    * [Problem 208: Implement Trie (Prefix Tree)](problem_208_implement_trie_prefix_tree.md)
+   * Problem 341: Flatten Nested List Iterator
 * [Chapter 8 High Frequency](chapter_8_high_frequency.md)
    * [Problem 136: Single Number](problem_136_single_number.md)
    * [Problem 137: Single Number II](problem_137_single_number_ii.md)

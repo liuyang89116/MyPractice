@@ -16,7 +16,7 @@
    * [Problem 93: Restore IP Addresses](problem_93_restore_ip_addresses.md)
    * [Problem 131: Palindrome Partitioning](problem_131_palindrome_partitioning.md)
    * [Problem 31: Next Permutation](problem_31_next_permutation.md)
-   * Problem: Previous Permutation
+   * [Problem: Previous Permutation](problem_previous_permutation.md)
    * [Problem 49: Group Anagrams](problem_49_group_anagrams.md)
    * [Problem 60: Permutation Sequence](problem_60_permutation_sequence.md)
    * [Problem 130: Surrounded Regions](problem_130_surrounded_regions.md)

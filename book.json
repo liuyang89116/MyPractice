@@ -4,5 +4,9 @@
         "katex-full",
         "tags"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "tags": {
+            "placement": "top"
+        }
+    }
 }

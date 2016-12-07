@@ -11,6 +11,13 @@
 * 加新元素-call自己的方法-最后再把这个元素踢出去 
 
 ---------------------
+##复杂度
+* Time  
+$$T(n) = T(n - 1) + T(n - 2) + ... + T(1) + T(0)$$，which solves to $$T(n) = O(2^n)$$  
+So the time complexity is $$O(n2^n)$$
+
+
+
 ```java
 public class Solution {
     public List<List<Integer>> subsets(int[] nums) {

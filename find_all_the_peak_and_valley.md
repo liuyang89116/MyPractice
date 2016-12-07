@@ -1,6 +1,5 @@
 # Find all the peak and valley
 
-tags: tag1, tag2, tag3 is here
 > 技术面试 一个数组 A[i + 1] = A +/- 1; 找出有所有 peek 和 valley 的坐标
 
 ------------

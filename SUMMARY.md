@@ -202,6 +202,7 @@
    * [Problem 277: Find the Celebrity](problem_277_find_the_celebrity.md)
    * [Problem 157: Read N Characters Given Read4](problem_157_read_n_characters_given_read4.md)
 * [Facebook](facebook.md)
+   * K closest points
 * [All Chapters Summary](all_chapters_summary.md)
    * [Summary 1: Combination and Permutation](summary_1_combination_and_permutation.md)
 * [Core Java Interview Questions](core_java_interview_questions.md)

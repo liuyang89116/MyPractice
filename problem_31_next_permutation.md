@@ -24,9 +24,9 @@ public class Solution {
                         break;
                     }
                 }
-            swap(nums, i, j);
-            reverse(nums, i + 1, len - 1);
-            return;
+                swap(nums, i, j);
+                reverse(nums, i + 1, len - 1);
+                return;
             }
             
         }

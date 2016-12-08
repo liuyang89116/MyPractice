@@ -103,6 +103,7 @@
    * [Problem: k Sum (LintCode)](problem_k_sum_lintcode.md)
    * [Problem 279: Perfect Squares](problem_279_perfect_squares.md)
    * [Problem 377: Combination Sum IV](problem_377_combination_sum_iv.md)
+   * Problem 418: Sentence Screen Fitting
 * [Chapter 6 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 7 Data Structure](chapter_7_data_structure.md)
    * [Problem 155: Min Stack](problem_155_min_stack.md)

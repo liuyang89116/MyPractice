@@ -14,6 +14,12 @@
 * 可以用一个全局变量来维护 max 值，然后用一个 cur 变量来 track 进行到了哪一步。最后取最大值。
 
 --------
+##复杂度
+* Time: $$O(n)$$
+* Space: $$O(n)$$
+
+----------
+
 ```java
 /**
  * Definition for a binary tree node.

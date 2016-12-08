@@ -45,8 +45,11 @@ for (int i = 1; i < len; i++) {
         index[i] = s.charAt(i) == ' ' ? 1 : index[i - 1] - 1;
 }
 ```
-
-
+2. String join 函数
+```java
+String.join(" ", sentence)
+```
+join 函数实际上，第一个 parameter 是分隔符，比如 “-”，这里我们用的是 space。也就是说，字符串数组里的元素会被 space 连接起来。
 
 
 

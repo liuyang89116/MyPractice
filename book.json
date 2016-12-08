@@ -1,12 +1,7 @@
 {
     "plugins": [
         "-katex",
-        "katex-full",
-        "tags"
+        "katex-full"
     ],
-    "pluginsConfig": {
-        "tags": {
-            "placement": "top"
-        }
-    }
+    "pluginsConfig": {}
 }

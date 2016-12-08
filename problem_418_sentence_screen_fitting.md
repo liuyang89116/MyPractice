@@ -37,6 +37,14 @@ public class Solution {
     }
 }
 ```
+---------
+##易错点
+1. index[] 的计数是从 1 开始的
+```java
+for (int i = 1; i < len; i++) {
+        index[i] = s.charAt(i) == ' ' ? 1 : index[i - 1] - 1;
+}
+```
 
 
 

@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "-katex",
-        "katex-full"
+        "-katex"
     ],
     "pluginsConfig": {}
 }

@@ -42,7 +42,7 @@ public class ZigzagIterator {
  */
 ```
 ---
-##变形
+##Follow Up
 
 >  What if you are given k 1d vectors? How well can your code be extended to such cases?
 

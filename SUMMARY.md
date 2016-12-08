@@ -68,7 +68,7 @@
    * [Problem 314: Binary Tree Vertical Order Traversal](problem_314_binary_tree_vertical_order_traversal.md)
    * [Problem 285: Inorder Successor in BST](problem_285_inorder_successor_in_bst.md)
    * [Problem 133: Clone Graph](problem_133_clone_graph.md)
-   * Problem 298: Binary Tree Longest Consecutive Sequence
+   * [Problem 298: Binary Tree Longest Consecutive Sequence](problem_298_binary_tree_longest_consecutive_sequen.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
    * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
    * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)

@@ -116,7 +116,7 @@
    * [Problem 341: Flatten Nested List Iterator](problem_341_flatten_nested_list_iterator.md)
    * [Problem 281: Zigzag Iterator](problem_281_zigzag_iterator.md)
    * [Problem 346: Moving Average from Data Stream](problem_346_moving_average_from_data_stream.md)
-   * Problem 394: Decode String
+   * [Problem 394: Decode String](problem_394_decode_string.md)
 * [Chapter 8 High Frequency](chapter_8_high_frequency.md)
    * [Problem 136: Single Number](problem_136_single_number.md)
    * [Problem 137: Single Number II](problem_137_single_number_ii.md)

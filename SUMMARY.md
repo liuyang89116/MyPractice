@@ -206,6 +206,7 @@
    * [Problem 253: Meeting Rooms II](problem_253_meeting_rooms_ii.md)
    * [Problem 277: Find the Celebrity](problem_277_find_the_celebrity.md)
    * [Problem 157: Read N Characters Given Read4](problem_157_read_n_characters_given_read4.md)
+   * Problem 163: Missing Ranges
 * [Facebook](facebook.md)
    * [K closest points](k_closest_points.md)
    * [Find all the peak and valley](find_all_the_peak_and_valley.md)

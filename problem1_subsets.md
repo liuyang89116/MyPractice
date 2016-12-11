@@ -13,8 +13,8 @@
 ---------------------
 ##复杂度
 * Time  
-$ T(n) = T(n - 1) + T(n - 2) + ... + T(1) + T(0) $，which solves to $T(n) = O(2^n)$  
-So the time complexity is $ O(n2^n) $
+$$ T(n) = T(n - 1) + T(n - 2) + ... + T(1) + T(0) $$，which solves to $$T(n) = O(2^n)$$  
+So the time complexity is $$ O(n2^n) $$
 
 
 

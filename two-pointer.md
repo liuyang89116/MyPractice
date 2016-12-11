@@ -6,6 +6,7 @@
 
 ```
 题目归类：
+
 lc28: Implement strStr()
 
 lc3: Longest Substring Without Repeating Characters
@@ -34,6 +35,7 @@ lc20: Swap Nodes in Pairs
 
 ```
 题目分类：
+
 lc1: Two Sum
 
 lc15: 3Sum
@@ -49,6 +51,47 @@ lc75: Sort Colors
 lc42: Trapping Rain Water
 
 ```
+--------
+##(3) 两个pointers控制两个不同的数组或链表：
+一般出现在跟merge相关的题目上。
+
+```
+题目分类：
+
+lc67: Add Binary
+
+lc2: Add Two Numbers
+
+lc88: Merge Sorted Array
+
+lc21: Merge Two Sorted Lists
+
+lc43: Multiply Strings
+
+lc86: Partition List
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

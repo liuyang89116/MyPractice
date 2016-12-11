@@ -216,6 +216,7 @@
     * [Two Pointers](two-pointer.md)
     * [Permutation and Combination](permutation-and-combination.md)
     * [Basic Data Structures](basic-data-structures.md)
+    * [Binary search and Divide and Conquer](binary-search-and-divide-and-conquer.md)
 * [Core Java Interview Questions](core_java_interview_questions.md)
     * [Sec 1: Basics of Java Questions](sec_1_basics_of_java_questions.md)
     * [Sec 2: OOP Concepts](sec_2_oop_concepts.md)

@@ -217,6 +217,7 @@
     * [Permutation and Combination](permutation-and-combination.md)
     * [Basic Data Structures](basic-data-structures.md)
     * [Binary search and Divide and Conquer](binary-search-and-divide-and-conquer.md)
+    * [Binary Tree](binary-tree.md)
     * [Linked List](linked-list.md)
     * [Tree](tree.md)
 * [Core Java Interview Questions](core_java_interview_questions.md)

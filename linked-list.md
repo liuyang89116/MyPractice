@@ -31,8 +31,13 @@ lc82: Remove Duplicates from Sorted List II
 LinkedList 的题目大多自然而然使用 iteration 来解决的，但是我发现有些时候 iteration 比较容易出 bug，换成 recursion 实现更容易。面试的时候万一 iteration 卡住,可以换换 recursion 的思路。
 
 
+## dummy node
+dummy head 非常有用，可以使代码简洁很多，并且容易写 bug free 的 code。这个技巧可以大量使用。
 
 
+$$
+f
+$$
 
 
 

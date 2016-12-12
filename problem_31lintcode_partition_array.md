@@ -76,6 +76,12 @@ public class Solution {
    ```java
    return j + 1;
    ```
+----------
+##follow up
+> Quick Sort 和 Merge Sort 比较
+
+* 复杂度： Merge Sort 都是`O(nlogn)`的复杂度，而 Quick Sort 最好的情况是 `O(nlogn)`，最坏的情况会变成`O(n^2)`
+* 稳定性： Quick Sort 不是稳定排序，因为他一直在交换，交换就会丧失稳定性。但 Merge Sort 是稳定排序。
 
 
 

@@ -34,15 +34,9 @@ LinkedList 的题目大多自然而然使用 iteration 来解决的，但是我�
 ## dummy node
 dummy head 非常有用，可以使代码简洁很多，并且容易写 bug free 的 code。这个技巧可以大量使用。
 
-
-$$
-f
-$$
-
-
-
-
-
+##易错点
+* two pointers loop 完之后常常会有一个收尾的工作，比如 Add Two Numbers 需要处理 carrier > 0 的情况。
+* 在 swap 了 nodes 之后，新的 tail 需要把 next 置空，不然就出现死循环了。
 
 
 

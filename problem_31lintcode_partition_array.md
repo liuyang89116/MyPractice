@@ -19,7 +19,15 @@ All elements >= k are moved to the right
 * 说到底，思路本身其实就是设置连个指针，一头一尾。当“头大尾小”的情况发生时，首尾对调。其他情况则按兵不动，一直等到首尾都满足。
 * 这是一个for循环嵌套while循环的例子，值得好好掌握
 
---------------------------------------------------------------------
+-------------------------------------------------
+##复杂度
+* partition array 其实就是 Quick Sort 的考察。
+* Time:                  
+worst case:`O(n^2)`; best case / average case: `O(n log n)`
+* space: 原位移动，不需要额外空间
+
+----------
+
 ```java
 public class Solution {
     /**

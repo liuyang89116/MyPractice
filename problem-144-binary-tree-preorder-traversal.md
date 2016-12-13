@@ -8,6 +8,9 @@
 * preorder 是“根-左-右”，那么就先把“右” push 进去.
 
 ---------
+##复杂度
+* Time: `O(n)`
+* Space: `O(logn)`
 
 ```java
 /*

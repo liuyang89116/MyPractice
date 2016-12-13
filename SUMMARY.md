@@ -60,6 +60,7 @@
     * [Problem 108: Convert Sorted Array to Binary Search Tree](problem_108_convert_sorted_array_to_binary_search_.md)
     * [Problem 100: Same Tree](problem_100_same_tree.md)
     * [Problem 144: Binary Tree Preorder Traversal](problem-144-binary-tree-preorder-traversal.md)
+    * [Problem 94: Binary Tree Inorder Traversal](problem-94-binary-tree-inorder-traversal.md)
     * [Problem 105: Construct Binary Tree from Preorder and Inorder Traversal](problem_105_construct_binary_tree_from_preorder_an.md)
     * [Problem 106: Construct Binary Tree from Inorder and Postorder Traversal](problem_106_construct_binary_tree_from_inorder_and.md)
     * [Problem 200: Number of Islands](problem_200_number_of_islands.md)

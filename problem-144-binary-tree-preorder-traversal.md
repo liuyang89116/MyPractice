@@ -46,3 +46,36 @@ public class Solution {
     }
 }
 ```
+
+```java
+/*
+    divide and conquer
+*/
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> rst = new ArrayList<Integer>();
+        if (root == null) {
+            return rst;
+        }
+        
+        List<Integer> left = preorderTraversal(root.left);
+        List<Integer> right = preorderTraversal(root.right);
+        
+        rst.add(root.val);
+        rst.addAll(left);
+        rst.addAll(right);
+        
+        return rst;
+    }
+}
+```

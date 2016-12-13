@@ -8,6 +8,11 @@
 * 3sum 的变种，相当于是双层循环再套一遍双指针
 
 -------
+##复杂度
+* Time: `O(n^3)`
+
+---------------
+
 ```java
 public class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {

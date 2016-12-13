@@ -9,6 +9,10 @@
 -----------
 
 ```java
+/*
+    stack 解法
+*/
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,5 +45,39 @@ public class Solution {
         return rst;
     }
 }
+```
+
+```java
+/*
+    divide and conquer
+*/
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> rst =  new ArrayList<Integer>();
+        if (root == null) {
+            return rst;
+        }
+        
+        List<Integer> left = inorderTraversal(root.left);
+        List<Integer> right = inorderTraversal(root.right);
+        
+        rst.addAll(left);
+        rst.add(root.val);
+        rst.addAll(right);
+        
+        return rst;
+    }
+}
 
 ```
+

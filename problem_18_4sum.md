@@ -66,7 +66,7 @@ public class Solution {
 --------
 ##易错点
 1. 注意数组的角标，防止越界
-2. **Always sort**在处理数组之前
+2. **Always sort** 在处理数组之前
 
 
 

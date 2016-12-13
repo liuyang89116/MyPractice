@@ -9,6 +9,11 @@
 * 用两个 sum 来维护不同的值：sum，bestSum
 
 -----
+##复杂度
+* Time: `O(n^2)`
+
+------------
+
 ```java
 public class Solution {
     public int threeSumClosest(int[] nums, int target) {

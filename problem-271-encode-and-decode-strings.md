@@ -62,3 +62,42 @@ public class Codec {
 // Codec codec = new Codec();
 // codec.decode(codec.encode(strs));
 ```
+-------
+##易错点
+1. String.indexOf() 方法
+
+```java
+int slashIndex = s.indexOf("/", index);
+```
+这里 index，充当的是“起始位置”，也就是说，从这个位置开始以后看有没有 "/"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

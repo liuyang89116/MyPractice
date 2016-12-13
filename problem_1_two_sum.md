@@ -11,6 +11,11 @@
 
 -------------
 ```java
+/*
+    这是用 HashMap 做的，需要耗费额外空间。适用的情况是 Array 没有被 sort
+    Time : O(n)
+    Space: O(n)
+*/
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
@@ -30,6 +35,38 @@ public class Solution {
     }
 }
 ```
+
+
+```java
+/*
+    这种方法使用于 Array 已经被 sort 好了。可以直接用双指针扫。
+    Time: O(n)
+    Space: O(1)
+*/
+public class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
+            return new int[] {-1, -1};
+        }
+    
+        int start = 0, end = nums.length - 1;
+        while (start < end) {
+            int sum = nums[start] + nums[end]; 
+            if (sum == target) {
+                return new int[] {start, end};
+            } else if (sum < target) {
+                start++;
+            } else {
+                end--;
+            }
+        }
+        
+        return new int[] {-1, -1};
+    }
+}
+
+```
+
 
 --------
 ##易错点

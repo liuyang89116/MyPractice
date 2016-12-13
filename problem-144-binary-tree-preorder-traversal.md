@@ -10,7 +10,7 @@
 ---------
 ##复杂度
 * Time: `O(n)`
-* Space: `O(logn)`
+* Space: `O(logn)`就是栈的大小
 
 ```java
 /*

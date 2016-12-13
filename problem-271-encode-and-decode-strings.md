@@ -65,13 +65,11 @@ public class Codec {
 -------
 ##易错点
 1. String.indexOf() 方法
-
 ```java
 int slashIndex = s.indexOf("/", index);
 ```
 这里 index，充当的是“起始位置”，也就是说，从这个位置开始以后看有没有 "/"
-
-
+2. substring() 方法中，是“左闭右开”区间，注意不要搞错
 
 
 

@@ -168,6 +168,7 @@
     * [Problem 288: Unique Word Abbreviation](problem_288_unique_word_abbreviation.md)
     * [Problem 161: One Edit Distance](problem_161_one_edit_distance.md)
     * [Problem 271: Encode and Decode Strings](problem-271-encode-and-decode-strings.md)
+    * [Problem 299: Bulls and Cows](problem-299-bulls-and-cows.md)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
     * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
     * [Problem 66: Plus One](problem_66_plus_one.md)

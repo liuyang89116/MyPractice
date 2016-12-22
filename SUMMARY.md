@@ -73,6 +73,7 @@
     * [Problem 133: Clone Graph](problem_133_clone_graph.md)
     * [Problem 298: Binary Tree Longest Consecutive Sequence](problem_298_binary_tree_longest_consecutive_sequen.md)
     * [Problem 112: Path Sum](problem-112-path-sum.md)
+    * [Problem 301: Remove Invalid Parentheses](problem-301-remove-invalid-parentheses.md)
 * [Chapter 4 Linked List](chapter_4_linked_list.md)
     * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
     * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)

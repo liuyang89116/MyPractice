@@ -52,7 +52,7 @@ public class Solution {
 ##易错点
 1. 记得 return     
 dfs 最重要的就是找到退出的场景
-2. 仔细理解最后一段 reverse 的过程
+2. 仔细理解最后一段 reverse 的过程  
 ```java
 if (ch[0] == '(')
 ```

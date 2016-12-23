@@ -65,6 +65,7 @@
     * [Problem 145: Binary Tree Postorder Traversal](problem-145-binary-tree-postorder-traversal.md)
     * [Problem 105: Construct Binary Tree from Preorder and Inorder Traversal](problem_105_construct_binary_tree_from_preorder_an.md)
     * [Problem 106: Construct Binary Tree from Inorder and Postorder Traversal](problem_106_construct_binary_tree_from_inorder_and.md)
+    * [Problem 297: Serialize and Deserialize Binary Tree](problem-297-serialize-and-deserialize-binary-tree.md)
     * [Problem 200: Number of Islands](problem_200_number_of_islands.md)
     * [Problem 127:  Word Ladder](problem_127_word_ladder.md)
     * [Problem 257: Binary Tree Paths](problem_257_binary_tree_paths.md)

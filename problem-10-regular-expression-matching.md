@@ -28,4 +28,83 @@ match[i][j] = match[i - 1][j - 1]
 3）“*” 取多个之前元素，因为 i 位一定会被匹配掉，因此看 i - 1  位能否继续匹配，match[i][j] = match[i-1][j]
 三种情况有一种为 true 则 match[i][j] 为true
 ```
+-------
+
+
+
+```java
+public class Solution {
+    public boolean isMatch(String s, String p) {
+        if (s == null || p == null) {
+            return false;
+        }
+        
+        int m = s.length(), n = p.length();
+        boolean[][] dp = new boolean[m + 1][n + 1];
+        dp[0][0] = true;
+        for (int j = 2; j <= n; j++) {
+            if (p.charAt(j - 1) == '*' && dp[0][j - 2]) {
+                dp[0][j] = true;
+            }
+        }
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (p.charAt(j - 1) == '.') {
+                    dp[i][j] = dp[i - 1][j - 1];
+                }
+                if (p.charAt(j - 1) == s.charAt(i - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                }
+                if (p.charAt(j - 1) == '*') {
+                    if (p.charAt(j - 2) != s.charAt(i - 1) && p.charAt(j - 2) != '.') {
+                        dp[i][j] = dp[i][j - 2];
+                    } else {
+                        dp[i][j] = (dp[i][j - 1] || dp[i][j - 2] || dp[i - 1][j]);
+                    }
+                }
+            }
+        }
+        
+        return dp[m][n];
+    }
+}
+
+```
+----
+##易错点
+1. 2D 数组有 m + 1 和 n + 1 的大小，再循环的时候要考虑 `<=`
+2. 字符串的 index 和 数组的 index 是错一位的。     
+因为字符串是从 0 开始的，数组的 0 是一个 base，不具有实际的意义。数组记录的第 1 号位才是字符串的第一个 char 也就是字符串的 0 index。
+3. 逻辑不好理清楚，多看几遍。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

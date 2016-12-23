@@ -53,6 +53,12 @@ public class Solution {
 1. 记得 return     
 dfs 最重要的就是找到退出的场景
 2. 仔细理解最后一段 reverse 的过程
+```java
+if (ch[0] == '(')
+```
+这个是用来 check 是否是 reversed version。如果已经 reverse 过，就不用担心了，说明正反两个顺序都 check 过了。反之接着 check
+
+
 
 
 

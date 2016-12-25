@@ -44,7 +44,7 @@
     * [Problem 230: Kth Smallest Element in a BST](problem_230_kth_smallest_element_in_a_bst.md)
     * [Problem 29: Divide Two Integers](problem_29_divide_two_integers.md)
 * [Chapter 3 Binary Tree ](chapter_3_binary_tree_bfs,_dfs.md)
-    * [Summary 1: DFS Template](summary_1_dfs_template.md)
+    
     * [Problem: Partition Array \(LintCode\)](problem_31lintcode_partition_array.md)
     * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
     * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
@@ -76,6 +76,8 @@
     * [Problem 112: Path Sum](problem-112-path-sum.md)
     * [Problem 301: Remove Invalid Parentheses](problem-301-remove-invalid-parentheses.md)
 * [Chapter 4 DFS & BFS](chapter-4-dfs--bfs.md)
+    * [Summary 1: DFS Template](summary_1_dfs_template.md)
+    * [Problem: Partition Array \(LintCode\)](problem_31lintcode_partition_array.md)
 * [Chapter 5 Linked List](chapter_4_linked_list.md)
     * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
     * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)

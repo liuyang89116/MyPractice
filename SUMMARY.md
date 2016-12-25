@@ -28,8 +28,9 @@
 * [Chapter 2 Binary Search & Sorted Array](chapter_3_binary_search.md)
     * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
     * 乘方开方
-        * [Problem 231: Power of Two](problem_231_power_of_two.md)
+        * [Problem 50: Pow\(x, n\)](problem_50_powx,_n.md)
         * [Problem 69: Sqrt\(x\)](problem_69_sqrtx.md)
+        * [Problem 231: Power of Two](problem_231_power_of_two.md)
         * [Problem: Fast Power \(LintCode\)](problem_fast_power_lintcode.md)
         * [Problem 372: Super Pow](problem_372_super_pow.md)
         * [Problem 172: Factorial Trailing Zeroes](problem_172_factorial_trailing_zeroes.md)
@@ -202,7 +203,7 @@
     * [Problem 389: Find the Difference](problem_389_find_the_difference.md)
     * [Problem 13: Roman to Integer](problem_13_roman_to_integer.md)
     * [Problem 273: Integer to English Words](problem-273-integer-to-english-words.md)
-    * [Problem 50: Pow\(x, n\)](problem_50_powx,_n.md)
+    
     * [Problem 67: Add Binary](problem_67_add_binary.md)
     * [Problem 43: Multiply Strings](problem_43_multiply_strings.md)
     * [Problem 268: Missing Number](problem_268_missing_number.md)

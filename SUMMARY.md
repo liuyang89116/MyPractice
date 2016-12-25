@@ -207,7 +207,6 @@
     * [Problem 43: Multiply Strings](problem_43_multiply_strings.md)
     * [Problem 268: Missing Number](problem_268_missing_number.md)
     * [Problem 204: Count Primes](problem_204_count_primes.md)
-    * Problem 273: Integer to English Words
 * [Post Chapter 3 Array](post_chapter_3_array.md)
     * [Problem 11: Container With Most Water](problem_11_container_with_most_water.md)
     * [Problem 14: Longest Common Prefix](problem_14_longest_common_prefix.md)

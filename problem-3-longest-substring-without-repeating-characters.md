@@ -9,6 +9,29 @@
 ![](longestSubstring.png)
 
 ------
+Update: 模板做法
+
+```java
+public class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int[] map = new int[128];
+        
+        int i = 0, j = 0, count = 0, maxLen = 0;
+        while (j < s.length()) {
+            if (map[s.charAt(j++)]++ == 1) count++;
+            while (count > 0) {
+                if (map[s.charAt(i++)]-- > 1) count--;
+            }
+            
+            maxLen = Math.max(maxLen, j - i);
+        }
+        
+        return maxLen;
+    }
+}
+```
+
+
 ```java
 public class Solution {
     public int lengthOfLongestSubstring(String s) {

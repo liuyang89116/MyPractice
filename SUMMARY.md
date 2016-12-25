@@ -126,7 +126,7 @@
         * [Problem 132: Palindrome Partitioning II](problem_132_palindrome_partitioning_ii.md)
         * [Problem 139: Word Break](problem_139_word_break.md)
         * [Problem 300: Longest Increasing Subsequence](problem_300_longest_increasing_subsequence.md)
-    * Two Sequences 类型
+    * [Two Sequences 类型](two-sequences-类型.md)
         * [Problem: Longest Common Subsequence \(LintCode\)](problem_longest_common_subsequence_lintcode.md)
         * [Problem 72: Edit Distance](problem_72_edit_distance.md)
     * 背包类型

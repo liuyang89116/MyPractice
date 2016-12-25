@@ -22,7 +22,7 @@ public class Solution {
         
         //initiate
         for (int i = 0; i < n; i++) {
-            dp[n-1][i] = triangle.get(n-1).get(i);
+            dp[n - 1][i] = triangle.get(n - 1).get(i);
         }
         
         //bottom up

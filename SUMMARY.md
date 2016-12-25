@@ -175,6 +175,7 @@
     * [Sliding Window Problems](sliding-window-problems.md)
         * [Problem 76: Minimum Window Substring](problem-76-minimum-window-substring.md)
         * [Problem 159: Longest Substring with At Most Two Distinct Characters](problem-159-longest-substring-with-at-most-two-distinct-characters.md)
+        * [Problem 3: Longest Substring Without Repeating Characters](problem-3-longest-substring-without-repeating-characters.md)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
     * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
     * [Problem 66: Plus One](problem_66_plus_one.md)

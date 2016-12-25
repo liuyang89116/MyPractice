@@ -52,9 +52,6 @@
         * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
         * [Problem 111: Minimum Depth of Binary Tree](problem_111_minimum_depth_of_binary_tree.md)
         * [Problem 100: Same Tree](problem_100_same_tree.md)
-
-        
-        
     * [Problem 124: Binary Tree Maximum Path Sum](problem_124_binary_tree_maximum_path_sum.md)
     * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
     * [Problem 235: Lowest Common Ancestor of a Binary Search Tree](problem_235_lowest_common_ancestor_of_a_binary_sea.md)

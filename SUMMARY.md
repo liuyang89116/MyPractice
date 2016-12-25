@@ -160,7 +160,6 @@
     * [Problem 12: Integer to Roman](problem_12_integer_to_roman.md)
     * [Problem 28: Implement strStr\(\)](problem_28_implement_strstr.md)
     * [Problem 65: Valid Number](problem_65_valid_number.md)
-    * [Problem3: Longest Substring Without Repeating Characters](problem3_longest_substring_without_repeating_chara.md)
     * [Problem 38: Count and Say](problem_38_count_and_say.md)
     * [Problem 58: Length of Last Word](problem_58_length_of_last_word.md)
     * [Problem 5: Longest Palindromic Substring](problem_5_longest_palindromic_substring.md)

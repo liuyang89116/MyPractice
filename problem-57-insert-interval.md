@@ -34,4 +34,46 @@ public class Solution {
     }
 }
 ```
+------
+##易错点
+1. List add() 方法
+```java
+public void add(int index, E element)
+```
+```java
+intervals.add(i, newInterval);
+```
+按照 index 插入
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

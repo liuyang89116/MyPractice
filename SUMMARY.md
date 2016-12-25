@@ -43,7 +43,7 @@
     * [Problem 199: Binary Tree Right Side View](problem_199_binary_tree_right_side_view.md)
     * [Problem 230: Kth Smallest Element in a BST](problem_230_kth_smallest_element_in_a_bst.md)
     * [Problem 29: Divide Two Integers](problem_29_divide_two_integers.md)
-* [Chapter 3 Binary Tree \(BFS, DFS\)](chapter_3_binary_tree_bfs,_dfs.md)
+* [Chapter 3 Binary Tree ](chapter_3_binary_tree_bfs,_dfs.md)
     * [Summary 1: DFS Template](summary_1_dfs_template.md)
     * [Problem: Partition Array \(LintCode\)](problem_31lintcode_partition_array.md)
     * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
@@ -260,5 +260,4 @@
     * [Project 2: Mini UNIX Shell](project_2_mini_unix_shell.md)
     * [Project 3: 911 Call Data Mining](project_3_911_call_data_mining.md)
     * [Project 4: Andriod Weather Forecast App](project_4_andriod_weather_forecast_app.md)
-
 

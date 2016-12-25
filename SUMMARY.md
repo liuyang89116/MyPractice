@@ -75,6 +75,7 @@
     * [Problem 298: Binary Tree Longest Consecutive Sequence](problem_298_binary_tree_longest_consecutive_sequen.md)
     * [Problem 112: Path Sum](problem-112-path-sum.md)
     * [Problem 301: Remove Invalid Parentheses](problem-301-remove-invalid-parentheses.md)
+* [Chapter 4 DFS & BFS](chapter-4-dfs--bfs.md)
 * [Chapter 5 Linked List](chapter_4_linked_list.md)
     * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
     * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)
@@ -259,5 +260,5 @@
     * [Project 2: Mini UNIX Shell](project_2_mini_unix_shell.md)
     * [Project 3: 911 Call Data Mining](project_3_911_call_data_mining.md)
     * [Project 4: Andriod Weather Forecast App](project_4_andriod_weather_forecast_app.md)
-* [Chapter 4 DFS & BFS](chapter-4-dfs--bfs.md)
+
 

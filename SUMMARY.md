@@ -66,13 +66,9 @@
     * LinkedList 与 Binary Tree 相互转换
         * [Problem 109: Convert Sorted List to Binary Search Tree](problem_109_convert_sorted_list_to_binary_search_t.md)
         * [Problem 108: Convert Sorted Array to Binary Search Tree](problem_108_convert_sorted_array_to_binary_search_.md)
-
     * [Problem 124: Binary Tree Maximum Path Sum](problem_124_binary_tree_maximum_path_sum.md)
-    
-   
     * [Problem: Insert Node in a Binary Search Tree \(LintCode\)](problem_insert_node_in_a_binary_search_tree_lintco.md)
     * [Problem: Search Range in Binary Search Tree \(LintCode\)](problem_search_range_in_binary_search_tree_lintcod.md)
-    
     * [Problem 105: Construct Binary Tree from Preorder and Inorder Traversal](problem_105_construct_binary_tree_from_preorder_an.md)
     * [Problem 106: Construct Binary Tree from Inorder and Postorder Traversal](problem_106_construct_binary_tree_from_inorder_and.md)
     * [Problem 257: Binary Tree Paths](problem_257_binary_tree_paths.md)
@@ -80,7 +76,6 @@
     * [Problem 285: Inorder Successor in BST](problem_285_inorder_successor_in_bst.md)
     * [Problem 298: Binary Tree Longest Consecutive Sequence](problem_298_binary_tree_longest_consecutive_sequen.md)
     * [Problem 199: Binary Tree Right Side View](problem_199_binary_tree_right_side_view.md)
-    
 * [Chapter 4 DFS & BFS](chapter-4-dfs--bfs.md)
     * [Summary 1: DFS Template](summary_1_dfs_template.md)
     * [Problem: Partition Array \(LintCode\)](problem_31lintcode_partition_array.md)

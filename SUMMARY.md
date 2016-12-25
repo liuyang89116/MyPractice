@@ -46,12 +46,16 @@
     * [Problem 215: Kth Largest Element in an Array](problem_215_kth_largest_element_in_an_array.md)
     * [Problem 29: Divide Two Integers](problem_29_divide_two_integers.md)
 * [Chapter 3 Binary Tree ](chapter_3_binary_tree_bfs,_dfs.md)
-
     * 基本题
         * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
         * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
         * [Problem 111: Minimum Depth of Binary Tree](problem_111_minimum_depth_of_binary_tree.md)
         * [Problem 100: Same Tree](problem_100_same_tree.md)
+    * 各种顺序的遍历
+        * [Problem 144: Binary Tree Preorder Traversal](problem-144-binary-tree-preorder-traversal.md)
+        * [Problem 94: Binary Tree Inorder Traversal](problem-94-binary-tree-inorder-traversal.md)
+        * [Problem 145: Binary Tree Postorder Traversal](problem-145-binary-tree-postorder-traversal.md)
+
     * [Problem 124: Binary Tree Maximum Path Sum](problem_124_binary_tree_maximum_path_sum.md)
     * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
     * [Problem 235: Lowest Common Ancestor of a Binary Search Tree](problem_235_lowest_common_ancestor_of_a_binary_sea.md)
@@ -63,9 +67,6 @@
     * [Problem 109: Convert Sorted List to Binary Search Tree](problem_109_convert_sorted_list_to_binary_search_t.md)
     * [Problem 108: Convert Sorted Array to Binary Search Tree](problem_108_convert_sorted_array_to_binary_search_.md)
     
-    * [Problem 144: Binary Tree Preorder Traversal](problem-144-binary-tree-preorder-traversal.md)
-    * [Problem 94: Binary Tree Inorder Traversal](problem-94-binary-tree-inorder-traversal.md)
-    * [Problem 145: Binary Tree Postorder Traversal](problem-145-binary-tree-postorder-traversal.md)
     * [Problem 105: Construct Binary Tree from Preorder and Inorder Traversal](problem_105_construct_binary_tree_from_preorder_an.md)
     * [Problem 106: Construct Binary Tree from Inorder and Postorder Traversal](problem_106_construct_binary_tree_from_inorder_and.md)
     * [Problem 297: Serialize and Deserialize Binary Tree](problem-297-serialize-and-deserialize-binary-tree.md)
@@ -74,7 +75,7 @@
     * [Problem 285: Inorder Successor in BST](problem_285_inorder_successor_in_bst.md)
     * [Problem 298: Binary Tree Longest Consecutive Sequence](problem_298_binary_tree_longest_consecutive_sequen.md)
     * [Problem 199: Binary Tree Right Side View](problem_199_binary_tree_right_side_view.md)
-   
+    
 * [Chapter 4 DFS & BFS](chapter-4-dfs--bfs.md)
     * [Summary 1: DFS Template](summary_1_dfs_template.md)
     * [Problem: Partition Array \(LintCode\)](problem_31lintcode_partition_array.md)

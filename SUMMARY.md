@@ -48,10 +48,13 @@
 * [Chapter 3 Binary Tree ](chapter_3_binary_tree_bfs,_dfs.md)
 
     * 基本题
-    
-    * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
-    * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
-    * [Problem 111: Minimum Depth of Binary Tree](problem_111_minimum_depth_of_binary_tree.md)
+        * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
+        * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
+        * [Problem 111: Minimum Depth of Binary Tree](problem_111_minimum_depth_of_binary_tree.md)
+        * [Problem 100: Same Tree](problem_100_same_tree.md)
+
+        
+        
     * [Problem 124: Binary Tree Maximum Path Sum](problem_124_binary_tree_maximum_path_sum.md)
     * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
     * [Problem 235: Lowest Common Ancestor of a Binary Search Tree](problem_235_lowest_common_ancestor_of_a_binary_sea.md)
@@ -62,7 +65,7 @@
     * [Problem: Search Range in Binary Search Tree \(LintCode\)](problem_search_range_in_binary_search_tree_lintcod.md)
     * [Problem 109: Convert Sorted List to Binary Search Tree](problem_109_convert_sorted_list_to_binary_search_t.md)
     * [Problem 108: Convert Sorted Array to Binary Search Tree](problem_108_convert_sorted_array_to_binary_search_.md)
-    * [Problem 100: Same Tree](problem_100_same_tree.md)
+    
     * [Problem 144: Binary Tree Preorder Traversal](problem-144-binary-tree-preorder-traversal.md)
     * [Problem 94: Binary Tree Inorder Traversal](problem-94-binary-tree-inorder-traversal.md)
     * [Problem 145: Binary Tree Postorder Traversal](problem-145-binary-tree-postorder-traversal.md)

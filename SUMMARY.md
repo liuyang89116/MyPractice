@@ -131,6 +131,10 @@
     * [Problem 418: Sentence Screen Fitting](problem_418_sentence_screen_fitting.md)
     * [Problem 361: Bomb Enemy](problem_361_bomb_enemy.md)
     * [Problem 10: Regular Expression Matching](problem-10-regular-expression-matching.md)
+    * Matrix 类型
+    * Sequence 类型
+    * Two Sequences 类型
+    * 背包类型
 * [Chapter 7 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 8 Data Structure](chapter_7_data_structure.md)
     * [Problem 155: Min Stack](problem_155_min_stack.md)

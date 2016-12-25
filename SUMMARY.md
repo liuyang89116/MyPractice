@@ -114,27 +114,27 @@
         * [Problem 142: Linked List Cycle II](problem_142_linked_list_cycle_ii.md)
     * [Problem 234: Palindrome Linked List](problem_234_palindrome_linked_list.md)
 * [Chapter 6 Dynamic Programming](chapter_5_dynamic_programming.md)
-    * [Problem120: Triangle](problem120_triangle.md)
-    * [Problem 62: Unique Paths](problem_62_unique_paths.md)
-    * [Problem 63: Unique Paths II](problem_63_unique_paths_ii.md)
-    * [Problem 64: Minimum Path Sum](problem_64_minimum_path_sum.md)
-    * [Problem 70: Climbing Stairs](problem_70_climbing_stairs.md)
-    * [Problem 91: Decode Ways](problem_91_decode_ways.md)
-    * [Problem 55: Jump Game](problem_55_jump_game.md)
-    * [Problem 132: Palindrome Partitioning II](problem_132_palindrome_partitioning_ii.md)
-    * [Problem 139: Word Break](problem_139_word_break.md)
-    * [Problem 300: Longest Increasing Subsequence](problem_300_longest_increasing_subsequence.md)
-    * [Problem: Longest Common Subsequence \(LintCode\)](problem_longest_common_subsequence_lintcode.md)
-    * [Problem 152: Maximum Product Subarray](problem_152_maximum_product_subarray.md)
-    * [Problem 72: Edit Distance](problem_72_edit_distance.md)
+    * Matrix 类型
+        * [Problem120: Triangle](problem120_triangle.md)
+        * [Problem 62: Unique Paths](problem_62_unique_paths.md)
+        * [Problem 63: Unique Paths II](problem_63_unique_paths_ii.md)
+        * [Problem 64: Minimum Path Sum](problem_64_minimum_path_sum.md)
+    * Sequence 类型
+        * [Problem 70: Climbing Stairs](problem_70_climbing_stairs.md)
+        * [Problem 91: Decode Ways](problem_91_decode_ways.md)
+        * [Problem 55: Jump Game](problem_55_jump_game.md)
+        * [Problem 132: Palindrome Partitioning II](problem_132_palindrome_partitioning_ii.md)
+        * [Problem 139: Word Break](problem_139_word_break.md)
+        * [Problem 300: Longest Increasing Subsequence](problem_300_longest_increasing_subsequence.md)
+    * Two Sequences 类型
+        * [Problem: Longest Common Subsequence \(LintCode\)](problem_longest_common_subsequence_lintcode.md)
+        * [Problem 72: Edit Distance](problem_72_edit_distance.md)
+    * 背包类型
     * [Problem 279: Perfect Squares](problem_279_perfect_squares.md)
     * [Problem 418: Sentence Screen Fitting](problem_418_sentence_screen_fitting.md)
     * [Problem 361: Bomb Enemy](problem_361_bomb_enemy.md)
     * [Problem 10: Regular Expression Matching](problem-10-regular-expression-matching.md)
-    * Matrix 类型
-    * Sequence 类型
-    * Two Sequences 类型
-    * 背包类型
+    
 * [Chapter 7 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 8 Data Structure](chapter_7_data_structure.md)
     * [Problem 155: Min Stack](problem_155_min_stack.md)
@@ -165,6 +165,7 @@
         * [Problem: Minimum Subarray \(LintCode\)](problem_minimum_subarray_lintcode.md)
         * [Problem: Subarray Sum \(LintCode\)](problem_subarray_sum_lintcode.md)
         * [Problem: Subarray Sum Closest \(LintCode\)](problem_subarray_sum_closest_lintcode.md)
+        * [Problem 152: Maximum Product Subarray](problem_152_maximum_product_subarray.md)
     * Two Sum
         * [Problem 1: Two Sum](problem_1_two_sum.md)
         * [Problem 167: Two Sum II - Input array is sorted](problem_167_two_sum_ii_-_input_array_is_sorted.md)

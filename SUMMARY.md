@@ -48,6 +48,7 @@
 * [Chapter 3 Binary Tree ](chapter_3_binary_tree_bfs,_dfs.md)
     * 基本题
         * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
+        * [Problem 98: Validate Binary Search Tree](problem_98_validate_binary_search_tree.md)
         * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
         * [Problem 111: Minimum Depth of Binary Tree](problem_111_minimum_depth_of_binary_tree.md)
         * [Problem 100: Same Tree](problem_100_same_tree.md)
@@ -55,23 +56,25 @@
         * [Problem 144: Binary Tree Preorder Traversal](problem-144-binary-tree-preorder-traversal.md)
         * [Problem 94: Binary Tree Inorder Traversal](problem-94-binary-tree-inorder-traversal.md)
         * [Problem 145: Binary Tree Postorder Traversal](problem-145-binary-tree-postorder-traversal.md)
+        * [Problem 102: Binary Tree Level Order Traversal](problem_102_binary_tree_level_order_traversal.md)
+        * [Problem 314: Binary Tree Vertical Order Traversal](problem_314_binary_tree_vertical_order_traversal.md)
     * 找祖宗
         * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
         * [Problem 235: Lowest Common Ancestor of a Binary Search Tree](problem_235_lowest_common_ancestor_of_a_binary_sea.md)
     * 序列化与反序列化
         * [Problem 297: Serialize and Deserialize Binary Tree](problem-297-serialize-and-deserialize-binary-tree.md)
+    * LinkedList 与 Binary Tree 相互转换
+        * [Problem 109: Convert Sorted List to Binary Search Tree](problem_109_convert_sorted_list_to_binary_search_t.md)
+        * [Problem 108: Convert Sorted Array to Binary Search Tree](problem_108_convert_sorted_array_to_binary_search_.md)
 
-    * [Problem 124: Binary Tree Maximum Path Sum](problem_124_binary_tree_maximum_path_sum.md)    
-    * [Problem 98: Validate Binary Search Tree](problem_98_validate_binary_search_tree.md)
-    * [Problem 102: Binary Tree Level Order Traversal](problem_102_binary_tree_level_order_traversal.md)
-    * [Problem 314: Binary Tree Vertical Order Traversal](problem_314_binary_tree_vertical_order_traversal.md)
+    * [Problem 124: Binary Tree Maximum Path Sum](problem_124_binary_tree_maximum_path_sum.md)
+    
+   
     * [Problem: Insert Node in a Binary Search Tree \(LintCode\)](problem_insert_node_in_a_binary_search_tree_lintco.md)
     * [Problem: Search Range in Binary Search Tree \(LintCode\)](problem_search_range_in_binary_search_tree_lintcod.md)
-    * [Problem 109: Convert Sorted List to Binary Search Tree](problem_109_convert_sorted_list_to_binary_search_t.md)
-    * [Problem 108: Convert Sorted Array to Binary Search Tree](problem_108_convert_sorted_array_to_binary_search_.md)
+    
     * [Problem 105: Construct Binary Tree from Preorder and Inorder Traversal](problem_105_construct_binary_tree_from_preorder_an.md)
     * [Problem 106: Construct Binary Tree from Inorder and Postorder Traversal](problem_106_construct_binary_tree_from_inorder_and.md)
-    
     * [Problem 257: Binary Tree Paths](problem_257_binary_tree_paths.md)
     * [Problem 173: Binary Search Tree Iterator](problem_173_binary_search_tree_iterator.md)
     * [Problem 285: Inorder Successor in BST](problem_285_inorder_successor_in_bst.md)

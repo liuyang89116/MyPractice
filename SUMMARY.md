@@ -11,6 +11,7 @@
         * [Problem 47: Unique Permutations](problem4_unique_permutation.md)
         * [Problem 31: Next Permutation](problem_31_next_permutation.md)
         * [Problem: Previous Permutation](problem_previous_permutation.md)
+        * [Problem 60: Permutation Sequence](problem_60_permutation_sequence.md)
     * Combination
         * [Problem 39: Combination Sum](problem_39_combination_sum.md)
         * [Problem 40: Combination Sum II](problem_40_combination_sum_ii.md)
@@ -22,7 +23,6 @@
     * [Problem 93: Restore IP Addresses](problem_93_restore_ip_addresses.md)
     * [Problem 131: Palindrome Partitioning](problem_131_palindrome_partitioning.md)
     * [Problem 49: Group Anagrams](problem_49_group_anagrams.md)
-    * [Problem 60: Permutation Sequence](problem_60_permutation_sequence.md)
     * [Problem 130: Surrounded Regions](problem_130_surrounded_regions.md)
     * [Problem 79: Word Search](problem_79_word_search.md)
 * [Chapter 2 Binary Search & Sorted Array](chapter_3_binary_search.md)

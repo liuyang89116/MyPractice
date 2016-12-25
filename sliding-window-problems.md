@@ -33,4 +33,9 @@ int findSubstring(string s){
         return d;
  }
 ```
+--------
+##Algorithm
+1. Use two pointers: **start** and **end** to represent a window.
+2. Move **end** to find a valid window.
+3. When a valid window is found, move **start** to find a smaller window.
 

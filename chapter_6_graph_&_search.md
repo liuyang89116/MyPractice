@@ -1,2 +1,2 @@
-# Chapter 6 Graph & Search
+# Chapter 7 Graph & Search
 

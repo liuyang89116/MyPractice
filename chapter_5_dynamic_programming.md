@@ -1,2 +1,2 @@
-# Chapter 5 Dynamic Programming
+# Chapter 6 Dynamic Programming
 

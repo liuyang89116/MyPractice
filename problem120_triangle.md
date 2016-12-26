@@ -16,13 +16,13 @@ public class Solution {
         if (triangle == null || triangle.size() == 0) {
             return -1;
         }
-        //state: dp[x][y] = minimum path value from x,y to bottom
+        //state: dp[x][y] = minimum path value from x, y to bottom
         int n = triangle.size();
         int[][] dp = new int[n][n];
         
         //initiate
-        for (int i = 0; i < n; i++) {
-            dp[n - 1][i] = triangle.get(n - 1).get(i);
+        for (int j = 0; j < n; j++) {
+            dp[n - 1][j] = triangle.get(n - 1).get(j);
         }
         
         //bottom up

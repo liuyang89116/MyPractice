@@ -1,4 +1,4 @@
-# Problem 84: Largest Rectangle in Histogram
+![](/assets/largestRanctangle.png)# Problem 84: Largest Rectangle in Histogram
 
 > https://leetcode.com/problems/largest-rectangle-in-histogram/
 
@@ -60,6 +60,7 @@ heights[tp] * (stack.isEmpty() ? i : i - 1 - stack.peek())
 因为此时第 i 个元素还没有进栈，它算的是之前 i - 1 个元素所形成的最大面积。  
 (2) 为什么 stack 为空的时候，结果为 i ？  
 因为它相当于比之前所有的 bar 都小，才能把 stack 搬空。
+![](/assets/largestRanctangle.png)
 
 
 

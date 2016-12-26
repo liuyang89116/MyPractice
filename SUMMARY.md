@@ -136,19 +136,18 @@
     * [Problem 10: Regular Expression Matching](problem-10-regular-expression-matching.md)
 * [Chapter 7 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 8 Data Structure](chapter_7_data_structure.md)
-    * [Problem 155: Min Stack](problem_155_min_stack.md)
     * Stack & Queue
+        * [Problem 155: Min Stack](problem_155_min_stack.md)
+        * [Problem 232: Implement Queue using Stacks](problem_232_implement_queue_using_stacks.md)
     * Hash
     * Heap
     * Trie
-    * [Problem 232: Implement Queue using Stacks](problem_232_implement_queue_using_stacks.md)
     * [Problem 20: Valid Parentheses](problem_20_valid_parentheses.md)
     * [Problem 211: Add and Search Word - Data structure design](problem_211_add_and_search_word_-_data_structure_d.md)
     * [Problem 208: Implement Trie \(Prefix Tree\)](problem_208_implement_trie_prefix_tree.md)
     * [Problem 341: Flatten Nested List Iterator](problem_341_flatten_nested_list_iterator.md)
     * [Problem 281: Zigzag Iterator](problem_281_zigzag_iterator.md)
     * [Problem 346: Moving Average from Data Stream](problem_346_moving_average_from_data_stream.md)
-    
 * [Chapter 9 High Frequency](chapter_8_high_frequency.md)
     * Single Number
         * [Problem 136: Single Number](problem_136_single_number.md)

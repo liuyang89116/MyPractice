@@ -11,6 +11,30 @@
 
 
 --------------------------------------
+* Update: 这个解法更容易理解。用 max 来记录当前最远能调到的距离，如果 i < max，说明无论如何也打不到，返回 false。 
+
+```java
+public class Solution {
+    public boolean canJump(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return false;
+        }
+        
+        int max = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (i > max) return false;
+            max = Math.max(max, nums[i] + i);
+        }
+        
+        return true;
+    }
+}
+```
+
+
+
+
+
 ```java
 public class Solution {
     public boolean canJump(int[] nums) {

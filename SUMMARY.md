@@ -140,6 +140,7 @@
         * [Problem 232: Implement Queue using Stacks](problem_232_implement_queue_using_stacks.md)
         * [Problem 155: Min Stack](problem_155_min_stack.md)
         * [Problem 84: Largest Rectangle in Histogram](problem-84-largest-rectangle-in-histogram.md)
+        * [Problem: Construct Max Tree](problem-construct-max-tree.md)
     * Hash
     * Heap
     * Trie

@@ -5,7 +5,7 @@
 
 -----------------------------------------
 ##思路
-1. dynamic programming 的思路在判断大的数据的时候超时，这时用greedy programming
+1. dynamic programming 的思路在判断大的数据的时候超时，这时用 greedy programming
 2. 像头标枪一样，我不关心最后我是否到最后一个index了，先闷头扔一下，一直维护到最后一次，然后比较我最后所在的位置和数组最后一个的位置之间的关系
 
 

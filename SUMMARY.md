@@ -136,7 +136,7 @@
     * [Problem 10: Regular Expression Matching](problem-10-regular-expression-matching.md)
 * [Chapter 7 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 8 Data Structure](chapter_7_data_structure.md)
-    * Stack & Queue
+    * [Stack & Queue](stack--queue.md)
         * [Problem 155: Min Stack](problem_155_min_stack.md)
         * [Problem 232: Implement Queue using Stacks](problem_232_implement_queue_using_stacks.md)
     * Hash

@@ -19,3 +19,11 @@ int hash(String key) {
 -------
 ## Hash Collision
 
+### 1. Open Hashing
+Use **Linked List** to chain different element on the same position.    
+这个 Visualization 挺好的。    
+> https://www.cs.usfca.edu/~galles/visualization/OpenHash.html
+
+![](/assets/openHashing.png)
+
+### 2. Close Hashing

@@ -142,6 +142,7 @@
         * [Problem 84: Largest Rectangle in Histogram](problem-84-largest-rectangle-in-histogram.md)
         * [Problem: Construct Max Tree](problem-construct-max-tree.md)
     * [Hash](hash.md)
+        * [Problem 146: LRU Cache](problem-146-lru-cache.md)
     * Heap
     * Trie
     * [Problem 20: Valid Parentheses](problem_20_valid_parentheses.md)

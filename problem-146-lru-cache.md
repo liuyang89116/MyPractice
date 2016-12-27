@@ -110,7 +110,14 @@ public class LRUCache {
 ##易错点
 1. 双向链表插入 node
 ![](/assets/addNodeFirst.png)
-这个插入的过程，首先连接：
+这个插入的过程，首先连接：把 node 的 prev 和 head 相连；把 node 的 next 和 head.next 相连。接下来就是删掉不必要的连接。   
+**注意**：这里**顺序千万不能变**！  
+```java
+head.next.prev = node;
+head.next = node;
+```
+因为如果先把 head.next 设成 node，那么 head.next.prev 的值已经发生了改变。
+
 
 
 

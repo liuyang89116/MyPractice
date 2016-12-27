@@ -117,7 +117,8 @@ head.next.prev = node;
 head.next = node;
 ```
 因为如果先把 head.next 设成 node，那么 head.next.prev 的值已经发生了改变。
-
+2. head 和 tail 都是 dummy node
+他们俩用来作为定位结点，防止删除更新结点的过程中，不好定位。
 
 
 

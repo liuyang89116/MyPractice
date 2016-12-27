@@ -109,4 +109,36 @@ public class LRUCache {
 ------
 ##易错点
 1. 双向链表插入 node
+![](/assets/addNodeFirst.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

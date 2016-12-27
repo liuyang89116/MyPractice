@@ -36,7 +36,11 @@ Use **Array** to allocate different elements. If the position is occupied, move 
 ### 3. Rehashing
 ![](/assets/reHashing.png)
 
+--------
+## Thread Safe
+> In Java, which one is thread safe? HashMap, HashSet and HashTable.
 
+**HashTable**.
 
 
 

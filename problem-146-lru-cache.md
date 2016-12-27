@@ -14,7 +14,7 @@
 * 为了能减少整个数据结构的时间复杂度，就要减少查找的时间复杂度，所以这里利用 HashMap 来做，这样时间苏咋读就是 **`O(1)`**。
 
 ----------
-
+* Solution 1: Doubly LinkedList + HashMap
 
 ```java
 public class LRUCache {
@@ -106,6 +106,41 @@ public class LRUCache {
 }
 
 ```
+* Solution 2: LinkedHashMap
+
+
+```java
+public class LRUCache {
+    private Map<Integer, Integer> cache;
+    private int capacity;
+    
+    public LRUCache(int capacity) {
+        this.cache = new LinkedHashMap<Integer, Integer>();
+        this.capacity = capacity;
+    }
+    
+    public int get(int key) {
+        Integer val = cache.get(key);
+        if (val == null) {
+            return -1;
+        }
+        cache.remove(key);
+        cache.put(key, val);
+        return val;
+    }
+    
+    public void set(int key, int value) {
+        cache.remove(key);
+        cache.put(key, value);
+        if (cache.size() > capacity) {
+            cache.remove(cache.keySet().iterator().next());
+        }
+    }
+}
+```
+
+
+
 ------
 ##易错点
 1. 双向链表插入 node

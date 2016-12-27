@@ -20,10 +20,45 @@ int hash(String key) {
 ## Hash Collision
 
 ### 1. Open Hashing
-Use **Linked List** to chain different element on the same position.    
+Use **Linked List** to chain different elements on the same position.    
 这个 Visualization 挺好的。    
 > https://www.cs.usfca.edu/~galles/visualization/OpenHash.html
 
 ![](/assets/openHashing.png)
 
-### 2. Close Hashing
+### 2. Closed Hashing
+Use **Array** to allocate different elements. If the position is occupied, move to the next available position.  
+这个 Visualization 挺好的。      
+> https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html
+
+![](/assets/closedHashing.png)
+
+### 3. Rehashing
+![](/assets/reHashing.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

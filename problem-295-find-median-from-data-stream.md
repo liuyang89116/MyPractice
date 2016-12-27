@@ -1,4 +1,4 @@
-# Problem 295: Find Median from Data Stream
+# Problem 295: Find Median from Data Streamf
 
 > https://leetcode.com/problems/find-median-from-data-stream/
 

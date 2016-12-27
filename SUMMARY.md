@@ -143,7 +143,8 @@
         * [Problem: Construct Max Tree](problem-construct-max-tree.md)
     * [Hash](hash.md)
         * [Problem 146: LRU Cache](problem-146-lru-cache.md)
-    * Heap
+        * [Problem 128: Longest Consecutive Sequence](problem-128-longest-consecutive-sequence.md)
+    * [Heap](heap.md)
     * Trie
     * [Problem 20: Valid Parentheses](problem_20_valid_parentheses.md)
     * [Problem 211: Add and Search Word - Data structure design](problem_211_add_and_search_word_-_data_structure_d.md)

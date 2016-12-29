@@ -57,6 +57,11 @@ public class Solution {
 ```java
 while (index < intervals.size() - 1)
 ```
+3. Comparator 的 Lambda 表达式
+```
+Collections.sort(intervals, (i1, i2) -> (i1.start - i2.start));
+```
+
 
 
 

@@ -97,6 +97,7 @@
     * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
     * Reverse Linked List
         * [Problem 206: Reverse Linked List](problem_206_reverse_linked_list.md)
+        * [Print reverse order of a Linked List](print-reverse-order-of-a-linked-list.md)
         * [Problem 92: Reverse Linked List II](problem_92_reverse_linked_list_ii.md)
         * [Problem 61: Rotate List](problem_61_rotate_list.md)
         * [Problem 143: Reorder List](problem_143_reorder_list.md)

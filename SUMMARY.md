@@ -92,6 +92,7 @@
     * [Problem 200: Number of Islands](problem_200_number_of_islands.md)
     * [Problem 127:  Word Ladder](problem_127_word_ladder.md)
     * [Problem 112: Path Sum](problem-112-path-sum.md)
+    * [Problem 282: Expression Add Operators](problem-282-expression-add-operators.md)
 * [Chapter 5 Linked List](chapter_4_linked_list.md)
     * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
     * Reverse Linked List

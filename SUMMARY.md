@@ -259,6 +259,7 @@
 * [Facebook](facebook.md)
     * [K closest points](k_closest_points.md)
     * [Find all the peak and valley](find_all_the_peak_and_valley.md)
+    * [Arithmetic oepration combination](arithmetic-oepration-combination.md)
 * [All Chapters Summary](all_chapters_summary.md)
     * [Two Pointers](two-pointer.md)
     * [Permutation and Combination](permutation-and-combination.md)

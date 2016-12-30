@@ -70,7 +70,7 @@
         * [Problem 106: Construct Binary Tree from Inorder and Postorder Traversal](problem_106_construct_binary_tree_from_inorder_and.md)
         * [Problem: Construct BST from given preorder traversal](problem-construct-bst-from-given-preorder-traversal.md)
         * [Problem 285: Inorder Successor in BST](problem_285_inorder_successor_in_bst.md)
-        * [Problem: Construct BST from given preorder traversal](problem-construct-bst-from-given-preorder-traversal.md)
+        * [Problem 255: Verify Preorder Sequence in Binary Search Tree](problem-255-verify-preorder-sequence-in-binary-search-tree.md)
     * 找祖宗
         * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
         * [Problem 235: Lowest Common Ancestor of a Binary Search Tree](problem_235_lowest_common_ancestor_of_a_binary_sea.md)

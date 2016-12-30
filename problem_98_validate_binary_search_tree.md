@@ -46,21 +46,31 @@ public class Solution {
 ```
 
 ---------------------
+* **Solution 2**: 递归
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public boolean isValidBST(TreeNode root) {
+        return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+    
+    private boolean helper(TreeNode root, long minVal, long maxVal) {
+        if (root == null) return true;
+        if (root.val <= minVal || root.val >= maxVal) return false;
+        return helper(root.left, minVal, root.val) && helper(root.right, root.val, maxVal);
+    }
+}
+```
 
 
 

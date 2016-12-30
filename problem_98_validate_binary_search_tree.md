@@ -8,8 +8,9 @@
 
 --------------
 * **Solution 1**: Iterative 
-* 这是可以解决一类问题的必杀手段。大体的思路就是：利用一个 stack 来储存元素，然后利用 inorder (左-根-右) 的顺序遍历整个 tree，继而得到答案。
-
+* 这是可以解决一类问题的必杀手段。大体的思路就是：利用一个 stack 来储存元素，然后利用 inorder (左-根-右) 的顺序遍历整个 tree，继而得到答案。  
+这篇文章讲得很好！
+>https://discuss.leetcode.com/topic/46016/learn-one-iterative-inorder-traversal-apply-it-to-multiple-tree-questions-java-solution/2
 
 ```java
 /**

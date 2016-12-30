@@ -4,10 +4,71 @@
 
 --------------------------
 ##思路
+* 这道题很有代表性。一种方式就是利用 iterative 的方法做，另一种就是 recursion 的方法。
+
+--------------
+* **Solution 1**: Iterative 
+* 这是可以解决一类问题的必杀手段。大体的思路就是：利用一个 stack 来储存元素，然后利用 inorder (左-根-右) 的顺序遍历整个 tree，继而得到答案。
+
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public boolean isValidBST(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode prev = null;
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            if (prev != null && prev.val >= root.val) return false;
+            prev = root;
+            root = root.right;
+        }
+        
+        return true;
+    }
+}
+```
+
+---------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------
+* **Solution 3**: 分治
 * 分治思想，有几个点很容易出错;
 * 这里要维护几个不同的值：min, max 和 is_bst，所以直接创立一个 ResultType 的类是比较方便的
 * 关键点：左边的最大要小于root，右边的最小要小于root。这样才能成为一个 binary search tree.
---------------
+
 ```java
 /**
  * Definition for a binary tree node.

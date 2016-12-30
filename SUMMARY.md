@@ -57,6 +57,7 @@
     * 基本题
         * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
         * [Problem 98: Validate Binary Search Tree](problem_98_validate_binary_search_tree.md)
+            * [Problem 230: Kth Smallest Element in a BST](problem-230-kth-smallest-element-in-a-bst.md)
         * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
         * [Problem 111: Minimum Depth of Binary Tree](problem_111_minimum_depth_of_binary_tree.md)
         * [Problem 100: Same Tree](problem_100_same_tree.md)

@@ -5,9 +5,60 @@
 
 ---------------
 ##思想
-* 分治递归的思想：先把list切割成无数小的 left 和 right,然后把他们merge到一起
+* 这道题有两种做法，第一种是用一个额外的 heap 来做。首先把所有的 node 都存到最小堆，然后每次 poll() 出来的 node 都是最小的 node。接着我们来查看，如果这个 poll 出来的元素后面还有其他的元素跟着，我们就就把剩下的 push 到 heap 里，依次类推，知道所有的元素都再里面走一圈。
 
 -----
+* 用 heap 来做
+* 时间复杂度：`n log(k)`，n 代表有 n 个 nodes，每次压入 heap 需要 log(k) 时间
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+        if (lists == null || lists.length == 0) {
+            return null;
+        }
+        
+        PriorityQueue<ListNode> pq = new PriorityQueue<>(lists.length, new Comparator<ListNode>(){
+            public int compare(ListNode l1, ListNode l2) {
+                return l1.val - l2.val;
+            }
+        });
+        
+        ListNode dummy = new ListNode(0);
+        ListNode head = dummy;
+        
+        for (ListNode node : lists) {
+            if (node != null) {
+                pq.add(node);
+            }
+        }
+        while (!pq.isEmpty()) {
+            head.next = pq.poll();
+            head = head.next;
+            
+            if (head.next != null) {
+                pq.add(head.next);
+            }
+        }
+        
+        return dummy.next;
+    }
+}
+
+```
+----------
+
+* 分治递归的思想：先把list切割成无数小的 left 和 right,然后把他们merge到一起
+
+
 ```java
 /**
  * Definition for singly-linked list.

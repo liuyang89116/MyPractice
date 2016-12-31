@@ -45,6 +45,44 @@ public class Solution {
 ##Follow Up
 > 对一个 sorted array 平方后排序
 
+* 其实就是相当于 `a = 1, b = 0, c = 0` 的一个特例
+
+--------
+
+```java
+/**
+ * Created by yang on 12/31/16.
+ */
+public class Solution1 {
+    public static int[] sortArray(int[] nums) {
+        int[] rst = new int[nums.length];
+        int i = 0, j = nums.length - 1;
+        int index = nums.length - 1;
+        while (i <= j) {
+            rst[index--] = helper(nums[i]) >= helper(nums[j]) ? helper(nums[i++]) : helper(nums[j--]);
+        }
+
+        return rst;
+    }
+
+    private static int helper(int x) {
+        return x * x;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {-5, -3, 0, 2, 9};
+        // int[] arr = {1, 2, 3, 5, 9};
+        // int[] arr = {-5, -3, -2, -1, 0};
+
+        int[] rst = sortArray(arr);
+        for (int num : rst) {
+            System.out.print(num + " ");
+        }
+    }
+}
+
+```
+
 
 
 

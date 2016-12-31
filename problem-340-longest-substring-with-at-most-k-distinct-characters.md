@@ -33,6 +33,48 @@ public class Solution {
 ```
 
 -------
+##Follow Up
+> 如果不是求最长 length 而是直接返回最长的字符串呢？
+
+
+
+```java
+/**
+ * Created by yang on 12/30/16.
+ */
+public class minWindow {
+    public static String lengthOfLongestSubstringKDistinct(String s, int k) {
+        int[] map = new int[128];
+        int i = 0, j = 0, count = 0, maxLen = 0;
+        String rst = "";
+        while (j < s.length()) {
+            if (map[s.charAt(j++)]++ == 0) count++;
+            if (count > k) {
+                while (--map[s.charAt(i++)] > 0) ;
+                count--;
+            }
+            //maxLen = Math.max(maxLen, j - i );
+            if (j - i > maxLen) {
+                rst = s.substring(i, j);
+                maxLen = Math.max(maxLen, j - i);
+            }
+        }
+
+        return rst;
+    }
+
+    public static void main(String[] args) {
+        String s = "bbBAbBabbbA";
+        System.out.println(lengthOfLongestSubstringKDistinct(s, 2));
+    }
+}
+
+```
+
+
+-----------
+
+
 ##易错点
 1. 表达式的理解
 ```java
@@ -45,7 +87,6 @@ while (--map[s.charAt(i++)] > 0);
 同理，这个表达式也是一样，每次都要先减然后 i 递增。
 2.最后 j 和 i 的结束时候的情景是：i 是所选单词的开始字母，j 是所选单词的下一个字母
 
-----------
 
 
 

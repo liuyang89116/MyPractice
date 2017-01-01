@@ -58,6 +58,7 @@
         * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
         * [Problem 98: Validate Binary Search Tree](problem_98_validate_binary_search_tree.md)
             * [Problem 230: Kth Smallest Element in a BST](problem-230-kth-smallest-element-in-a-bst.md)
+            * [Problem: Convert Binary Search Tree to Doubly Linked List \(LintCode\)](problem-convert-binary-search-tree-to-doubly-linked-list-lintcode.md)
         * [Problem 104: Maximum Depth of Binary Tree](problem_104_maximum_depth_of_binary_tree.md)
         * [Problem 111: Minimum Depth of Binary Tree](problem_111_minimum_depth_of_binary_tree.md)
         * [Problem 100: Same Tree](problem_100_same_tree.md)
@@ -106,7 +107,7 @@
         * [Problem 143: Reorder List](problem_143_reorder_list.md)
         * [Problem 24: Swap Nodes in Pairs](problem_24_swap_nodes_in_pairs.md)
         * [Problem 86: Partition List](problem_86_partition_list.md)
-    * Iteration 类型
+    * [Iteration 类型](iteration-类型.md)
         * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)
         * [Problem 82: Remove Duplicates from Sorted List II](problem_82_remove_duplicates_from_sorted_list_ii.md)
     * 基本操作（插入，找中点，merge）

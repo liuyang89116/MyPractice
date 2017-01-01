@@ -268,6 +268,7 @@
     * [K closest points](k_closest_points.md)
     * [Find all the peak and valley](find_all_the_peak_and_valley.md)
     * [Arithmetic operation combination](arithmetic-oepration-combination.md)
+    * [Task Schedule](task-schedule.md)
 * [All Chapters Summary](all_chapters_summary.md)
     * [Two Pointers](two-pointer.md)
     * [Permutation and Combination](permutation-and-combination.md)

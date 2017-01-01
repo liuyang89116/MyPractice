@@ -14,7 +14,7 @@
 /**
  * Created by yang on 1/1/17.
  */
-public class Solution2 {
+public class Solution {
     // method1: recusion
     public static int fib1(int n) {
         if (n <= 1) return n;

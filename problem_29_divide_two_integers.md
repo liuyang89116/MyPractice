@@ -9,6 +9,12 @@
 * 这道题的 corner cases 要注意
 
 -------------
+##复杂度
+* 因为每次 while loop 都是对半分，消耗 `log(n)` 的时间，所以总的时间复杂度是 `(logn)^2`
+
+----------
+
+
 ```java
 public class Solution {
     public int divide(int dividend, int divisor) {
@@ -16,7 +22,7 @@ public class Solution {
             return 0;
         }
         if (divisor == 0) {
-            return dividend >= 0 ? Integer.MAX_VALUE : Integer.MIN_VALUE; 
+            return dividend >= 0 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
         }
         if (dividend == Integer.MIN_VALUE && divisor == -1) {
             return Integer.MAX_VALUE;
@@ -28,16 +34,12 @@ public class Solution {
         int rst = 0;
         while (a >= b) {
             int shift = 0;
-            while (a >= (b << shift)) {
-                shift++;
-            }
+            while (a >= (b << shift)) shift++;
             a -= b << (shift - 1);
             rst += 1 << (shift - 1);
-            
         }
         
         return isNegative ? -rst : rst;
-        
     }
 }
 ```

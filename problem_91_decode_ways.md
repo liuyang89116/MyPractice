@@ -34,6 +34,36 @@ public class Solution {
     }
 }
 ```
+* 优化空间
+
+
+```java
+public class Solution {
+    public int numDecodings(String s) {
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+        
+        int prev = 27, digit = 0, single = 1, twoDigit = 1, rst = 0;
+        for (int i = s.length() - 1; i >= 0; i--) {
+            digit = s.charAt(i) - '0';
+            if (digit == 0) {
+                rst = 0;
+            } else {
+                rst = single + (digit * 10 + prev < 27 ? twoDigit : 0);
+            }
+            
+            twoDigit = single;
+            single = rst;
+            prev = digit;
+        }
+        
+        return rst;
+    }
+}
+```
+
+
 --------
 ##易错点
 1. String s 和数组 nums 的 index 正好错一位  

@@ -205,6 +205,7 @@
     * [Problem 28: Implement strStr\(\)](problem_28_implement_strstr.md)
     * [Problem 65: Valid Number](problem_65_valid_number.md)
     * [Problem 38: Count and Say](problem_38_count_and_say.md)
+    * [Problem 68: Text Justification](problem-68-text-justification.md)
     * [Problem 58: Length of Last Word](problem_58_length_of_last_word.md)
     * [Problem 5: Longest Palindromic Substring](problem_5_longest_palindromic_substring.md)
     * [Problem 71: Simplify Path](problem_71_simplify_path.md)

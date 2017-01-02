@@ -84,3 +84,49 @@ public class Solution {
 }
 ```
 
+-------
+##其他解法
+* 还可以用 dynamic programming 来做，这里这个视频讲解很好
+> https://www.youtube.com/watch?v=RORuwHiblPc
+
+* 这里是代码
+> https://github.com/mission-peace/interview/blob/master/src/com/interview/linklist/CopyLinkListWIthArbitPointer.java
+
+* 不过这个时空复杂度是 `O(n^2)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

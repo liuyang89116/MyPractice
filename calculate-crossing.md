@@ -85,6 +85,7 @@ public class Solution4 {
         return count;
     }
 
+    // main function, test
     public static void main(String[] args) {
         /*int[] arr1 = new int[]{0, 0, 0};
         int[] arr2 = new int[]{1, 1, 1};

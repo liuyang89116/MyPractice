@@ -150,6 +150,8 @@
         * [Problem 155: Min Stack](problem_155_min_stack.md)
         * [Problem 84: Largest Rectangle in Histogram](problem-84-largest-rectangle-in-histogram.md)
         * [Problem: Construct Max Tree](problem-construct-max-tree.md)
+        * [Problem 20: Valid Parentheses](problem_20_valid_parentheses.md)
+            * [Problem 394: Decode String](problem-394-decode-string.md)
     * [Hash](hash.md)
         * [Problem 146: LRU Cache](problem-146-lru-cache.md)
         * [Problem 128: Longest Consecutive Sequence](problem-128-longest-consecutive-sequence.md)
@@ -158,7 +160,6 @@
         * [Problem 218: The Skyline Problem](problem-218-the-skyline-problem.md)
     * Trie
         * [Problem 208: Implement Trie \(Prefix Tree\)](problem_208_implement_trie_prefix_tree.md)
-    * [Problem 20: Valid Parentheses](problem_20_valid_parentheses.md)
     * [Problem 211: Add and Search Word - Data structure design](problem_211_add_and_search_word_-_data_structure_d.md)
     * [Problem 341: Flatten Nested List Iterator](problem_341_flatten_nested_list_iterator.md)
     * [Problem 281: Zigzag Iterator](problem_281_zigzag_iterator.md)

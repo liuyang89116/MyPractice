@@ -93,6 +93,7 @@
     * [Problem 133: Clone Graph](problem_133_clone_graph.md)
     * [Problem 138: Copy List with Random Pointer](problem_138_copy_list_with_random_pointer.md)
     * [Problem 301: Remove Invalid Parentheses](problem-301-remove-invalid-parentheses.md)
+    * [Print Char Board](print-char-board.md)
     * [Problem 200: Number of Islands](problem_200_number_of_islands.md)
     * [Problem 127:  Word Ladder](problem_127_word_ladder.md)
     * [Problem 112: Path Sum](problem-112-path-sum.md)

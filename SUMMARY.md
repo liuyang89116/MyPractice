@@ -140,6 +140,7 @@
     * [Problem 279: Perfect Squares](problem_279_perfect_squares.md)
     * [Problem 418: Sentence Screen Fitting](problem_418_sentence_screen_fitting.md)
     * [Problem 361: Bomb Enemy](problem_361_bomb_enemy.md)
+        * [Calculate Crossing](calculate-crossing.md)
     * [Problem 10: Regular Expression Matching](problem-10-regular-expression-matching.md)
 * [Chapter 7 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 8 Data Structure](chapter_7_data_structure.md)

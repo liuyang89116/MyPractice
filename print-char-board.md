@@ -7,6 +7,8 @@
 * 毫无疑问，这是要使用 DFS 遍历来实现的。关键在于寻找退出条件
 * 从上往下走，只能有两种选择：要么向右，要么向下。所以退出条件就是，当走到最后一行或者最后一列的时候，停住，然后向下或者向右把唯一方向的元素都遍历完。
 * 这里用了 StringBuilder 节省了空间，适用与元素较多的情况。
+* 这里有一个讲解
+> http://www.geeksforgeeks.org/print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix/
 
 --------
 

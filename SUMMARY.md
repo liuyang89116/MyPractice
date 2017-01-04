@@ -255,6 +255,7 @@
         * [Problem: Sparse vectors of dot product](problem-sparse-vectors-of-dot-product.md)
     * Reservoir Sampling
         * [Problem 398: Random Pick Index](problem-398-random-pick-index.md)
+            * [Random Non-Empty Slots](random-non-empty-slots.md)
         * [Problem 384: Shuffle an Array](problem-384-shuffle-an-array.md)
     * [Problem 228: Summary Ranges](problem_228_summary_ranges.md)
     * [Problem 238: Product of Array Except Self](problem_238_product_of_array_except_self.md)

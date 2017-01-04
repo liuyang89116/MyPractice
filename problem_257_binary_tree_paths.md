@@ -63,6 +63,16 @@ if (root.left == null && root.right == null) {
 }
 ```
 
+---------
+##Follow Up
+> 如果所有的node在一条线上，时间复杂度?
+
+* `O(n)`
+
+> 如果是 full binary tree，时间复杂度？
+
+* 如果不优化，直接用 String 来做的话，每次相当于创建一个 String，`O(n^2)`
+* 如果优化的话，是`O(nlogn)`
 
 
 

@@ -82,7 +82,57 @@ for (i = num1.length() - 1; i >= 0; i--) {
 ```
 每换一次乘数，carrier 就要清 0.
 
+-------
+##Follow Up
+> 给一个数组，都是整型，比如[1, 2, 3]。取每个数乘以2, 输出结果数组。有点类似string mulplication。比如 [5, 5, 5] 输出 [1, 1, 1, 0].
+Follow up: 如果不reverse结果数组，要怎么做。回答用queue。
 
+------
+
+
+```java
+/**
+ * Created by yang on 1/3/17.
+ */
+public class Solution6 {
+    public static int[] multiplyArray(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return null;
+        }
+
+        int[] rst = new int[nums.length];
+        int digit = 0, carrier = 0;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            int product = 2 * nums[i];
+            digit = carrier + product % 10;
+            carrier = product / 10;
+            rst[i] = digit;
+        }
+
+        if (carrier == 0) return rst;
+        int[] newArr = new int[nums.length + 1];
+        for (int i = newArr.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                newArr[0] = carrier;
+
+            } else {
+                newArr[i] = rst[i - 1];
+            }
+        }
+
+        return newArr;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{6, 9, 3};
+        int[] rst = multiplyArray(nums);
+        for (int i : rst) {
+            System.out.print(i + " ");
+        }
+    }
+}
+
+```
 
 
 

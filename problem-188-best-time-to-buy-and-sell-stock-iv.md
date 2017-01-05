@@ -50,5 +50,43 @@ public class Solution {
 
 
 ```
+-----
+##易错点
+1. `buy[]` 和 `sell[]` 的初始化
+buy[] 数组里的元素都是负数，因为买要花钱的，盈利就是负数。所以我们在初始化的时候为最小值。sell[] 也初始化了其实，因为创建数组的时候，所有值默认为 0，所以我们没有进行额外的操作。
+2. 核心方程
+```java
+sell[j] = Math.max(sell[j], prices[i] + buy[j]);
+buy[j] = Math.max(buy[j], sell[j - 1] - prices[i]);
+```
+注意 index 到底是 i 还是 j。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

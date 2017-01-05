@@ -66,6 +66,15 @@ public class Solution {
 dp[target] = res;
 ```
 
+--------
+##Follow Up
+> What if negative numbers are allowed in the given array?
+How does it change the problem?
+What limitation we need to add to the question to allow negative numbers?
+
+* 专门总结一下，这里的讲解不错
+> https://discuss.leetcode.com/category/497/combination-sum-iv
+
 
 
 

@@ -178,6 +178,7 @@
         * [Problem 121: Best Time to Buy and Sell Stock](problem_121_best_time_to_buy_and_sell_stock.md)
         * [Problem 122: Best Time to Buy and Sell Stock II](problem_122_best_time_to_buy_and_sell_stock_ii.md)
         * [Problem 123: Best Time to Buy and Sell Stock III](problem_123_best_time_to_buy_and_sell_stock_iii.md)
+        * [Problem 188: Best Time to Buy and Sell Stock IV](problem-188-best-time-to-buy-and-sell-stock-iv.md)
     * Subarray Sum
         * [Problem 53: Maximum Subarray](problem_53_maximum_subarray.md)
         * [Problem: Maximum Subarray II \(LintCode\)](problem_maximum_subarray_ii.md)

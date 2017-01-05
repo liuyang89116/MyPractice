@@ -20,25 +20,24 @@ public class Solution {
         
         boolean[] visited = new boolean[nums.length];
         Arrays.sort(nums);
-        helper(nums, path, visited, rst);
+        helper(nums, visited, path, rst);
         
         return rst;
     }
     
-    private void helper(int[] nums, List<Integer> path, boolean[] visited, List<List<Integer>> rst) {
+    private void helper(int[] nums, boolean[] visited, List<Integer> path, List<List<Integer>> rst) {
         if (path.size() == nums.length) {
             rst.add(new ArrayList(path));
         }
         
         for (int i = 0; i < nums.length; i++) {
-            if (visited[i] == false) {
-                path.add(nums[i]);
-                visited[i] = true;
-                helper(nums, path, visited, rst);
-                path.remove(path.size() - 1);
-                visited[i] = false;
-                while (i < nums.length - 1 && nums[i] == nums[i + 1]) i++;
-            }
+            if (visited[i]) continue;
+            path.add(nums[i]);
+            visited[i] = true;
+            helper(nums, visited, path, rst);
+            path.remove(path.size() - 1);
+            visited[i] = false;
+            while (i < nums.length - 1 && nums[i] == nums[i + 1]) i++;
         }
     }
 }

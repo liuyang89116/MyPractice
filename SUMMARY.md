@@ -6,7 +6,7 @@
     * Subsets
         * [Problem 78: Subsets](problem1_subsets.md)
         * [Problem 90: Unique Subsets](problem2_unique_subsets.md)
-    * Permutation
+    * [Permutation](permutation.md)
         * [Problem 46: Permutations](problem3_permutations.md)
         * [Problem 47: Unique Permutations](problem4_unique_permutation.md)
         * [Problem 31: Next Permutation](problem_31_next_permutation.md)

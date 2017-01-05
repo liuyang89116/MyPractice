@@ -22,7 +22,7 @@ public class Solution {
         }
         
         boolean[] visited = new boolean[nums.length];
-        Arrays.sort(nums);
+        // Arrays.sort(nums);
         helper(nums, path, visited, rst);
         
         return rst;

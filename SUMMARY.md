@@ -284,6 +284,8 @@
     * [Task Schedule](task-schedule.md)
     * [Fibonacci numbers](fibonacci-numbers.md)
     * [LinkedList BlackBox](linkedlist-blackbox.md)
+* Amazon
+    * [Right Rotation](right-rotation.md)
 * [All Chapters Summary](all_chapters_summary.md)
     * [Two Pointers](two-pointer.md)
     * [Permutation and Combination](permutation-and-combination.md)

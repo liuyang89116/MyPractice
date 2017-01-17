@@ -287,6 +287,7 @@
 * [Amazon](amazon.md)
     * [Right Rotation](right-rotation.md)
     * Consecutive Gray Code
+    * [Valid Parentheses](valid-parentheses.md)
 * [All Chapters Summary](all_chapters_summary.md)
     * [Two Pointers](two-pointer.md)
     * [Permutation and Combination](permutation-and-combination.md)

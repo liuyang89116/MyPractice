@@ -290,6 +290,7 @@
     * [Valid Parentheses](valid-parentheses.md)
     * [Reverse Second Half of Linked List](reverse-second-half-of-linked-list.md)
     * [Subtree](subtree.md)
+    * [Find K Nearest Point](find-k-nearest-point.md)
 * [All Chapters Summary](all_chapters_summary.md)
     * [Two Pointers](two-pointer.md)
     * [Permutation and Combination](permutation-and-combination.md)

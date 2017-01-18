@@ -26,7 +26,7 @@ public class Solution {
             return false;
         }
 
-        return (isSameTree(T1, T2)) || (isSubTree(T1.left, T2)) || (T1.right,T2);
+        return (isSameTree(T1, T2)) || (isSubTree(T1.left, T2)) || isSubTree(T1.right, T2);
     }
 
     public static boolean isSameTree(TreeNode T1, TreeNode T2) {
@@ -43,6 +43,7 @@ public class Solution {
         return isSameTree(T1.left, T2.left) && isSameTree(T1.right, T2.right);
     }
 }
+
 
 ```
 

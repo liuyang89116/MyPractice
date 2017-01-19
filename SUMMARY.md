@@ -115,6 +115,7 @@
     * [基本操作（删除，插入，找中点，merge）](基本操作（插入，找中点，merge）.md)
         * [Problem 148: Sort List](problem_148_sort_list.md)
         * [Problem 19: Remove Nth Node From End of List](problem_19_remove_nth_node_from_end_of_list.md)
+            * [Problem 203: Remove Linked List Elements](problem-203-remove-linked-list-elements.md)
         * [Problem 21: Merge Two Sorted Lists](problem_21_merge_two_sorted_lists.md)
         * [Problem 23: Merge k Sorted Lists](problem_23_merge_k_sorted_lists.md)
             * [Problem: Merge K sorted Arrays](problem-merge-k-sorted-arrays.md)

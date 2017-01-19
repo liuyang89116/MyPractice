@@ -111,12 +111,13 @@
     * [Iteration 类型](iteration-类型.md)
         * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)
         * [Problem 82: Remove Duplicates from Sorted List II](problem_82_remove_duplicates_from_sorted_list_ii.md)
-    * 基本操作（插入，找中点，merge）
+    * [基本操作（删除，插入，找中点，merge）](基本操作（插入，找中点，merge）.md)
         * [Problem 148: Sort List](problem_148_sort_list.md)
         * [Problem 19: Remove Nth Node From End of List](problem_19_remove_nth_node_from_end_of_list.md)
         * [Problem 21: Merge Two Sorted Lists](problem_21_merge_two_sorted_lists.md)
         * [Problem 23: Merge k Sorted Lists](problem_23_merge_k_sorted_lists.md)
             * [Problem: Merge K sorted Arrays](problem-merge-k-sorted-arrays.md)
+        * [Problem 237: Delete Node in a Linked List](problem-237-delete-node-in-a-linked-list.md)
     * 找环
         * [Problem 141: Linked List Cycle](problem_141_linked_list_cycle.md)
         * [Problem 142: Linked List Cycle II](problem_142_linked_list_cycle_ii.md)

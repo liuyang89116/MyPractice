@@ -268,6 +268,7 @@
     * [Problem 396: Rotate Function](problem_396_rotate_function.md)
     * [Problem 242: Valid Anagram](problem_242_valid_anagram.md)
     * [Problem 349: Intersection of Two Arrays](problem_349_intersection_of_two_arrays.md)
+        * [Problem 160: Intersection of Two Linked Lists](problem-160-intersection-of-two-linked-lists.md)
     * [Problem 350: Intersection of Two Arrays II](problem_350_intersection_of_two_arrays_ii.md)
     * [Problem 387: First Unique Character in a String](problem_387_first_unique_character_in_a_string.md)
     * [Problem 334: Increasing Triplet Subsequence](problem_334_increasing_triplet_subsequence.md)

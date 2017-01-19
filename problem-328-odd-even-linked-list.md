@@ -43,6 +43,8 @@ public class Solution {
     }
 }
 ```
-
+------
+##易错点
+1. 注意判断 head 的情况，在最开始的时候
 
 

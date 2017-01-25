@@ -38,3 +38,28 @@ for (int i = 0; i < s.length(); i++) {
 ## Follow Up
 > 如果是任何的字符串，而不仅仅是 26 个字母呢？ 我们可以用 256 的数组来完成（因为 ASCII 码是 256）
 
+* General 的解法
+
+```java
+public class Solution {
+    public int firstUniqChar(String s) {
+        if (s == null || s.length() == 0) {
+            return -1;
+        }
+        int[] nums = new int[256];
+        for (char c : s.toCharArray()) {
+            nums[c]++;
+        }
+        
+        for (int i = 0; i < s.length(); i++) {
+            if (nums[s.charAt(i)] == 1) {
+                return i;
+            }
+        }
+        
+        return -1;
+    }
+}
+```
+
+

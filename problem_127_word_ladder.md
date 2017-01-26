@@ -12,7 +12,7 @@
 ----------
 ```java
 public class Solution {
-    public int ladderLength(String beginWord, String endWord, Set<String> wordList) {
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         if (wordList == null) {
             return 0;
         }
@@ -20,46 +20,45 @@ public class Solution {
             return 1;
         }
         
-        wordList.add(beginWord);
-        wordList.add(endWord);
+        Set<String> wordSet = new HashSet<String>();
+        for (String s : wordList) {
+            wordSet.add(s);
+        }
         
-        HashSet<String> hs = new HashSet<String>();
+        HashSet<String> visited = new HashSet<String>();
         Queue<String> queue = new LinkedList<String>();
-        hs.add(beginWord);
+        visited.add(beginWord);
         queue.offer(beginWord);
-        int count = 1; 
+        
+        int count = 1;
         while (!queue.isEmpty()) {
             count++;
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 String word = queue.poll();
-                for (String nextWord : getNextWord(word, wordList)) {
-                    if (hs.contains(nextWord)) {
-                        continue;
-                    }
+                for (String nextWord : getNextWord(word, wordSet)) {
+                    if (visited.contains(nextWord)) continue;
+                    
                     if (nextWord.equals(endWord)) {
                         return count;
                     }
-                    hs.add(nextWord);
+                    visited.add(nextWord);
                     queue.offer(nextWord);
                 }
-        
             }
-            
-        }
+        } 
         
         return 0;
     }
     
-    private ArrayList<String> getNextWord(String word, Set<String> wordList) {
+    private ArrayList<String> getNextWord(String word, Set<String> wordSet) {
         ArrayList<String> nextWordList = new ArrayList<String>();
         for (char c = 'a'; c <= 'z'; c++) {
             for (int i = 0; i < word.length(); i++) {
-                if (c == word.charAt(i)) {
-                    continue;
-                }
+                if (c == word.charAt(i)) continue;
+                
                 String nextWord = replace(word, i, c);
-                if (wordList.contains(nextWord)) {
+                if (wordSet.contains(nextWord)) {
                     nextWordList.add(nextWord);
                 }
             }
@@ -71,8 +70,10 @@ public class Solution {
     private String replace(String word, int index, char c) {
         char[] arr = word.toCharArray();
         arr[index] = c;
+        
         return new String(arr);
     }
+    
 }
 
 ```

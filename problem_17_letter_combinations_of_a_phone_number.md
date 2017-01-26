@@ -79,6 +79,28 @@ StringBuilder sb = new StringBuilder();
 sb.append('a');
 sb.deleteCharAt(sb.length() - 1);
 ```
+--------
+##Follow Up
+> 在面试的时候遇到了这道题，问到了一些数组初始化的问题
+
+1. String 数组的初始化
+```java
+String[] arr = new String[10];  
+```
+String 数组初始化，每个数组内的元素都是 `null`，与 int 数组是不同的
+```java
+int[] arr = new int[10];
+```
+int 数组初始化，每个数组内的元素为 `0`
+2. StringBuilder 新建后是怎么样的？  
+```java
+StringBuilder sb = new StringBuider();
+```
+
+
+
+
+
 
 
 

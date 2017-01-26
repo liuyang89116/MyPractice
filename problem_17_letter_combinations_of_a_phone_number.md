@@ -96,7 +96,7 @@ int 数组初始化，每个数组内的元素为 `0`
 ```java
 StringBuilder sb = new StringBuider();
 ```
-
+![](/assets/StringBuilder.png)
 
 
 

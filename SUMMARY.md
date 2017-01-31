@@ -91,6 +91,7 @@
   * [Problem 173: Binary Search Tree Iterator](problem_173_binary_search_tree_iterator.md)
   * [Problem 298: Binary Tree Longest Consecutive Sequence](problem_298_binary_tree_longest_consecutive_sequen.md)
   * [Problem 199: Binary Tree Right Side View](problem_199_binary_tree_right_side_view.md)
+  * [Problem 250: Count Univalue Subtrees](problem-250-count-univalue-subtrees.md)
 * [Chapter 4 DFS & BFS](chapter-4-dfs--bfs.md)
   * [Summary 1: DFS Template](summary_1_dfs_template.md)
   * [Problem 133: Clone Graph](problem_133_clone_graph.md)

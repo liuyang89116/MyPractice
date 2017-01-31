@@ -81,6 +81,7 @@
   * LinkedList 与 Binary Tree 相互转换
     * [Problem 109: Convert Sorted List to Binary Search Tree](problem_109_convert_sorted_list_to_binary_search_t.md)
     * [Problem 108: Convert Sorted Array to Binary Search Tree](problem_108_convert_sorted_array_to_binary_search_.md)
+    * [Problem 116: Populating Next Right Pointers in Each Node](problem-116-populating-next-right-pointers-in-each-node.md)
   * [Problem: Insert Node in a Binary Search Tree \(LintCode\)](problem_insert_node_in_a_binary_search_tree_lintco.md)
   * [Problem: Search Range in Binary Search Tree \(LintCode\)](problem_search_range_in_binary_search_tree_lintcod.md)
   * [Problem 257: Binary Tree Paths](problem_257_binary_tree_paths.md)

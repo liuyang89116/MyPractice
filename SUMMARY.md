@@ -94,6 +94,7 @@
   * [Problem 250: Count Univalue Subtrees](problem-250-count-univalue-subtrees.md)
   * [Problem 96: Unique Binary Search Trees](problem-96-unique-binary-search-trees.md)
   * [Problem 95: Unique Binary Search Trees II](problem-95-unique-binary-search-trees-ii.md)
+  * [Problem 156: Binary Tree Upside Down](problem-156-binary-tree-upside-down.md)
 * [Chapter 4 DFS & BFS](chapter-4-dfs--bfs.md)
   * [Summary 1: DFS Template](summary_1_dfs_template.md)
   * [Problem 133: Clone Graph](problem_133_clone_graph.md)

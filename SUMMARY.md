@@ -54,7 +54,7 @@
   * [Problem 215: Kth Largest Element in an Array](problem_215_kth_largest_element_in_an_array.md)
   * [Problem 29: Divide Two Integers](problem_29_divide_two_integers.md)
 * [Chapter 3 Binary Tree ](chapter_3_binary_tree_bfs,_dfs.md)
-  * 基本题
+  * [基本题](.md)
     * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
     * [Problem 98: Validate Binary Search Tree](problem_98_validate_binary_search_tree.md)
       * [Problem 230: Kth Smallest Element in a BST](problem-230-kth-smallest-element-in-a-bst.md)
@@ -63,6 +63,7 @@
     * [Problem 111: Minimum Depth of Binary Tree](problem_111_minimum_depth_of_binary_tree.md)
     * [Problem 100: Same Tree](problem_100_same_tree.md)
       * [Problem 101: Symmetric Tree](problem_100_same_tree/problem-101-symmetric-tree.md)
+    * [Problem 450: Delete Node in a BST](problem-450-delete-node-in-a-bst.md)
   * 各种顺序的遍历
     * [Problem 144: Binary Tree Preorder Traversal](problem-144-binary-tree-preorder-traversal.md)
     * [Problem 94: Binary Tree Inorder Traversal](problem-94-binary-tree-inorder-traversal.md)

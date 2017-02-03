@@ -63,7 +63,7 @@
     * [Problem 111: Minimum Depth of Binary Tree](problem_111_minimum_depth_of_binary_tree.md)
     * [Problem 100: Same Tree](problem_100_same_tree.md)
       * [Problem 101: Symmetric Tree](problem_100_same_tree/problem-101-symmetric-tree.md)
-    * [Problem 450: Delete ](problem-450-delete.md)
+    * [Problem 450: Delete Node in a BST](problem-450-delete.md)
   * 各种顺序的遍历
     * [Problem 144: Binary Tree Preorder Traversal](problem-144-binary-tree-preorder-traversal.md)
     * [Problem 94: Binary Tree Inorder Traversal](problem-94-binary-tree-inorder-traversal.md)

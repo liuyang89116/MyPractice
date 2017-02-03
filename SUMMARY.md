@@ -63,7 +63,6 @@
     * [Problem 111: Minimum Depth of Binary Tree](problem_111_minimum_depth_of_binary_tree.md)
     * [Problem 100: Same Tree](problem_100_same_tree.md)
       * [Problem 101: Symmetric Tree](problem_100_same_tree/problem-101-symmetric-tree.md)
-    * [Delete Node in a BST](delete-node-in-a-bst.md)
   * 各种顺序的遍历
     * [Problem 144: Binary Tree Preorder Traversal](problem-144-binary-tree-preorder-traversal.md)
     * [Problem 94: Binary Tree Inorder Traversal](problem-94-binary-tree-inorder-traversal.md)
@@ -312,7 +311,6 @@
   * [Overlap Rectangle](overlap-rectangle.md)
   * [Window Sum](window-sum.md)
   * [GCD Greatest Common Divisor](gcd-greatest-common-divisor.md)
-  * [Test](test.md)
 * [All Chapters Summary](all_chapters_summary.md)
   * [Two Pointers](two-pointer.md)
   * [Permutation and Combination](permutation-and-combination.md)

@@ -93,6 +93,7 @@
   * [Problem: Search Range in Binary Search Tree \(LintCode\)](problem_search_range_in_binary_search_tree_lintcod.md)
   * [Problem 257: Binary Tree Paths](problem_257_binary_tree_paths.md)
   * [Problem 124: Binary Tree Maximum Path Sum](problem_124_binary_tree_maximum_path_sum.md)
+  * [Problem 129: Sum Root to Leaf Numbers](problem-129-sum-root-to-leaf-numbers.md)
   * [Problem 173: Binary Search Tree Iterator](problem_173_binary_search_tree_iterator.md)
   * [Problem 298: Binary Tree Longest Consecutive Sequence](problem_298_binary_tree_longest_consecutive_sequen.md)
   * [Problem 199: Binary Tree Right Side View](problem_199_binary_tree_right_side_view.md)

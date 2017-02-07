@@ -157,12 +157,12 @@
     * [Problem: Longest Common Subsequence \(LintCode\)](problem_longest_common_subsequence_lintcode.md)
     * [Problem 72: Edit Distance](problem_72_edit_distance.md)
   * 背包类型
+  * [Problem 198: House Robber](problem-198-house-robber.md)
   * [Problem 279: Perfect Squares](problem_279_perfect_squares.md)
   * [Problem 418: Sentence Screen Fitting](problem_418_sentence_screen_fitting.md)
   * [Problem 361: Bomb Enemy](problem_361_bomb_enemy.md)
     * [Calculate Crossing](calculate-crossing.md)
   * [Problem 10: Regular Expression Matching](problem-10-regular-expression-matching.md)
-  * [Problem 198: House Robber](problem-198-house-robber.md)
 * [Chapter 7 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 8 Data Structure](chapter_7_data_structure.md)
   * [Stack & Queue](stack--queue.md)

@@ -28,7 +28,6 @@
   * [Problem 131: Palindrome Partitioning](problem_131_palindrome_partitioning.md)
   * [Problem 49: Group Anagrams](problem_49_group_anagrams.md)
   * [Problem 130: Surrounded Regions](problem_130_surrounded_regions.md)
-  * [Binary Tree Path Sum](binary-tree-path-sum.md)
 * [Chapter 2 Binary Search & Sorted Array](chapter_3_binary_search.md)
   * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
   * 乘方开方

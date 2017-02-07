@@ -157,6 +157,7 @@
     * [Problem: Longest Common Subsequence \(LintCode\)](problem_longest_common_subsequence_lintcode.md)
     * [Problem 72: Edit Distance](problem_72_edit_distance.md)
   * [背包类型](.md)
+    * [Problem: Backpack I \(LintCode 92\)](.md/problem-backpack-i-(lintcode-92).md)
   * [Problem 198: House Robber](problem-198-house-robber.md)
   * [Problem 279: Perfect Squares](problem_279_perfect_squares.md)
   * [Problem 418: Sentence Screen Fitting](problem_418_sentence_screen_fitting.md)

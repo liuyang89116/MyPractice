@@ -30,7 +30,7 @@
   * [Problem 130: Surrounded Regions](problem_130_surrounded_regions.md)
 * [Chapter 2 Binary Search & Sorted Array](chapter_3_binary_search.md)
   * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
-  * 乘方开方
+  * Pow & Sqrt
     * [Problem 50: Pow\(x, n\)](problem_50_powx,_n.md)
     * [Problem 69: Sqrt\(x\)](problem_69_sqrtx.md)
     * [Problem 231: Power of Two](problem_231_power_of_two.md)
@@ -57,7 +57,7 @@
   * [Problem 215: Kth Largest Element in an Array](problem_215_kth_largest_element_in_an_array.md)
   * [Problem 29: Divide Two Integers](problem_29_divide_two_integers.md)
 * [Chapter 3 Binary Tree ](chapter_3_binary_tree_bfs,_dfs.md)
-  * [基本题](.md)
+  * [Basics](.md)
     * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)
     * [Problem 98: Validate Binary Search Tree](problem_98_validate_binary_search_tree.md)
       * [Problem 230: Kth Smallest Element in a BST](problem-230-kth-smallest-element-in-a-bst.md)
@@ -67,7 +67,7 @@
     * [Problem 100: Same Tree](problem_100_same_tree.md)
       * [Problem 101: Symmetric Tree](problem_100_same_tree/problem-101-symmetric-tree.md)
     * [Problem 450: Delete Node in a BST](problem-450-delete.md)
-  * 各种顺序的遍历
+  * Traversals
     * [Problem 144: Binary Tree Preorder Traversal](problem-144-binary-tree-preorder-traversal.md)
     * [Problem 94: Binary Tree Inorder Traversal](problem-94-binary-tree-inorder-traversal.md)
     * [Problem 145: Binary Tree Postorder Traversal](problem-145-binary-tree-postorder-traversal.md)
@@ -80,10 +80,10 @@
     * [Problem: Construct BST from given preorder traversal](problem-construct-bst-from-given-preorder-traversal.md)
     * [Problem 285: Inorder Successor in BST](problem_285_inorder_successor_in_bst.md)
     * [Problem 255: Verify Preorder Sequence in Binary Search Tree](problem-255-verify-preorder-sequence-in-binary-search-tree.md)
-  * 找祖宗
+  * Ancestors
     * [Problem 236: Lowest Common Ancestor of a Binary Tree](problem_236_lowest_common_ancestor_of_a_binary_tre.md)
     * [Problem 235: Lowest Common Ancestor of a Binary Search Tree](problem_235_lowest_common_ancestor_of_a_binary_sea.md)
-  * 序列化与反序列化
+  * Serialize and Deserialize
     * [Problem 297: Serialize and Deserialize Binary Tree](problem-297-serialize-and-deserialize-binary-tree.md)
   * LinkedList 与 Binary Tree 相互转换
     * [Problem 109: Convert Sorted List to Binary Search Tree](problem_109_convert_sorted_list_to_binary_search_t.md)
@@ -122,11 +122,11 @@
     * [Problem 143: Reorder List](problem_143_reorder_list.md)
     * [Problem 24: Swap Nodes in Pairs](problem_24_swap_nodes_in_pairs.md)
     * [Problem 86: Partition List](problem_86_partition_list.md)
-  * [Iteration 类型](iteration-类型.md)
+  * [Iteration ](iteration-类型.md)
     * [Problem 83: Remove Duplicates from Sorted List](problem_83_remove_duplicates_from_sorted_list.md)
     * [Problem 82: Remove Duplicates from Sorted List II](problem_82_remove_duplicates_from_sorted_list_ii.md)
     * [Problem 328: Odd Even Linked List](problem-328-odd-even-linked-list.md)
-  * [基本操作（删除，插入，找中点，merge）](基本操作（插入，找中点，merge）.md)
+  * [Basic Operations](基本操作（插入，找中点，merge）.md)
     * [Problem 148: Sort List](problem_148_sort_list.md)
     * [Problem 19: Remove Nth Node From End of List](problem_19_remove_nth_node_from_end_of_list.md)
       * [Problem 203: Remove Linked List Elements](problem-203-remove-linked-list-elements.md)
@@ -135,7 +135,7 @@
       * [Problem: Merge K sorted Arrays](problem-merge-k-sorted-arrays.md)
     * [Problem 237: Delete Node in a Linked List](problem-237-delete-node-in-a-linked-list.md)
     * [Problem 147: Insertion Sort List](problem-147-insertion-sort-list.md)
-  * 找环
+  * Find Cycles
     * [Problem 141: Linked List Cycle](problem_141_linked_list_cycle.md)
     * [Problem 142: Linked List Cycle II](problem_142_linked_list_cycle_ii.md)
   * [Problem 234: Palindrome Linked List](problem_234_palindrome_linked_list.md)

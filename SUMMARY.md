@@ -157,7 +157,7 @@
     * [Problem: Longest Common Subsequence \(LintCode\)](problem_longest_common_subsequence_lintcode.md)
     * [Problem 72: Edit Distance](problem_72_edit_distance.md)
   * [背包类型](.md)
-    * [Problem: Backpack I \(LintCode 92\)](.md/problem-backpack-i-(lintcode-92).md)
+    * [Problem: Backpack I \(LintCode 92\).md\)](.md/problem-backpack-i-(lintcode-92)
   * [Problem 198: House Robber](problem-198-house-robber.md)
   * [Problem 279: Perfect Squares](problem_279_perfect_squares.md)
   * [Problem 418: Sentence Screen Fitting](problem_418_sentence_screen_fitting.md)
@@ -194,7 +194,7 @@
     * [Problem 169: Majority Element](problem_169_majority_element.md)
     * [Problem 229: Majority Element II](problem_229_majority_element_ii.md)
     * [Problem: Majority Number III \(LintCode\)](problem_majority_number_iii.md)
-  * 买卖股票
+  * [Buying and Selling Stock](.md)
     * [Problem 121: Best Time to Buy and Sell Stock](problem_121_best_time_to_buy_and_sell_stock.md)
     * [Problem 122: Best Time to Buy and Sell Stock II](problem_122_best_time_to_buy_and_sell_stock_ii.md)
     * [Problem 123: Best Time to Buy and Sell Stock III](problem_123_best_time_to_buy_and_sell_stock_iii.md)

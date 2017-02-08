@@ -159,6 +159,7 @@
   * [Backpack](backpack.md)
     * [Problem: Backpack I](backpack/problem-backpack-i.md)
     * [Problem: Backpack II](backpack/problem-backpack-ii.md)
+    * [Problem: Backpack III](backpack/problem-backpack-iii.md)
   * [Problem 198: House Robber](problem-198-house-robber.md)
   * [Problem 279: Perfect Squares](problem_279_perfect_squares.md)
   * [Problem 418: Sentence Screen Fitting](problem_418_sentence_screen_fitting.md)

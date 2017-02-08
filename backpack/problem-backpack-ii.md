@@ -88,10 +88,10 @@ public class Solution {
         
         int n = V.length;
         int[] dp = new int[m + 1];
-        for (int j = 1; j <= n; j++) {
-            for (int i = m; i >= A[j - 1]; i--) {
-                if (dp[i] < dp[i - A[j - 1]] + V[j - 1]) {
-                    dp[i] = dp[i - A[j - 1]] + V[j - 1];
+        for (int j = 0; j < n; j++) {
+            for (int i = m; i >= A[j]; i--) {
+                if (dp[i] < dp[i - A[j]] + V[j]) {
+                    dp[i] = dp[i - A[j]] + V[j];
                 }
             }
         }

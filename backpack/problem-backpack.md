@@ -1,0 +1,6 @@
+# Problem: Backpack I (LintCode)
+
+> http://www.lintcode.com/en/problem/backpack/
+
+-------
+## 

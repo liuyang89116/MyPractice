@@ -162,6 +162,8 @@
   * [Problem 361: Bomb Enemy](problem_361_bomb_enemy.md)
     * [Calculate Crossing](calculate-crossing.md)
   * [Problem 10: Regular Expression Matching](problem-10-regular-expression-matching.md)
+  * [Backpack](backpack.md)
+    * [Problem\(LintCode\): Backpack I](backpack/problem(lintcode)-backpack-i.md)
 * [Chapter 7 Graph & Search](chapter_6_graph_&_search.md)
 * [Chapter 8 Data Structure](chapter_7_data_structure.md)
   * [Stack & Queue](stack--queue.md)

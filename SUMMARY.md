@@ -162,6 +162,7 @@
     * [Problem: Backpack III](backpack/problem-backpack-iii.md)
   * [Problem 198: House Robber](problem-198-house-robber.md)
     * [Problem 213: House Robber II](problem-198-house-robber/problem-213-house-robber-ii.md)
+    * [Problem 337: House Robber III](problem-198-house-robber/problem-337-house-robber-iii.md)
   * [Problem 279: Perfect Squares](problem_279_perfect_squares.md)
   * [Problem 418: Sentence Screen Fitting](problem_418_sentence_screen_fitting.md)
   * [Problem 361: Bomb Enemy](problem_361_bomb_enemy.md)

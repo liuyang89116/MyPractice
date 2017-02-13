@@ -23,9 +23,7 @@
 ```java
 public class Solution {
     public int largestRectangleArea(int[] heights) {
-        if (heights == null || heights.length == 0) {
-            return 0;
-        }
+        if (heights == null || heights.length == 0) return 0;
         
         int i = 0, n = heights.length;
         int maxArea = 0;
@@ -36,8 +34,8 @@ public class Solution {
                 stack.push(i);
                 i++;
             } else {
-                int tp = stack.pop();
-                maxArea = Math.max(maxArea, heights[tp] * (stack.isEmpty() ? i : i - 1 - stack.peek()));
+                int top = stack.pop();
+                maxArea = Math.max(maxArea, heights[top] * (stack.isEmpty() ? i : i - 1 - stack.peek()));
             }
         }
         

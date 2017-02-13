@@ -174,6 +174,7 @@
     * [Problem 232: Implement Queue using Stacks](problem_232_implement_queue_using_stacks.md)
     * [Problem 155: Min Stack](problem_155_min_stack.md)
     * [Problem 84: Largest Rectangle in Histogram](problem-84-largest-rectangle-in-histogram.md)
+      * [Problem 85: Maximal Rectangle](problem-84-largest-rectangle-in-histogram/problem-85-maximal-rectangle.md)
     * [Problem: Construct Max Tree](problem-construct-max-tree.md)
     * [Problem 20: Valid Parentheses](problem_20_valid_parentheses.md)
       * [Problem 394: Decode String](problem-394-decode-string.md)

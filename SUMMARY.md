@@ -256,8 +256,8 @@
   * [Problem 271: Encode and Decode Strings](problem-271-encode-and-decode-strings.md)
   * [Problem 299: Bulls and Cows](problem-299-bulls-and-cows.md)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
-  * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
   * Bit Manipulation
+  * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
   * [Problem 66: Plus One](problem_66_plus_one.md)
   * [Problem 9: Palindrome Number](problem_9_palindrome_number.md)
   * [Problem 2: Add Two Numbers](problem_2_add_two_numbers.md)
@@ -267,9 +267,6 @@
   * [Problem 67: Add Binary](problem_67_add_binary.md)
   * [Problem 43: Multiply Strings](problem_43_multiply_strings.md)
   * [Problem 268: Missing Number](problem_268_missing_number.md)
-  * Bit Manipulation
-* Bit Manipulation
-* Bit Manipulation
 * [Post Chapter 3 Array](post_chapter_3_array.md)
   * [Problem 56: Merge Intervals](problem-56-merge-intervals.md)
   * [Problem 57: Insert Interval](problem-57-insert-interval.md)

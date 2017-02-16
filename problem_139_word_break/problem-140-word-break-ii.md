@@ -4,6 +4,9 @@
 
 --------------
 ##思路
+> https://discuss.leetcode.com/topic/39833/java-6ms-simple-solution-beating-88
+
+这个帖子讲得不错
 * 用一个 HashMap 来 maintain `<Index, 与此 index 对应的 wordList>`，这样的话，如果后面的元素需要调出指定的 index 的时候，可以迅速从 map 里寻找，不需要再重新计算。
 * 每次都用 substring 函数来得出一个一个临时的 tmp 单词，然后去 map 里去比对。如果 map 里有，直接调出来；如果没有，再执行一次 helper 函数。
 * 记得先把字典从 list 转成 set，便于查找。

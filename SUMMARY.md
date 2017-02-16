@@ -267,6 +267,7 @@
   * [Problem 43: Multiply Strings](problem_43_multiply_strings.md)
   * [Problem 268: Missing Number](problem_268_missing_number.md)
   * [Problem 204: Count Primes](problem_204_count_primes.md)
+  * [Problem 343: Integer Break](problem-343-integer-break.md)
 * [Post Chapter 3 Array](post_chapter_3_array.md)
   * [Problem 56: Merge Intervals](problem-56-merge-intervals.md)
   * [Problem 57: Insert Interval](problem-57-insert-interval.md)

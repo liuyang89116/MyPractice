@@ -268,6 +268,7 @@
   * [Problem 268: Missing Number](problem_268_missing_number.md)
   * [Problem 204: Count Primes](problem_204_count_primes.md)
   * [Problem 343: Integer Break](problem-343-integer-break.md)
+  * [Problem 357: Count Numbers with Unique Digits](problem-357-count-numbers-with-unique-digits.md)
 * [Post Chapter 3 Array](post_chapter_3_array.md)
   * [Problem 56: Merge Intervals](problem-56-merge-intervals.md)
   * [Problem 57: Insert Interval](problem-57-insert-interval.md)

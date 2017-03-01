@@ -234,6 +234,7 @@
     * [Problem 3: Longest Substring Without Repeating Characters](problem-3-longest-substring-without-repeating-characters.md)
     * [Problem 340: Longest Substring with At Most K Distinct Characters](problem-340-longest-substring-with-at-most-k-distinct-characters.md)
     * [Problem 239: Sliding Window Maximum](problem-239-sliding-window-maximum.md)
+    * [Problem 187: Repeated DNA Sequences](problem-187-repeated-dna-sequences.md)
   * [Problem 345: Reverse Vowels of a String](problem_345_reverse_vowels_of_a_string.md)
   * [Problem 344: Reverse String](problem344_reverse_string.md)
   * [Problem 165: Compare Version Numbers](problem_165_compare_version_numbers.md)

@@ -9,9 +9,9 @@
 * XOR 主要用来剔除掉**偶数个的相同元素**，而生下来单独存在的元素
 * 特性： 
 
-\(1\) 恒等律：`A ^ 0 = A`    
+\(1\) 恒等律：`A ^ 0 = A`
 
-\(2\) 归零律:  `A ^ A = 0`   
+\(2\) 归零律:  `A ^ A = 0`
 
 相同的元素互相抵消；任何元素与 0 异或得到本身。
 
@@ -23,7 +23,9 @@ b = a ^ b;   // b = a ^ b = a ^ b ^ b = a ^ 0 = a
 a = a ^ b;   // a = a ^ a ^ b = b
 ```
 
-\#\#\#eg2: Missing Number
+### eg2: Missing Number
+
+> Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array. For example, Given nums = \[0, 1, 3\] return 2. \(Of course, you can do this by math.\)
 
 
 

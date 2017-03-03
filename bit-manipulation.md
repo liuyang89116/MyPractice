@@ -67,43 +67,7 @@ public class Solution {
 }
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### eg2: NUMBER OF 1 BITS
 
 
 

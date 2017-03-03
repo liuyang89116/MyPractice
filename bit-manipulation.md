@@ -27,6 +27,26 @@ a = a ^ b;   // a = a ^ a ^ b = b
 
 > Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array. For example, Given nums = \[0, 1, 3\] return 2. \(Of course, you can do this by math.\)
 
+```java
+public class Solution {
+    public int missingNumber(int[] nums) {
+        int index = 0, xor = 0;
+        for (int i = 0; i < nums.length; i++) {
+            xor ^= index ^ nums[i];
+            index++;
+        }
+        
+        return xor ^ index;
+    }
+}
+```
+
+------
+
+## AND \(&\) tricks
+
+
+
 
 
 

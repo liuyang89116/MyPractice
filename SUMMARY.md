@@ -257,10 +257,11 @@
   * [Problem 271: Encode and Decode Strings](problem-271-encode-and-decode-strings.md)
   * [Problem 299: Bulls and Cows](problem-299-bulls-and-cows.md)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
-  * Bit Manipulation
+  * [Bit Manipulation](bit-manipulation.md)
     * [Problem 371: Sum of Two Integers](problem-371-sum-of-two-integers.md)
     * [Problem 461: Hamming Distance](problem-461-hamming-distance.md)
     * [Problem 191: Number of 1 Bits](problem-191-number-of-1-bits.md)
+    * [Problem 421: Maximum XOR of Two Numbers in an Array](problem-421-maximum-xor-of-two-numbers-in-an-array.md)
   * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
   * [Problem 66: Plus One](problem_66_plus_one.md)
   * [Problem 9: Palindrome Number](problem_9_palindrome_number.md)

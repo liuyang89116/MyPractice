@@ -84,7 +84,7 @@ public class Solution {
 }
 ```
 
----------
+---
 
 ## OR \(\|\) trick
 
@@ -106,17 +106,7 @@ long largest_power(long N) {
 }
 ```
 
-## eg2: 
-
-
-
-
-
-
-
-
-
-
+## eg2: REVERSE BITS
 
 
 

@@ -4,6 +4,33 @@
 
 * 这个帖子讲得非常好！
 
+---------
+
+## 基本操作总结
+
+* Set union `A | B`
+* Set intersection `A & B`
+* Set subtraction `A & ~B`
+* Set negation `ALL_BITS ^ A` or `~A`
+* Set bit `A |= 1 << bit`
+* Clear bit `A &= ~(1 << bit)`
+* Test bit `(A & 1 << bit) != 0`
+* Extract last bit `A &-A` or `A & ~(A - 1)` or `x ^ (x & (x-1))`
+* Remove last bit `A & (A-1)`
+* Get all 1-bits `~0`
+
+
+
+
+
+
+
+
+
+
+
+--------
+
 ## XOR \(^\) tricks
 
 * XOR 主要用来剔除掉**偶数个的相同元素**，而生下来单独存在的元素
@@ -107,6 +134,22 @@ long largest_power(long N) {
 ```
 
 ## eg2: REVERSE BITS
+
+```java
+public class Solution {
+    // you need treat n as an unsigned value
+    public int reverseBits(int n) {
+        int rst = 0;
+        for (int i = 0; i < 32; i++) {
+            rst += (n & 1);
+            n >>>= 1;
+            if (i < 31) rst <<= 1;
+        }
+
+        return rst;
+    }
+}
+```
 
 
 

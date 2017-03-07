@@ -199,6 +199,7 @@
   * Single Number
     * [Problem 136: Single Number](problem_136_single_number.md)
     * [Problem 137: Single Number II](problem_137_single_number_ii.md)
+    * [Problem 260: Single Number III](problem-260-single-number-iii.md)
     * [Problem 169: Majority Element](problem_169_majority_element.md)
     * [Problem 229: Majority Element II](problem_229_majority_element_ii.md)
     * [Problem: Majority Number III \(LintCode\)](problem_majority_number_iii.md)

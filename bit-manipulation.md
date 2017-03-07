@@ -4,7 +4,7 @@
 
 * 这个帖子讲得非常好！
 
----------
+---
 
 ## 基本操作总结
 
@@ -19,17 +19,7 @@
 * Remove last bit `A & (A-1)`
 * Get all 1-bits `~0`
 
-
-
-
-
-
-
-
-
-
-
---------
+---
 
 ## XOR \(^\) tricks
 
@@ -94,7 +84,7 @@ public class Solution {
 }
 ```
 
-### eg2: NUMBER OF 1 BITS
+### Get all 1-bits ~0eg2: NUMBER OF 1 BITS
 
 ```java
 public class Solution {
@@ -117,7 +107,7 @@ public class Solution {
 
 * Keep as many 1-bits as possible
 
-## eg1: Find Largest power of 2
+### eg1: Find Largest power of 2
 
 > Find the largest power of 2 \(most significant bit in binary form\), which is less than or equal to the given number N.
 
@@ -133,7 +123,7 @@ long largest_power(long N) {
 }
 ```
 
-## eg2: REVERSE BITS
+### eg2: REVERSE BITS
 
 ```java
 public class Solution {

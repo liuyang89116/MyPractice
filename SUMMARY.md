@@ -105,6 +105,8 @@
   * [Problem 156: Binary Tree Upside Down](problem-156-binary-tree-upside-down.md)
 * [Chapter 4 DFS & BFS](chapter-4-dfs--bfs.md)
   * [Summary 1: DFS Template](summary_1_dfs_template.md)
+  * DFS
+    * [Problem 339: Nested List Weight Sum](problem-339-nested-list-weight-sum.md)
   * [Problem 133: Clone Graph](problem_133_clone_graph.md)
   * [Problem 138: Copy List with Random Pointer](problem_138_copy_list_with_random_pointer.md)
   * [Problem 301: Remove Invalid Parentheses](problem-301-remove-invalid-parentheses.md)

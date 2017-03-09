@@ -107,13 +107,15 @@
   * [Summary 1: DFS Template](summary_1_dfs_template.md)
   * DFS
     * [Problem 339: Nested List Weight Sum](problem-339-nested-list-weight-sum.md)
+  * [Topological Sort ](topological-sort.md)
+    * [Problem 207: Course Schedule](topological-sort/problem-207-course-schedule.md)
   * [Problem 133: Clone Graph](problem_133_clone_graph.md)
   * [Problem 138: Copy List with Random Pointer](problem_138_copy_list_with_random_pointer.md)
   * [Problem 301: Remove Invalid Parentheses](problem-301-remove-invalid-parentheses.md)
   * [Print Char Board](print-char-board.md)
   * [Problem 200: Number of Islands](problem_200_number_of_islands.md)
   * [Problem 127:  Word Ladder](problem_127_word_ladder.md)
-  * [Problem 282: Expression Add Operators](problem-282-expression-add-operators.md)
+  * Topological Sort 
 * [Chapter 5 Linked List](chapter_4_linked_list.md)
   * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
   * Reverse Linked List

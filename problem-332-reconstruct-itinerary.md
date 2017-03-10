@@ -6,7 +6,7 @@
 
 ## 思路
 
-> https://discuss.leetcode.com/topic/36370/short-ruby-python-java-c
+> [https://discuss.leetcode.com/topic/36370/short-ruby-python-java-c](https://discuss.leetcode.com/topic/36370/short-ruby-python-java-c)
 
 这个讲解不错！
 
@@ -43,8 +43,6 @@ public class Solution {
 
 }
 ```
-
-
 
 
 

@@ -11,7 +11,19 @@
 * 如果整个图当中存在“环”，那么就报错，不存在 Topological Sort。否则可以一种通过这种方法往下走，最后移除所有的 node 和 edge
 * 这道题用 `ArrayList[] graph`代表不同的 nodes 之间的连接情况；用 `int[] nodes`代表不同的 nodes。用 `nodes[i]`来 maintain incoming edges；然后用 BFS 来便利所有的 nodes，并且同 count number 来 check 最后是否有“环”。
 
------------
+----------
+
+## 复杂度
+
+* 时间复杂度： $$ O(V^2 + E) $$
+
+
+
+
+
+
+
+---
 
 ```java
 public class Solution {
@@ -20,7 +32,7 @@ public class Solution {
         int[] nodes = new int[numCourses];
         Queue<Integer> queue = new LinkedList<Integer>();
         int count = 0;
-        
+
         for (int i = 0; i < numCourses; i++) {
             graph[i] = new ArrayList();
         }
@@ -34,7 +46,7 @@ public class Solution {
                 count++;
             }
         }
-        
+
         while (queue.size() != 0) {
             int course = queue.poll();
             for (int i = 0; i < graph[course].size(); i++) {
@@ -46,13 +58,13 @@ public class Solution {
                 }
             }
         }
-        
+
         if (count == numCourses) {
             return true;
         } else {
             return false;
         }
-        
+
     }
 }
 ```

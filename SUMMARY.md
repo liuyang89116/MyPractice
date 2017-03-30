@@ -235,6 +235,7 @@
     * [Problem 18: 4Sum](problem_18_4sum.md)
     * [Problem: k Sum \(LintCode\)](problem_k_sum_lintcode.md)
     * [Problem 416: Partition Equal Subset Sum](problem-416-partition-equal-subset-sum.md)
+      * [Problem 494: Target Sum](problem-416-partition-equal-subset-sum/problem-494-target-sum.md)
   * [Problem: Sort Letters by Case \(LintCode\)](problem_sort_letters_by_case_lintcode.md)
   * [Problem 75: Sort Colors](problem_75_sort_colors.md)
 * [Post Chapter 1 String](chapter_2_string.md)

@@ -30,6 +30,7 @@
   * [Problem 49: Group Anagrams](problem_49_group_anagrams.md)
   * [Problem 130: Surrounded Regions](problem_130_surrounded_regions.md)
     * [Problem 417: Pacific Atlantic Water Flow](problem_130_surrounded_regions/problem-417-pacific-atlantic-water-flow.md)
+    * [Problem 329: Longest Increasing Path in a Matrix](problem_130_surrounded_regions/problem-329-longest-increasing-path-in-a-matrix.md)
 * [Chapter 2 Binary Search & Sorted Array](chapter_3_binary_search.md)
   * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
   * Pow & Sqrt

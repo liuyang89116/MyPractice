@@ -1,8 +1,8 @@
 # Problem 99: Recover Binary Search Tree
 
-> https://leetcode.com/problems/recover-binary-search-tree/\#/description
+> [https://leetcode.com/problems/recover-binary-search-tree/\#/description](https://leetcode.com/problems/recover-binary-search-tree/#/description)
 
---------
+---
 
 ## 思路
 
@@ -11,7 +11,7 @@
 ```java
 private void traverse (TreeNode root) {
    if (root == null) return;
-  
+
    traverse(root.left);
    // Do some business
    traverse(root.right);
@@ -20,11 +20,14 @@ private void traverse (TreeNode root) {
 
 * 这个讲解很好
 
-> https://discuss.leetcode.com/topic/3988/no-fancy-algorithm-just-simple-and-powerful-in-order-traversal
+> [https://discuss.leetcode.com/topic/3988/no-fancy-algorithm-just-simple-and-powerful-in-order-traversal](https://discuss.leetcode.com/topic/3988/no-fancy-algorithm-just-simple-and-powerful-in-order-traversal)
 
------
+---
 
 ```java
+
+// space: O(logn)
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,20 +41,20 @@ public class Solution {
     TreeNode firstNode = null;
     TreeNode secondNode = null;
     TreeNode prevNode = new TreeNode(Integer.MIN_VALUE);
-    
+
     public void recoverTree(TreeNode root) {
         traverse(root);
-        
+
         int tmp = firstNode.val;
         firstNode.val = secondNode.val;
         secondNode.val = tmp;
     }
-    
+
     private void traverse(TreeNode root) {
         if (root == null) return;
-        
+
         traverse(root.left);
-        
+
         if (firstNode == null && prevNode.val >= root.val) {
             firstNode = prevNode;
         }
@@ -59,11 +62,10 @@ public class Solution {
             secondNode = root;
         }
         prevNode = root;
-        
+
         traverse(root.right);
     }
 }
-
 ```
 
 

@@ -18,6 +18,7 @@
     * [Problem 216: Combination Sum III](problem_216_combination_sum_iii.md)
     * [Problem 377: Combination Sum IV](problem_377_combination_sum_iv.md)
     * [Problem 77: Combinations](problem_77_combinations.md)
+    * [Problem 491: Increasing Subsequences](problem-491-increasing-subsequences.md)
   * [Binary Tree Path Sum](binary-tree-path-sum.md)
     * [Problem 112: Path Sum](problem-112-path-sum.md)
     * [Problem 113: Path Sum II](problem-113-path-sum-ii.md)

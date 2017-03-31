@@ -25,7 +25,6 @@ private void traverse (TreeNode root) {
 ---
 
 ```java
-
 // space: O(logn)
 
 /**
@@ -67,6 +66,16 @@ public class Solution {
     }
 }
 ```
+
+-------
+
+## Follow Up
+
+* Morris 算法可以用 O\(1\) 来解决 tree 的遍历
+
+
+
+
 
 
 

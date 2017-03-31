@@ -72,6 +72,7 @@
   * Traversals
     * [Problem 144: Binary Tree Preorder Traversal](problem-144-binary-tree-preorder-traversal.md)
     * [Problem 94: Binary Tree Inorder Traversal](problem-94-binary-tree-inorder-traversal.md)
+      * [Problem 99: Recover Binary Search Tree](problem-94-binary-tree-inorder-traversal/problem-99-recover-binary-search-tree.md)
     * [Problem 145: Binary Tree Postorder Traversal](problem-145-binary-tree-postorder-traversal.md)
     * [Problem 102: Binary Tree Level Order Traversal](problem_102_binary_tree_level_order_traversal.md)
       * [Problem 107: Binary Tree Level Order Traversal II](problem_102_binary_tree_level_order_traversal/problem-107-binary-tree-level-order-traversal-ii.md)

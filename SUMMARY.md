@@ -24,13 +24,12 @@
     * [Problem 113: Path Sum II](problem-113-path-sum-ii.md)
     * [Problem 437: Path Sum III](problem-437-path-sum-iii.md)
   * [Problem 22: Generate Parentheses](problem_22_generate_parentheses.md)
+  * [Problem 51: N-Queens](problem-51-n-queens.md)
   * [Problem 17: Letter Combinations of a Phone Number](problem_17_letter_combinations_of_a_phone_number.md)
   * [Problem 93: Restore IP Addresses](problem_93_restore_ip_addresses.md)
   * [Problem 131: Palindrome Partitioning](problem_131_palindrome_partitioning.md)
   * [Problem 49: Group Anagrams](problem_49_group_anagrams.md)
-  * [Problem 130: Surrounded Regions](problem_130_surrounded_regions.md)
-    * [Problem 417: Pacific Atlantic Water Flow](problem_130_surrounded_regions/problem-417-pacific-atlantic-water-flow.md)
-    * [Problem 329: Longest Increasing Path in a Matrix](problem_130_surrounded_regions/problem-329-longest-increasing-path-in-a-matrix.md)
+  * Problem 51: N-Queens
 * [Chapter 2 Binary Search & Sorted Array](chapter_3_binary_search.md)
   * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
   * Pow & Sqrt

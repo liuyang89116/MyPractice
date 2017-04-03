@@ -1,10 +1,14 @@
 # Problem 51: N-Queens
 
-> https://leetcode.com/problems/n-queens/\#/description
+> [https://leetcode.com/problems/n-queens/\#/description](https://leetcode.com/problems/n-queens/#/description)
 
--------
+---
 
 ## 思路
+
+> https://discuss.leetcode.com/topic/19470/my-easy-understanding-java-solution/2
+
+这个答案不错！
 
 * “N - 皇后” 问题在于，每行，每列，每个斜线都不能有其他的皇后。我们可以安装 column 来填，从左往右。
 * 由于是按 column 填的，所以每一列不用担心有重复；对于每一行，check 一下即可；斜线的情况比较复杂：可以用斜率来判断。
@@ -12,7 +16,7 @@
 
 * 另外，判断 column的时候只需要 check 左边的元素，原因如上
 
--------
+---
 
 ```java
 public class Solution {
@@ -23,19 +27,19 @@ public class Solution {
                 board[i][j] = '.';
             }
         }
-        
+
         List<List<String>> rst = new ArrayList<>();
         dfs(board, 0, rst);
-        
+
         return rst;
     }
-    
+
     private void dfs(char[][] board, int colIndex, List<List<String>> rst) {
         if (colIndex == board.length) {
             rst.add(construct(board));
             return;
         }
-        
+
         for (int i = 0; i < board.length; i++) {
             if (validate(board, i, colIndex)) {
                 board[i][colIndex] = 'Q';
@@ -44,29 +48,27 @@ public class Solution {
             }
         }
     }
-    
+
     private boolean validate(char[][] board, int x, int y) {
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < y; j++) {
                 if (board[i][j] == 'Q' && (y - j == x - i || y - j == i - x || i == x)) return false;
             }
         }
-        
+
         return true;
     }
-    
+
     private List<String> construct(char[][] board) {
         List<String> level = new ArrayList<>();
         for (int i = 0; i < board.length; i++) {
             String s = new String(board[i]);
             level.add(s);
         }
-        
+
         return level;
     }
 }
-
-
 ```
 
 

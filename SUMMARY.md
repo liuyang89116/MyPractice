@@ -25,6 +25,7 @@
     * [Problem 437: Path Sum III](problem-437-path-sum-iii.md)
   * [Problem 22: Generate Parentheses](problem_22_generate_parentheses.md)
   * [Problem 51: N-Queens](problem-51-n-queens.md)
+    * [Problem 37: Sudoku Solver](problem-51-n-queens/problem-37-sudoku-solver.md)
   * [Problem 17: Letter Combinations of a Phone Number](problem_17_letter_combinations_of_a_phone_number.md)
   * [Problem 93: Restore IP Addresses](problem_93_restore_ip_addresses.md)
   * [Problem 131: Palindrome Partitioning](problem_131_palindrome_partitioning.md)

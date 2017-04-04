@@ -87,10 +87,9 @@ public class Solution {
 
 1.先把首位两个字母加到字典里去，而不是加到 HashSet
 
-```java
-wordList.add(beginWord);
-wordList.add(endWord);
-```
+`wordList.add(beginWord);`
+
+`wordList.add(endWord);`
 
 2. char 也可以循环
 
@@ -108,7 +107,7 @@ for (char c = 'a'; c <= 'z'; c++) {
 }
 ```
 
-3. 注意是 equals 方法比较，而不是 “==”
+注意是 equals 方法比较，而不是 “==”
 
 ```java
 if (nextWord.equals(endWord)) {

@@ -85,13 +85,14 @@ public class Solution {
 
 ## 易错点
 
-1.先把首位两个字母加到字典里去，而不是加到 HashSet
+1. 先把首位两个字母加到字典里去，而不是加到 HashSet
 
-`wordList.add(beginWord);`
+```java
+wordList.add(beginWord);
+wordList.add(endWord);
+```
 
-`wordList.add(endWord);`
-
-2. char 也可以循环
+1. char 也可以循环
 
 ```java
 for (char c = 'a'; c <= 'z'; c++) {

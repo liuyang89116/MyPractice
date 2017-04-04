@@ -85,14 +85,13 @@ public class Solution {
 
 ## 易错点
 
-1. 先把首位两个字母加到字典里去，而不是加到 HashSet
+* 先把首位两个字母加到字典里去，而不是加到 HashSet
 
 ```java
 wordList.add(beginWord);
-wordList.add(endWord);
 ```
 
-1. char 也可以循环
+* char 也可以循环
 
 ```java
 for (char c = 'a'; c <= 'z'; c++) {
@@ -108,7 +107,7 @@ for (char c = 'a'; c <= 'z'; c++) {
 }
 ```
 
-注意是 equals 方法比较，而不是 “==”
+* 注意是 equals 方法比较，而不是 “==”
 
 ```java
 if (nextWord.equals(endWord)) {

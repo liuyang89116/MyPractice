@@ -31,7 +31,6 @@
   * [Problem 93: Restore IP Addresses](problem_93_restore_ip_addresses.md)
   * [Problem 131: Palindrome Partitioning](problem_131_palindrome_partitioning.md)
   * [Problem 49: Group Anagrams](problem_49_group_anagrams.md)
-  * Problem 51: N-Queens
 * [Chapter 2 Binary Search & Sorted Array](chapter_3_binary_search.md)
   * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
   * Pow & Sqrt
@@ -388,4 +387,6 @@
   * [Project 2: Mini UNIX Shell](project_2_mini_unix_shell.md)
   * [Project 3: 911 Call Data Mining](project_3_911_call_data_mining.md)
   * [Project 4: Andriod Weather Forecast App](project_4_andriod_weather_forecast_app.md)
+
+
 

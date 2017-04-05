@@ -273,6 +273,7 @@
   * [Problem 161: One Edit Distance](problem_161_one_edit_distance.md)
   * [Problem 271: Encode and Decode Strings](problem-271-encode-and-decode-strings.md)
   * [Problem 299: Bulls and Cows](problem-299-bulls-and-cows.md)
+  * [Problem 44: Wildcard Matching](problem-44-wildcard-matching.md)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
   * [Bit Manipulation](bit-manipulation.md)
     * [Problem 371: Sum of Two Integers](problem-371-sum-of-two-integers.md)
@@ -387,6 +388,4 @@
   * [Project 2: Mini UNIX Shell](project_2_mini_unix_shell.md)
   * [Project 3: 911 Call Data Mining](project_3_911_call_data_mining.md)
   * [Project 4: Andriod Weather Forecast App](project_4_andriod_weather_forecast_app.md)
-
-
 

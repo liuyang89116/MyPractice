@@ -18,6 +18,12 @@
 
 * 需要注意的是，这里要记录 s 之前是否是 star，因为 star 可以 match 多个元素。
 
+-------
+
+## 复杂度
+
+* $$O(sp)$$：每次遇到一个 star，都需要用 worst p length 来 traverse p
+
 ---
 
 ```java

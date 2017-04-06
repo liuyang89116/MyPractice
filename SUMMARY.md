@@ -125,6 +125,7 @@
     * [Problem 126: Word Ladder II](problem_127_word_ladder/problem-126-word-ladder-ii.md)
   * Topological Sort 
   * [Problem 332: Reconstruct Itinerary](problem-332-reconstruct-itinerary.md)
+  * [Problem 79: Word Search](problem-79-word-search.md)
 * [Chapter 5 Linked List](chapter_4_linked_list.md)
   * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
   * Reverse Linked List

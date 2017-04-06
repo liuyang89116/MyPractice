@@ -11,6 +11,7 @@
 * 用 queue 来实现 BFS，遍历每一个元素。
 * 用一个 HashSet 来 track 是否访问过此元素
 * 每一次找 nextWord 都是对当前的 word 做一个改动 
+* 可以直接把 list 转成 set `Set<String> dict = new HashSet<String>(wordList);`
 
 ---
 
@@ -19,14 +20,14 @@ public class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         if (wordList == null || wordList.size() == 0) return 0;
         if (beginWord.equals(endWord)) return 1;
-        
+
         Set<String> dict = new HashSet<String>(wordList);
         dict.add(beginWord);
         Set<String> visitedSet = new HashSet<String>();
         visitedSet.add(beginWord);
         Queue<String> queue = new LinkedList<String>();
         queue.offer(beginWord);
-        
+
         int count = 1;
         while (!queue.isEmpty()) {
             count++;
@@ -35,31 +36,31 @@ public class Solution {
                 String word = queue.poll();
                 for (String nextWord : getNextWord(word, dict)) {
                     if (visitedSet.contains(nextWord)) continue;
-                    
+
                     if (nextWord.equals(endWord)) return count;
                     visitedSet.add(nextWord);
                     queue.offer(nextWord);
                 }
             } 
         }
-        
+
         return 0;
     }
-    
+
     private List<String> getNextWord(String word, Set<String> dict) {
         List<String> nextWordList = new ArrayList<>();
         for (int i = 0; i < word.length(); i++) {
             for (char c = 'a'; c <= 'z'; c++) {
                 if (c == word.charAt(i)) continue;
                 String nextWord = replace(word, i, c);
-                
+
                 if (dict.contains(nextWord)) nextWordList.add(nextWord);
             }
         }
-        
+
         return nextWordList;
     }
-    
+
     private String replace(String word, int index, char c) {
         char[] strArr = word.toCharArray();
         strArr[index] = c;

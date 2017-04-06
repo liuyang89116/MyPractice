@@ -17,67 +17,54 @@
 ```java
 public class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        if (wordList == null) {
-            return 0;
-        }
-        if (beginWord.equals(endWord)) {
-            return 1;
-        }
-
-        Set<String> wordSet = new HashSet<String>();
-        for (String s : wordList) {
-            wordSet.add(s);
-        }
-
-        HashSet<String> visited = new HashSet<String>();
+        if (wordList == null || wordList.size() == 0) return 0;
+        if (beginWord.equals(endWord)) return 1;
+        
+        Set<String> dict = new HashSet<String>(wordList);
+        dict.add(beginWord);
+        Set<String> visitedSet = new HashSet<String>();
+        visitedSet.add(beginWord);
         Queue<String> queue = new LinkedList<String>();
-        visited.add(beginWord);
         queue.offer(beginWord);
-
+        
         int count = 1;
         while (!queue.isEmpty()) {
             count++;
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 String word = queue.poll();
-                for (String nextWord : getNextWord(word, wordSet)) {
-                    if (visited.contains(nextWord)) continue;
-
-                    if (nextWord.equals(endWord)) {
-                        return count;
-                    }
-                    visited.add(nextWord);
+                for (String nextWord : getNextWord(word, dict)) {
+                    if (visitedSet.contains(nextWord)) continue;
+                    
+                    if (nextWord.equals(endWord)) return count;
+                    visitedSet.add(nextWord);
                     queue.offer(nextWord);
                 }
-            }
-        } 
-
+            } 
+        }
+        
         return 0;
     }
-
-    private ArrayList<String> getNextWord(String word, Set<String> wordSet) {
-        ArrayList<String> nextWordList = new ArrayList<String>();
-        for (char c = 'a'; c <= 'z'; c++) {
-            for (int i = 0; i < word.length(); i++) {
+    
+    private List<String> getNextWord(String word, Set<String> dict) {
+        List<String> nextWordList = new ArrayList<>();
+        for (int i = 0; i < word.length(); i++) {
+            for (char c = 'a'; c <= 'z'; c++) {
                 if (c == word.charAt(i)) continue;
-
                 String nextWord = replace(word, i, c);
-                if (wordSet.contains(nextWord)) {
-                    nextWordList.add(nextWord);
-                }
+                
+                if (dict.contains(nextWord)) nextWordList.add(nextWord);
             }
         }
-
+        
         return nextWordList;
     }
-
+    
     private String replace(String word, int index, char c) {
-        char[] arr = word.toCharArray();
-        arr[index] = c;
-
-        return new String(arr);
+        char[] strArr = word.toCharArray();
+        strArr[index] = c;
+        return new String(strArr);
     }
-
 }
 ```
 

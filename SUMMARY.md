@@ -122,6 +122,7 @@
   * [Print Char Board](print-char-board.md)
   * [Problem 200: Number of Islands](problem_200_number_of_islands.md)
   * [Problem 127:  Word Ladder](problem_127_word_ladder.md)
+    * [Problem 126: Word Ladder II](problem_127_word_ladder/problem-126-word-ladder-ii.md)
   * Topological Sort 
   * [Problem 332: Reconstruct Itinerary](problem-332-reconstruct-itinerary.md)
 * [Chapter 5 Linked List](chapter_4_linked_list.md)

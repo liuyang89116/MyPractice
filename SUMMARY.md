@@ -128,6 +128,7 @@
   * [Problem 290: Word Pattern](problem-290-word-pattern.md)
     * [Problem 291: Word Pattern II](problem-290-word-pattern/problem-291-word-pattern-ii.md)
   * [Problem 79: Word Search](problem-79-word-search.md)
+  * [Problem 401: Binary Watch](problem-401-binary-watch.md)
 * [Chapter 5 Linked List](chapter_4_linked_list.md)
   * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
   * Reverse Linked List

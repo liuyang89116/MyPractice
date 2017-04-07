@@ -32,6 +32,7 @@
   * [Problem 131: Palindrome Partitioning](problem_131_palindrome_partitioning.md)
   * [Problem 49: Group Anagrams](problem_49_group_anagrams.md)
   * [Problem 401: Binary Watch](problem-401-binary-watch.md)
+  * [Problem 320: Generalized Abbreviation](problem-320-generalized-abbreviation.md)
 * [Chapter 2 Binary Search & Sorted Array](chapter_3_binary_search.md)
   * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
   * Pow & Sqrt

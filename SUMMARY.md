@@ -31,6 +31,7 @@
   * [Problem 93: Restore IP Addresses](problem_93_restore_ip_addresses.md)
   * [Problem 131: Palindrome Partitioning](problem_131_palindrome_partitioning.md)
   * [Problem 49: Group Anagrams](problem_49_group_anagrams.md)
+  * [Problem 401: Binary Watch](problem-401-binary-watch.md)
 * [Chapter 2 Binary Search & Sorted Array](chapter_3_binary_search.md)
   * [Summary 1: Binary Search Template](summary_1_binary_search_template.md)
   * Pow & Sqrt
@@ -128,7 +129,6 @@
   * [Problem 290: Word Pattern](problem-290-word-pattern.md)
     * [Problem 291: Word Pattern II](problem-290-word-pattern/problem-291-word-pattern-ii.md)
   * [Problem 79: Word Search](problem-79-word-search.md)
-  * [Problem 401: Binary Watch](problem-401-binary-watch.md)
 * [Chapter 5 Linked List](chapter_4_linked_list.md)
   * [Summary 1: Pointer and update](summary_1_pointer_and_update.md)
   * Reverse Linked List

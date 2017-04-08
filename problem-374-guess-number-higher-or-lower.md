@@ -1,16 +1,16 @@
 # Problem 374: Guess Number Higher or Lower
 
-> https://leetcode.com/problems/guess-number-higher-or-lower/\#/description
+> [https://leetcode.com/problems/guess-number-higher-or-lower/\#/description](https://leetcode.com/problems/guess-number-higher-or-lower/#/description)
 
----------
+---
 
 ## 思路
 
 * 常规题目，只是用一个 API 做了一些掩饰而已
 
---------
+---
 
-```
+```java
 /* The guess API is defined in the parent class GuessGame.
    @param num, your guess
    @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
@@ -30,7 +30,7 @@ public class Solution extends GuessGame {
                 start = mid;
             }
         }
-        
+
         if (guess(start) == 0) {
             return start;
         } else {

@@ -61,6 +61,7 @@
     * [Problem 4: Median of Two Sorted Arrays](problem_4_median_of_two_sorted_arrays.md)
   * [Problem 215: Kth Largest Element in an Array](problem_215_kth_largest_element_in_an_array.md)
   * [Problem 29: Divide Two Integers](problem_29_divide_two_integers.md)
+  * [Problem 287: Find the Duplicate Number](problem-287-find-the-duplicate-number.md)
 * [Chapter 3 Binary Tree ](chapter_3_binary_tree_bfs,_dfs.md)
   * [Basics](.md)
     * [Problem 110: Balanced Binary Tree](problem_110_balanced_binary_tree.md)

@@ -4,9 +4,15 @@
 
 ---
 
+## ![](/assets/305_1.png)![](/assets/305_2.png)
+
+## ---------
+
+## 
+
 ## 思路
 
-> https://discuss.leetcode.com/topic/29518/java-python-clear-solution-with-unionfind-class-weighting-and-path-compression
+> [https://discuss.leetcode.com/topic/29518/java-python-clear-solution-with-unionfind-class-weighting-and-path-compression](https://discuss.leetcode.com/topic/29518/java-python-clear-solution-with-unionfind-class-weighting-and-path-compression)
 
 这个答案不错
 
@@ -17,17 +23,11 @@ Princeton 讲义
 * Union Find 经典题目。首先标注一个 2D map 每个 element 的 index ： `index = x * n + y + 1`，这样的话，每个 element 的 index 都是唯一的。
 * size \(或者 count\) 来控制 islands  的个数
 
----------
+---
 
 ## 复杂度
 
 * 时间复杂度：$$ O(m * alpha(n)) $$ , $$ alpha(n) <= 4$$
-
-
-
-
-
-
 
 ---
 

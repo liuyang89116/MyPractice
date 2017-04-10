@@ -284,6 +284,7 @@
   * [Problem 299: Bulls and Cows](problem-299-bulls-and-cows.md)
   * [Problem 44: Wildcard Matching](problem-44-wildcard-matching.md)
   * [Problem 336: Palindrome Pairs](problem-336-palindrome-pairs.md)
+  * [Problem 179: Largest Number](problem-179-largest-number.md)
 * [Post Chapter 2 Math](post_chapter_2_math.md)
   * [Bit Manipulation](bit-manipulation.md)
     * [Problem 371: Sum of Two Integers](problem-371-sum-of-two-integers.md)

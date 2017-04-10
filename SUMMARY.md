@@ -350,6 +350,7 @@
   * [Problem 158: Read N Characters Given Read4 II - Call multiple times](problem-158-read-n-characters-given-read4-ii---call-multiple-times.md)
   * [Problem 163: Missing Ranges](problem_163_missing_ranges.md)
   * [Problem 360: Sort Transformed Array](problem-360-sort-transformed-array.md)
+  * [Problem 280: Wiggle Sort](problem-280-wiggle-sort.md)
 * [Facebook](facebook.md)
   * [K closest points](k_closest_points.md)
   * [Find all the peak and valley](find_all_the_peak_and_valley.md)

@@ -352,6 +352,7 @@
   * [Problem 360: Sort Transformed Array](problem-360-sort-transformed-array.md)
   * [Problem 280: Wiggle Sort](problem-280-wiggle-sort.md)
     * [Problem 324: Wiggle Sort II](problem-280-wiggle-sort/problem-324-wiggle-sort-ii.md)
+  * [Problem 274: H-Index](problem-274-h-index.md)
 * [Facebook](facebook.md)
   * [K closest points](k_closest_points.md)
   * [Find all the peak and valley](find_all_the_peak_and_valley.md)

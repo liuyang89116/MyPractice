@@ -354,6 +354,7 @@
     * [Problem 324: Wiggle Sort II](problem-280-wiggle-sort/problem-324-wiggle-sort-ii.md)
   * [Problem 274: H-Index](problem-274-h-index.md)
   * [Problem 448: Find All Numbers Disappeared in an Array](problem-448-find-all-numbers-disappeared-in-an-array.md)
+    * [Problem 442: Find All Duplicates in an Array](problem-448-find-all-numbers-disappeared-in-an-array/problem-442-find-all-duplicates-in-an-array.md)
 * [Facebook](facebook.md)
   * [K closest points](k_closest_points.md)
   * [Find all the peak and valley](find_all_the_peak_and_valley.md)

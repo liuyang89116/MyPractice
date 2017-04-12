@@ -244,6 +244,7 @@
     * [Problem 1: Two Sum](problem_1_two_sum.md)
     * [Problem 167: Two Sum II - Input array is sorted](problem_167_two_sum_ii_-_input_array_is_sorted.md)
     * [Problem 15: 3Sum](problem_15_3sum.md)
+    * [Problem 259: 3Sum Smaller](problem-259-3sum-smaller.md)
     * [Problem 16: 3Sum Closest](problem_16_3sum_closest.md)
     * [Problem 18: 4Sum](problem_18_4sum.md)
     * [Problem: k Sum \(LintCode\)](problem_k_sum_lintcode.md)

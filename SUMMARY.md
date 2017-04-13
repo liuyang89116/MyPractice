@@ -204,6 +204,7 @@
       * [Problem 394: Decode String](problem-394-decode-string.md)
       * [Problem 439: Ternary Expression Parser](problem-439-ternary-expression-parser.md)
       * [Problem 241: Different Ways to Add Parentheses](problem-241-different-ways-to-add-parentheses.md)
+      * [Problem 282: Expression Add Operators](problem-282-expression-add-operators.md)
   * [Hash](hash.md)
     * [Problem 146: LRU Cache](problem-146-lru-cache.md)
     * [Problem 128: Longest Consecutive Sequence](problem-128-longest-consecutive-sequence.md)

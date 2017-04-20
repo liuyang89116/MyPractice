@@ -310,6 +310,7 @@
   * [Problem 13: Roman to Integer](problem_13_roman_to_integer.md)
   * [Problem 273: Integer to English Words](problem-273-integer-to-english-words.md)
   * [Problem 67: Add Binary](problem_67_add_binary.md)
+    * [Problem 258: Add Digits](problem_67_add_binary/problem-258-add-digits.md)
   * [Problem 43: Multiply Strings](problem_43_multiply_strings.md)
   * [Problem 268: Missing Number](problem_268_missing_number.md)
   * [Problem 343: Integer Break](problem-343-integer-break.md)

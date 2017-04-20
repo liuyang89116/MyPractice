@@ -317,6 +317,7 @@
   * [Problem 357: Count Numbers with Unique Digits](problem-357-count-numbers-with-unique-digits.md)
   * [Problem 201: Bitwise AND of Numbers Range](problem-201-bitwise-and-of-numbers-range.md)
   * [Problem 342: Power of Four](problem-342-power-of-four.md)
+  * [Problem 168. Excel Sheet Column Title](problem-168-excel-sheet-column-title.md)
 * [Post Chapter 3 Array](post_chapter_3_array.md)
   * [Problem 56: Merge Intervals](problem-56-merge-intervals.md)
   * [Problem 57: Insert Interval](problem-57-insert-interval.md)

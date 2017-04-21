@@ -317,6 +317,7 @@
   * [Problem 357: Count Numbers with Unique Digits](problem-357-count-numbers-with-unique-digits.md)
   * [Problem 201: Bitwise AND of Numbers Range](problem-201-bitwise-and-of-numbers-range.md)
   * [Problem 342: Power of Four](problem-342-power-of-four.md)
+    * [Problem 326: Power of Three](problem-342-power-of-four/problem-326-power-of-three.md)
   * [Problem 168. Excel Sheet Column Title](problem-168-excel-sheet-column-title.md)
     * [Problem 171: Excel Sheet Column Number](problem-168-excel-sheet-column-title/problem-171-excel-sheet-column-number.md)
   * [Problem 202: Happy Number](problem-202-happy-number.md)

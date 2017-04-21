@@ -320,6 +320,8 @@
   * [Problem 168. Excel Sheet Column Title](problem-168-excel-sheet-column-title.md)
     * [Problem 171: Excel Sheet Column Number](problem-168-excel-sheet-column-title/problem-171-excel-sheet-column-number.md)
   * [Problem 202: Happy Number](problem-202-happy-number.md)
+  * [line](line.md)
+    * [Problem 149: Max Points on a Line](line/problem-149-max-points-on-a-line.md)
 * [Post Chapter 3 Array](post_chapter_3_array.md)
   * [Problem 56: Merge Intervals](problem-56-merge-intervals.md)
   * [Problem 57: Insert Interval](problem-57-insert-interval.md)

@@ -325,6 +325,7 @@
     * [Problem 149: Max Points on a Line](line/problem-149-max-points-on-a-line.md)
   * [Problem 319: Bulb Switcher](problem-319-bulb-switcher.md)
   * [Problem 223: Rectangle Area](problem-223-rectangle-area.md)
+  * [Problem 263: Ugly Number](problem-263-ugly-number.md)
 * [Post Chapter 3 Array](post_chapter_3_array.md)
   * [Problem 56: Merge Intervals](problem-56-merge-intervals.md)
   * [Problem 57: Insert Interval](problem-57-insert-interval.md)

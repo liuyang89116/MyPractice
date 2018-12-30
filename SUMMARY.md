@@ -305,6 +305,7 @@
     * [Problem 421: Maximum XOR of Two Numbers in an Array](problem-421-maximum-xor-of-two-numbers-in-an-array.md)
     * [Problem 190: Reverse Bits](problem-190-reverse-bits.md)
     * [Problem 318: Maximum Product of Word Lengths](problem-318-maximum-product-of-word-lengths.md)
+    * [Problem 751: IP to CIDR](problem-751-ip-to-cidr.md)
   * [Problem 7: Reverse Integer](problem_7_reverse_integer.md)
   * [Problem 66: Plus One](problem_66_plus_one.md)
   * [Problem 9: Palindrome Number](problem_9_palindrome_number.md)

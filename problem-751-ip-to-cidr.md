@@ -22,13 +22,57 @@ for (int i = 0; i < ips.length; i++) {
 }
 ```
 
-3. 理解 `x & -x` 的含义：取从右往左第一个为 1 的那一位（取最低位的 1 ）。为什么要做这个操作呢？比如我们有一个 ip：`111111 101001 111000` 最后三位都是 0， 也就是说之前的可以作为 prefix，后面三位可以组成不同的 hosts。同时，我们也可以得出：如果是奇数，那么只可以有一个 id 可以用，因为奇数最后一位肯定是 1，后面没有 0 了。
+1. 理解 `x & -x` 的含义：取从右往左第一个为 1 的那一位（取最低位的 1 ）。为什么要做这个操作呢？比如我们有一个 ip：`111111 101001 111000` 最后三位都是 0， 也就是说之前的可以作为 prefix，后面三位可以组成不同的 hosts。同时，我们也可以得出：如果是奇数，那么只可以有一个 id 可以用，因为奇数最后一位肯定是 1，后面没有 0 了。
 
-4. `(int) (num & 255)` 求出后 8 位数的十进制表示
+2. `(int) (num & 255)` 求出后 8 位数的十进制表示
 
-------
+---
 
-
+```java
+class Solution {
+    public List<String> ipToCIDR(String ip, int n) {
+        List<String> rst = new ArrayList<>();
+        
+        String[] ips = ip.split("\\.");
+        long num = 0;
+        for (int i = 0; i < ips.length; i++) {
+            num = num * 256 + Integer.parseInt(ips[i]);
+        }
+        
+        while (n > 0) {
+            long step = num & -num;
+            
+            while (step > n) step /= 2;
+            rst.add(toIpString(num, step));
+            num += step;
+            n -= step;
+        }
+        
+        return rst;
+    }
+    
+    private String toIpString(long num, long step) {
+        int[] blocks = new int[4];
+        
+        blocks[0] = (int) (num & 255);
+        num >>= 8;
+        blocks[1] = (int) (num & 255);
+        num >>= 8;
+        blocks[2] = (int) (num & 255);
+        num >>= 8;
+        blocks[3] = (int) (num & 255);
+        num >>= 8;
+        
+        int count = 0;
+        while (step > 0) {
+            count++;
+            step /= 2;
+        }
+        
+        return blocks[3] + "." + blocks[2] + "." + blocks[1] + "." + blocks[0] + "/" + (33 - count);
+    }
+}
+```
 
 
 

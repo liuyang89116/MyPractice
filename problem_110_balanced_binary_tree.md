@@ -42,17 +42,11 @@ public class Solution {
 }
 ```
 
-
-
--------
+---
 
 ## 复杂度
 
-* 每个 node 相当于被 access 了一次，所以复杂度为 $O\(n\)$
-
-
-
-
+* 每个 node 相当于被 access 了一次，所以复杂度为 `O(n)`
 
 ## 易错点
 
